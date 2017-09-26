@@ -1,23 +1,13 @@
 .c-item {
   margin-bottom: 50px;
   padding: 25px;
-  border: 2px solid black;
+  background-color: $color-white;
+
+  -webkit-box-shadow: 15px 17px 28px -10px rgba(120,120,120,1);
+  -moz-box-shadow: 15px 17px 28px -10px rgba(120,120,120,1);
+  box-shadow: 15px 17px 28px -10px rgba(120,120,120,1);
+
 }
-
-  .item__image-slider {
-    
-    .slick-list {
-      overflow: hidden;
-    }
-  }
-
-  .item__audio-component {
-    margin-bottom: 25px;
-  }
-
-  .item__audio-element {
-    display: block;
-  }
 
   .item__pdf {
     width: 100%;

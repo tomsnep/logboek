@@ -17,7 +17,7 @@ html {
   font-size: $font-size-root;
   color: $color-text;
 
-  background-color: $color-white;
+  background: #bdc3c7;  /* fallback for old browsers */
   min-height: 100%;
 
   &.no--scroll {
