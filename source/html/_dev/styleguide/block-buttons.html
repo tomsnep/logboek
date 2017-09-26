@@ -1,0 +1,17 @@
+{% set title='Buttons' %}
+
+{% extends './block.html' %}
+
+
+{% block content %}
+
+    {% from 'components/button.html' import button %}
+
+    {{ button( { label: 'regular button' } ) }}
+
+    <br/><br/>
+
+    {{ button( { label: 'arrow button', icon: 'chevron-right' } ) }}
+
+{% endblock %}
+
