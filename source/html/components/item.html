@@ -44,13 +44,45 @@
 
             {% if data.images|length %}
 
-                {% for image in data.images %}
+                <div class="item__image-slider" data-js-hook="image-slider">
 
-                    <img src="{{ image.path }}" alt="">
+                    {% for image in data.images %}
 
-                {% endfor %}
+                        <img src="{{ image.path }}" alt="">
+
+                    {% endfor %}
+
+                </div>
 
             {% endif %}
+
+            {% if data.audio|length %}
+
+
+                {% for audioItem in data.audio %}
+
+                    <div class="item__audio-component">
+
+                        <span class="item__audio-title">{{ audioItem.title }}</span>
+
+                        <audio controls="controls" class="item__audio-element">
+                            Your browser does not support the <code>audio</code> element.
+                            <source src="{{ audioItem.src }}" type="audio/mp4">
+                        </audio>
+
+                    </div>
+
+                {% endfor  %}
+
+            {% endif %}
+
+
+            {% if data.pdf|length %}
+
+                <div class="item__pdf" data-js-hook="pdf-viewer" data-pdf-src="{{ data.pdf }}"></div>
+
+            {% endif %}
+
 
 
             {% if data.articles|length %}

@@ -1,0 +1,25 @@
+.c-item {
+  margin-bottom: 50px;
+  padding: 25px;
+  border: 2px solid black;
+}
+
+  .item__image-slider {
+    
+    .slick-list {
+      overflow: hidden;
+    }
+  }
+
+  .item__audio-component {
+    margin-bottom: 25px;
+  }
+
+  .item__audio-element {
+    display: block;
+  }
+
+  .item__pdf {
+    width: 100%;
+    height: 80vh;
+  }

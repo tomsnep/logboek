@@ -8,7 +8,11 @@
 
         {% for week in content %}
 
-            {{ weekContainer(week) }}
+            {% if week.items[0].title|length %}
+
+                {{ weekContainer(week) }}
+
+            {% endif %}
 
         {% endfor %}
 

@@ -58,7 +58,69 @@
     "week": "2",
     "items": [
       {
+        "date": "18/09/17",
         "title": "Design Brief bootcamp",
+        "text": "Sommige onderdelen zijn nog lastig om in te vullen. Daarom overgeslagen.",
+        "lists": [
+          {
+            "items": []
+          }
+        ],
+        "images": [
+          {
+            "path": "/assets/images/week-2/design-brief-bootcamp/1.jpg",
+            "caption": ""
+          },
+          {
+            "path": "/assets/images/week-2/design-brief-bootcamp/2.jpg",
+            "caption": ""
+          },
+          {
+            "path": "/assets/images/week-2/design-brief-bootcamp/3.jpg",
+            "caption": ""
+          },
+          {
+            "path": "/assets/images/week-2/design-brief-bootcamp/4.jpg",
+            "caption": ""
+          }
+        ],
+        "articles": []
+      },
+      {
+        "date": "20/09/17",
+        "title": "Orienting Expert reviews",
+        "text": "Om meer grip te krijgen op het probleem heb ik een aantal developers geïnterviewd. Heel erg veel aan gehad, helaas heb ik het eerste gesprek met Matt niet opgenomen, daarintegen wel de bevindingen genoteerd. Bij Arnout en Jeroen heb ik de bevindingen niet letterlijk uitgeschreven maar het wel opgenomen",
+        "lists": [
+          {
+            "items": []
+          }
+        ],
+        "audio": [
+          {
+            "title": "Interview met Arnout (Junior FE Dev)",
+            "src": "/assets/audio/interview_arnout.m4a"
+          },
+          {
+            "title": "Interview met Jeroen (senior FE Dev)",
+            "src": "/assets/audio/interview_jeroen.m4a"
+          }
+        ],
+        "pdf": "/assets/pdf/week-2/orienting-expert-review-matt.pdf"
+      },
+      {
+        "date": "20/09/17",
+        "title": "Design Brief worksheet",
+        "text": "Designbrief worksheet nog een keer uitwerken, gewoon in pages dit keer. Merk dat ik na het gesprek met jeroen echt duidelijkheid heb gekregen op het probleem. Het ligt bijna op het puntje van mn tong.",
+        "pdf": "/assets/pdf/week-2/design-brief-worksheet.pdf"
+      }
+    ]
+  },
+  {
+    "month": "september",
+    "week": "3",
+    "items": [
+      {
+        "title": "",
         "text": "",
         "lists": [
           {
@@ -77,10 +139,10 @@
   },
   {
     "month": "september",
-    "week": "2",
+    "week": "4",
     "items": [
       {
-        "title": "Design Brief bootcamp",
+        "title": "",
         "text": "",
         "lists": [
           {
@@ -89,7 +151,29 @@
         ],
         "images": [
           {
-            "path": "/assets/images/week-2/design-brief-bootcamp/1.jpg",
+            "path": "",
+            "caption": ""
+          }
+        ],
+        "articles": []
+      }
+    ]
+  },
+  {
+    "month": "september",
+    "week": "5",
+    "items": [
+      {
+        "title": "",
+        "text": "",
+        "lists": [
+          {
+            "items": []
+          }
+        ],
+        "images": [
+          {
+            "path": "",
             "caption": ""
           }
         ],
