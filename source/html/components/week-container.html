@@ -1,0 +1,28 @@
+{% from 'components/item.html' import item %}
+
+{% macro weekContainer(data) %}
+
+    <div class="c-week-container">
+
+        <div class="week-container__header">
+
+            <h2 class="week-container__title">{{ data.title }}</h2>
+
+            <span class="week-container__date">week: {{ data.week }} / {{ data.month }}</span>
+
+        </div>
+
+        <div class="week-container__content">
+
+            {% for contentItem in data.items %}
+
+                {{ item(contentItem) }}
+
+            {% endfor %}
+
+        </div>
+
+
+    </div>
+
+{% endmacro %}

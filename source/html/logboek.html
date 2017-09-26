@@ -1,0 +1,17 @@
+{% extends 'layouts/default.html' %}
+
+{% block content %}
+
+    <div class="o-container">
+
+        {% from 'components/week-container.html' import weekContainer %}
+
+        {% for week in content %}
+
+            {{ weekContainer(week) }}
+
+        {% endfor %}
+
+    </div>
+
+{% endblock %}

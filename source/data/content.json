@@ -1,0 +1,100 @@
+[
+  {
+    "month": "september",
+    "week": "1",
+    "items": [
+      {
+        "date": "14/09/17",
+        "title": "Gesprek met Micky",
+        "text": "Eerste gesprek met begeleider Micky van Zeijl. Heb veel moeite met het concreet maken van het probleem. Er zweven meerdere problemen door m'n hoofd. Welke een connectie met elkaar hebben. Lastig om er nog grip op te krijgen",
+        "lists": [
+          {
+            "items": [
+              "Zo snel mogelijk bouwen",
+              "binnen prototype itereren",
+              "research > wat bestaat er allemaal",
+              "keuze's onderbouwen > iteraties beargumenteren",
+              "helder concreet probleem (geen oplossing)"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "path": "",
+            "caption": ""
+          }
+        ],
+        "articles": [
+          "https://lifely.nl/blog/de-lifely-startup-introducing-bundlin"
+        ]
+      },
+      {
+        "date": "15/09/17",
+        "title": "Trends",
+        "text": "Hoeveel wordt er over het onderwerp geschreven?",
+        "lists": [
+          {
+            "items": [
+              "Hype Cycle",
+              "Integratie tussen platforms > trend?",
+              "Steeds meer Fe technologieen > trend? ",
+              "Steeds meer informatie beschikbaar > FE Fatigue > trend?",
+              "co creatie tussen medewerkers?"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "path": "",
+            "caption": ""
+          }
+        ],
+        "articles": []
+      }
+    ]
+  },
+  {
+    "month": "september",
+    "week": "2",
+    "items": [
+      {
+        "title": "Design Brief bootcamp",
+        "text": "",
+        "lists": [
+          {
+            "items": []
+          }
+        ],
+        "images": [
+          {
+            "path": "",
+            "caption": ""
+          }
+        ],
+        "articles": []
+      }
+    ]
+  },
+  {
+    "month": "september",
+    "week": "2",
+    "items": [
+      {
+        "title": "Design Brief bootcamp",
+        "text": "",
+        "lists": [
+          {
+            "items": []
+          }
+        ],
+        "images": [
+          {
+            "path": "/assets/images/week-2/design-brief-bootcamp/1.jpg",
+            "caption": ""
+          }
+        ],
+        "articles": []
+      }
+    ]
+  }
+]

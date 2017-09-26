@@ -1,0 +1,76 @@
+{% macro item(data) %}
+
+    <div class="c-item">
+
+        <div class="item__header">
+
+            <span class="item__date">{{ data.date }}</span>
+
+            <h2 class="item__title">{{ data.title }}</h2>
+
+        </div>
+
+        <div class="item__content-container">
+
+            {% if data.text|length %}
+
+                <p class="item__text">
+                    {{ data.text }}
+                </p>
+
+            {% endif %}
+
+            {% if data.lists|length %}
+
+                {% for list in data.lists %}
+
+                    <ul class="item__list">
+
+                        {% for item in list.items %}
+
+                            <li class="item__list-item">
+
+                                {{ item }}
+
+                            </li>
+
+                        {% endfor %}
+
+                    </ul>
+
+                {% endfor %}
+
+            {% endif %}
+
+            {% if data.images|length %}
+
+                {% for image in data.images %}
+
+                    <img src="{{ image.path }}" alt="">
+
+                {% endfor %}
+
+            {% endif %}
+
+
+            {% if data.articles|length %}
+
+                <span class="item__subtitle">Interessante gevonden content</span>
+
+                <ul class="item__list">
+
+                    {% for article in data.articles %}
+
+                        <li class="item__list-item"><a href="{{ article }}">{{ article }}</a></li>
+
+                    {% endfor %}
+
+                </ul>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+{% endmacro %}
