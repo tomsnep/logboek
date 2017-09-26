@@ -14,7 +14,9 @@ config.copy = function () {
 
     return [
         {   source: config.source.getPath('assets', '*.*'),             dest: config.dest.getPath('assets')  },
-        {   source: config.source.getPath('assets', 'fonts/**'),        dest: config.dest.getPath('fonts')  }
+        {   source: config.source.getPath('assets', 'fonts/**'),        dest: config.dest.getPath('fonts')  },
+        {   source: config.source.getPath('assets', 'audio/**'),        dest: config.dest.getPath('audio')  },
+        {   source: config.source.getPath('assets', 'pdf/**'),          dest: config.dest.getPath('pdf')  }
     ];
 
 };
