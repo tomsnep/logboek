@@ -16,8 +16,6 @@ html {
   font-family: $font-stack-primary;
   font-size: $font-size-root;
   color: $color-text;
-
-  background: #bdc3c7;  /* fallback for old browsers */
   min-height: 100%;
 
   &.no--scroll {
@@ -28,7 +26,7 @@ html {
 
 body {
 
-  @include fluid-type($font-size-body, $font-size-body*0.875)
+  @include fluid-type($font-size-body, $font-size-body*0.875);
   line-height: $font-line-height-body;
   hyphens: auto;
   word-break: normal;

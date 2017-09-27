@@ -4,7 +4,7 @@
     "month": "september",
     "items": [
       {
-        "date": "14/09/17",
+        "date": "14 sept",
         "title": "Gesprek met Micky",
         "text": "Eerste gesprek met begeleider Micky van Zeijl. Heb veel moeite met het concreet maken van het probleem. Er zweven meerdere problemen door m'n hoofd. Welke een connectie met elkaar hebben. Lastig om er nog grip op te krijgen",
         "lists": [
@@ -23,7 +23,7 @@
         ]
       },
       {
-        "date": "15/09/17",
+        "date": "15 sept",
         "title": "Trends",
         "text": "Hoeveel wordt er over het onderwerp geschreven?",
         "lists": [
@@ -45,14 +45,9 @@
     "month": "september",
     "items": [
       {
-        "date": "18/09/17",
+        "date": "18 sept",
         "title": "Design Brief bootcamp",
         "text": "Sommige onderdelen zijn nog lastig om in te vullen. Daarom overgeslagen.",
-        "lists": [
-          {
-            "items": []
-          }
-        ],
         "images": [
           {
             "src": "/assets/images/week-2/design-brief-bootcamp/1.jpg",
@@ -74,14 +69,9 @@
         "articles": []
       },
       {
-        "date": "19/09/17",
+        "date": "19 sept",
         "title": "Orienting Expert reviews",
         "text": "Om meer grip te krijgen op het probleem heb ik een aantal developers geïnterviewd. Heel erg veel aan gehad, helaas heb ik het eerste gesprek met Matt niet opgenomen, daarintegen wel de bevindingen genoteerd. Bij Arnout en Jeroen heb ik de bevindingen niet letterlijk uitgeschreven maar het wel opgenomen",
-        "lists": [
-          {
-            "items": []
-          }
-        ],
         "images": [
           {
             "src": "assets/images/week-2/orienting-expert-review/aantekening-jeroen-1.jpg",
@@ -105,13 +95,13 @@
         "pdf": "/assets/pdf/week-2/orienting-expert-review-matt.pdf"
       },
       {
-        "date": "20/09/17",
+        "date": "20 sept",
         "title": "Design Brief worksheet",
         "text": "Designbrief worksheet nog een keer uitwerken, gewoon in pages dit keer. Merk dat ik na het gesprek met jeroen echt duidelijkheid heb gekregen op het probleem. Het ligt bijna op het puntje van mn tong.",
         "pdf": "/assets/pdf/week-2/design-brief-worksheet.pdf"
       },
       {
-        "date": "21/09/17",
+        "date": "21 sept",
         "title": "Meeting Micky",
         "text": "Meeting ging goed, veel gesproken over het probleem en de volgende stappen. Eindelijk het idee dat ik dichterbij het probleem en het 'echt starten' van het project kom",
         "lists": [
@@ -130,7 +120,7 @@
         ]
       },
       {
-        "date": "22/09/17",
+        "date": "22 sept",
         "title": "Grip krijgen op het probleem",
         "text": "Aantekeningen van schetsen tijdens het uitvogelen van de relatie tussen de verschillende problemen",
         "images": [
@@ -152,7 +142,7 @@
     "month": "september",
     "items": [
       {
-        "date": "25/09/17",
+        "date": "25 sept",
         "title": "Het maken van een digitaal logboek",
         "text": "Vandaag ben ik begonnen met de opzet van een digitaal logboek. Ik gebruik hiervoor de Frontend Setup van TamTam. Hier ben ik al bekend mee en leek mij de meest voor de hand liggende optie omdat ik hiermee alle vrijheid heb die ik wel. Daarnaast kan ik gaande weg het traject dit logboek updaten met nieuwe functionaliteiten",
         "lists": [
@@ -162,13 +152,20 @@
               "Uitgerenderd via Nunjucks",
               "Slick Slider voor image sliders",
               "ObjectPDF voor het renderen van PDF's",
-              "<a href=\"http://www.github.com/tomsnep/logboek\">Link naar Github Repo klik dan <\/ a>"
+              "<a href=\"http://www.github.com/tomsnep/logboek\">Link naar Github Repo klik dan </a>"
             ]
           }
         ]
+      },
+      {
+        "date": "25 sept",
+        "title": "Roadmap",
+        "text": "Roadmap uitgewerkt in sketch",
+        "pdf": "/assets/pdf/week-3/roadmap.pdf"
       }
     ]
   },
+
   {
     "week": "4",
     "month": "september",

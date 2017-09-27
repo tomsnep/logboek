@@ -13,82 +13,145 @@
 
         </div>
 
-        <div class="item__content-container">
+        <div class="o-container">
+            <div class="o-grid-12">
 
-            {% if data.text|length %}
+                    {% if data.text|length %}
 
-                <p class="item__text">
-                    {{ data.text }}
-                </p>
+                        <div class="u-col-12">
 
-            {% endif %}
+                            <div class="item__content-block">
 
-            {% if data.lists|length %}
+                                <p class="item__text">
+                                {{ data.text }}
+                            </p>
 
-                {% for list in data.lists %}
+                            </div>
 
-                    <ul class="item__list">
+                        </div>
 
-                        {% for item in list.items %}
+                    {% endif %}
 
-                            <li class="item__list-item">
+                    {% if data.lists|length %}
 
-                                {{ item|safe }}
+                        <div class="u-col-6">
 
-                            </li>
+                            <div class="item__content-block">
 
-                        {% endfor %}
+                                <div class="block-title">
+                                    Note.
+                                </div>
 
-                    </ul>
+                                {% for list in data.lists %}
 
-                {% endfor %}
+                                    <ul class="item__list">
 
-            {% endif %}
+                                        {% for item in list.items %}
 
-            {% if data.images|length %}
+                                            <li class="item__list-item">
 
-                {{ imageSlider(data.images) }}
+                                                {{ item|safe }}
 
-            {% endif %}
+                                            </li>
 
-            {% if data.audio|length %}
+                                        {% endfor %}
 
+                                    </ul>
 
-                {% for audioItem in data.audio %}
+                                {% endfor %}
 
-                    {{ audio(audioItem) }}
+                            </div>
 
-                {% endfor  %}
+                        </div>
 
-            {% endif %}
+                    {% endif %}
 
+                    {% if data.images|length %}
 
-            {% if data.pdf|length %}
+                        <div class="u-col-12">
 
-                <div class="item__pdf" data-js-hook="pdf-viewer" data-pdf-src="{{ data.pdf }}"></div>
+                            <div class="item__content-block">
 
-            {% endif %}
+                                <div class="block-title">
+                                    Pics.
+                                </div>
 
+                                {{ imageSlider(data.images) }}
 
+                            </div>
 
-            {% if data.articles|length %}
+                        </div>
 
-                <span class="item__subtitle">Interessante gevonden content</span>
+                    {% endif %}
 
-                <ul class="item__list">
+                    {% if data.audio|length %}
 
-                    {% for article in data.articles %}
+                        <div class="u-col-6">
 
-                        <li class="item__list-item"><a href="{{ article }}">{{ article }}</a></li>
+                            <div class="item__content-block">
 
-                    {% endfor %}
+                                <div class="block-title">
+                                    Audio.
+                                </div>
 
-                </ul>
+                                {% for audioItem in data.audio %}
 
-            {% endif %}
+                                    {{ audio(audioItem) }}
 
+                                {% endfor  %}
+
+                            </div>
+
+                        </div>
+
+                    {% endif %}
+
+                    {% if data.pdf|length %}
+
+                        <div class="u-col-12">
+
+                            <div class="item__content-block">
+
+                                <div class="block-title">
+                                    PDF.
+                                </div>
+
+                                <div class="item__pdf" data-js-hook="pdf-viewer" data-pdf-src="{{ data.pdf }}"></div>
+
+                            </div>
+
+                        </div>
+
+                    {% endif %}
+
+                    {% if data.articles|length %}
+
+                        <div class="u-col-6">
+
+                            <div class="item__content-block">
+
+                                <div class="block-title">
+                                    Links.
+                                </div>
+
+                                <ul class="item__list">
+
+                                    {% for article in data.articles %}
+
+                                        <li class="item__list-item"><a href="{{ article }}">{{ article }}</a></li>
+
+                                    {% endfor %}
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    {% endif %}
+
+            </div>
         </div>
-
     </div>
 
 {% endmacro %}
