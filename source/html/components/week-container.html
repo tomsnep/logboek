@@ -2,15 +2,13 @@
 
 {% macro weekContainer(data) %}
 
-    <div class="c-week-container">
+    <section class="c-week-container">
 
-        <div class="week-container__header">
+        <header class="week-container__header">
 
-            <h2 class="week-container__title">{{ data.title }}</h2>
+            <h1 class="week-container__title">Week: {{ data.week }} / {{ data.month }}</h1>
 
-            <span class="week-container__date">week: {{ data.week }} / {{ data.month }}</span>
-
-        </div>
+        </header>
 
         <div class="week-container__content">
 
@@ -23,6 +21,6 @@
         </div>
 
 
-    </div>
+    </section>
 
 {% endmacro %}

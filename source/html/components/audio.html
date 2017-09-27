@@ -1,0 +1,14 @@
+{% macro audio(data) %}
+
+    <div class="c-audio">
+
+        <span class="audio__title">{{ data.title }}</span>
+
+        <audio controls="controls" class="audio__element">
+            Your browser does not support the <code>audio</code> element.
+            <source src="{{ data.src }}" type="audio/mp4">
+        </audio>
+
+    </div>
+
+{% endmacro %}

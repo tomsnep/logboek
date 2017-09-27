@@ -82,6 +82,8 @@ dest.html                           = { path: '<%= root %>' };
 dest.images                         = { path: '<%= assets %>/images' };
 dest.javascript                     = { path: '<%= assets %>/js' };
 dest.svg                            = { path: '<%= assets %>/svg' };
+dest.audio                          = { path: '<%= assets %>/audio' };
+dest.pdf                            = { path: '<%= assets %>/pdf' };
 dest.webp                           = dest.images;
 
 

@@ -1,0 +1,25 @@
+{% macro imageSlider(data) %}
+
+    <div class="c-image-slider" data-js-hook="image-slider">
+
+        <div class="image-slider__slider-container">
+
+            {% for image in data %}
+
+                <img src="{{ image.src }}" alt="" class="image-slider__slide">
+
+            {% endfor %}
+
+        </div>
+
+
+        <div class="image-slider__controls">
+
+            <span class="image-slider__control image-slider__control--prev">Prev</span>
+            <span class="image-slider__control image-slider__control--next">Next</span>
+
+        </div>
+
+    </div>
+
+{% endmacro %}

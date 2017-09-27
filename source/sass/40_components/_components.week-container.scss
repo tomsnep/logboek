@@ -1,0 +1,18 @@
+.c-week-container {
+
+  &:first-of-type {
+    margin-top: 150px;
+  }
+}
+
+  .week-container__header {
+
+  }
+
+  .week-container__title {
+    margin-bottom: -28px;
+    margin-left: -55px;
+    position: relative;
+    z-index: 1;
+    color: $color-grey-light;
+  }

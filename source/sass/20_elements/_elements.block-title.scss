@@ -1,0 +1,13 @@
+.block-title {
+  display: inline-flex;
+  margin-left: -50px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: $color-white;
+  min-width: 80px;
+  min-height: 80px;
+  background-color: $color-black;
+  font-weight: $font-weight-black;
+  justify-content: center;
+  align-items: center;
+}

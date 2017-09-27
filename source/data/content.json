@@ -1,10 +1,10 @@
 [
   {
-    "month": "september",
     "week": "1",
+    "month": "september",
     "items": [
       {
-        "date": "14/09/17",
+        "date": "14 sept",
         "title": "Gesprek met Micky",
         "text": "Eerste gesprek met begeleider Micky van Zeijl. Heb veel moeite met het concreet maken van het probleem. Er zweven meerdere problemen door m'n hoofd. Welke een connectie met elkaar hebben. Lastig om er nog grip op te krijgen",
         "lists": [
@@ -18,18 +18,12 @@
             ]
           }
         ],
-        "images": [
-          {
-            "path": "",
-            "caption": ""
-          }
-        ],
         "articles": [
           "https://lifely.nl/blog/de-lifely-startup-introducing-bundlin"
         ]
       },
       {
-        "date": "15/09/17",
+        "date": "15 sept",
         "title": "Trends",
         "text": "Hoeveel wordt er over het onderwerp geschreven?",
         "lists": [
@@ -42,23 +36,143 @@
               "co creatie tussen medewerkers?"
             ]
           }
-        ],
-        "images": [
-          {
-            "path": "",
-            "caption": ""
-          }
-        ],
-        "articles": []
+        ]
       }
     ]
   },
   {
-    "month": "september",
     "week": "2",
+    "month": "september",
     "items": [
       {
+        "date": "18 sept",
         "title": "Design Brief bootcamp",
+        "text": "Sommige onderdelen zijn nog lastig om in te vullen. Daarom overgeslagen.",
+        "images": [
+          {
+            "src": "/assets/images/week-2/design-brief-bootcamp/1.jpg",
+            "caption": ""
+          },
+          {
+            "src": "/assets/images/week-2/design-brief-bootcamp/2.jpg",
+            "caption": ""
+          },
+          {
+            "src": "/assets/images/week-2/design-brief-bootcamp/3.jpg",
+            "caption": ""
+          },
+          {
+            "src": "/assets/images/week-2/design-brief-bootcamp/4.jpg",
+            "caption": ""
+          }
+        ],
+        "articles": []
+      },
+      {
+        "date": "19 sept",
+        "title": "Orienting Expert reviews",
+        "text": "Om meer grip te krijgen op het probleem heb ik een aantal developers geïnterviewd. Heel erg veel aan gehad, helaas heb ik het eerste gesprek met Matt niet opgenomen, daarintegen wel de bevindingen genoteerd. Bij Arnout en Jeroen heb ik de bevindingen niet letterlijk uitgeschreven maar het wel opgenomen",
+        "images": [
+          {
+            "src": "assets/images/week-2/orienting-expert-review/aantekening-jeroen-1.jpg",
+            "caption": "Eerste schets van correlatie tussen de verschillende problemen, voortgekomen uit het gesprek met jeroen"
+          },
+          {
+            "src": "assets/images/week-2/orienting-expert-review/aantekening-jeroen-2.jpg",
+            "caption": "Eerste schets van correlatie tussen de verschillende problemen, voortgekomen uit het gesprek met jeroen"
+          }
+        ],
+        "audio": [
+          {
+            "title": "Interview met Arnout (Junior FE Dev)",
+            "src": "/assets/audio/interview_arnout.m4a"
+          },
+          {
+            "title": "Interview met Jeroen (senior FE Dev)",
+            "src": "/assets/audio/interview_jeroen.m4a"
+          }
+        ],
+        "pdf": "/assets/pdf/week-2/orienting-expert-review-matt.pdf"
+      },
+      {
+        "date": "20 sept",
+        "title": "Design Brief worksheet",
+        "text": "Designbrief worksheet nog een keer uitwerken, gewoon in pages dit keer. Merk dat ik na het gesprek met jeroen echt duidelijkheid heb gekregen op het probleem. Het ligt bijna op het puntje van mn tong.",
+        "pdf": "/assets/pdf/week-2/design-brief-worksheet.pdf"
+      },
+      {
+        "date": "21 sept",
+        "title": "Meeting Micky",
+        "text": "Meeting ging goed, veel gesproken over het probleem en de volgende stappen. Eindelijk het idee dat ik dichterbij het probleem en het 'echt starten' van het project kom",
+        "lists": [
+          {
+            "items": [
+              "invetariseren op wat voor manier dev's nu content opslaan en delen",
+              "card sorting > thema's voor seniors",
+              "kijken hoe het gaat in andere sectoren",
+              "design patterns",
+              "interne scholing",
+              "Ai learning",
+              "Verschil tussen junior / medior /senior qua omgang met vakcontent",
+              "Structuur brengen in de chaos < gebasseerd op het gedrag van FED's van TT"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "22 sept",
+        "title": "Grip krijgen op het probleem",
+        "text": "Aantekeningen van schetsen tijdens het uitvogelen van de relatie tussen de verschillende problemen",
+        "images": [
+          {
+            "src": "/assets/images/week-2/aantekeningen/aantekening-1.jpg"
+          },
+          {
+            "src": "/assets/images/week-2/aantekeningen/aantekening-2.jpg"
+          },
+          {
+            "src": "/assets/images/week-2/aantekeningen/aantekening-3.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "week": "3",
+    "month": "september",
+    "items": [
+      {
+        "date": "25 sept",
+        "title": "Het maken van een digitaal logboek",
+        "text": "Vandaag ben ik begonnen met de opzet van een digitaal logboek. Ik gebruik hiervoor de Frontend Setup van TamTam. Hier ben ik al bekend mee en leek mij de meest voor de hand liggende optie omdat ik hiermee alle vrijheid heb die ik wel. Daarnaast kan ik gaande weg het traject dit logboek updaten met nieuwe functionaliteiten",
+        "lists": [
+          {
+            "items": [
+              "Alle content staat in JSON",
+              "Uitgerenderd via Nunjucks",
+              "Slick Slider voor image sliders",
+              "ObjectPDF voor het renderen van PDF's",
+              "<a href=\"http://www.github.com/tomsnep/logboek\">Link naar Github Repo klik dan </a>"
+            ]
+          }
+        ]
+      },
+      {
+        "date": "25 sept",
+        "title": "Roadmap",
+        "text": "Roadmap uitgewerkt in sketch",
+        "pdf": "/assets/pdf/week-3/roadmap.pdf"
+      }
+    ]
+  },
+
+  {
+    "week": "4",
+    "month": "september",
+    "items": [
+      {
+        "date": "",
+        "title": "",
         "text": "",
         "lists": [
           {
@@ -67,8 +181,15 @@
         ],
         "images": [
           {
-            "path": "",
+            "src": "",
             "caption": ""
+          }
+        ],
+        "pdf": "",
+        "audio": [
+          {
+            "title": "",
+            "src": ""
           }
         ],
         "articles": []
@@ -76,11 +197,12 @@
     ]
   },
   {
+    "week": "5",
     "month": "september",
-    "week": "2",
     "items": [
       {
-        "title": "Design Brief bootcamp",
+        "date": "",
+        "title": "",
         "text": "",
         "lists": [
           {
@@ -89,8 +211,15 @@
         ],
         "images": [
           {
-            "path": "/assets/images/week-2/design-brief-bootcamp/1.jpg",
+            "src": "",
             "caption": ""
+          }
+        ],
+        "pdf": "",
+        "audio": [
+          {
+            "title": "",
+            "src": ""
           }
         ],
         "articles": []
