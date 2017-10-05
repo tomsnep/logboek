@@ -162,37 +162,25 @@
         "title": "Roadmap",
         "text": "Roadmap uitgewerkt in sketch",
         "pdf": "/assets/pdf/week-3/roadmap.pdf"
+      },
+      {
+        "date": "27 sept",
+        "title": "Design Brief",
+        "text": "Final design brief",
+        "pdf": "/assets/pdf/week-3/design-brief.pdf"
       }
     ]
   },
 
   {
     "week": "4",
-    "month": "september",
+    "month": "oktober",
     "items": [
       {
-        "date": "",
-        "title": "",
-        "text": "",
-        "lists": [
-          {
-            "items": []
-          }
-        ],
-        "images": [
-          {
-            "src": "",
-            "caption": ""
-          }
-        ],
-        "pdf": "",
-        "audio": [
-          {
-            "title": "",
-            "src": ""
-          }
-        ],
-        "articles": []
+        "date": "3 okt",
+        "title": "Best, Good & Bad practices van andere manieren om content op te slaan",
+        "text": "Om te onderzoeken hoe andere platformen omgaan met het opslaan van content heb ik een Comparison Chart gemaakt met 7 verschillende features.",
+        "pdf": "/assets/pdf/week-4/comparison-chart-saving.pdf"
       }
     ]
   },
