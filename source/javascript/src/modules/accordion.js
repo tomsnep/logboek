@@ -49,16 +49,16 @@ class Accordion {
             $(element).slick('reinit');
         });
     }
-    
-    scrollToTop() {
-        const offset = this.$el.offset();
-        const offsetTop = offset.top - 120;
 
-        window.requestAnimationFrame(scroll);
+    scrollToTop(){
 
-        function scroll(){
-            window.scrollTo(0, offsetTop);
-        }
+        let _distanceScrolled = this.$trigger.scrollTop();
+        let _distanceFromTop = this.$trigger.offset().top;
+
+
+        $('html, body').stop().animate({
+            scrollTop: _distanceFromTop + _distanceScrolled - 60
+        }, 400);
     }
 
 

@@ -8,27 +8,24 @@
   .week-container__title {
     position: relative;
     color: $color-grey-light;
-    transition: .3s margin ease;
+    transition: .3s transform ease;
     cursor: pointer;
     z-index: 1;
 
     &:hover {
-      margin-left: -55px;
+      transform: translate3d(-55px, 0, 1px);
     }
 
     .is--open & {
-      margin-left: -55px;
-      margin-bottom: -28px;
+      transform: translate3d(-55px, 28px, 1px);
     }
   }
 
   .week-container__content {
-    height: 0;
     opacity: 0;
-    transition: .3s height ease, .3s opacity ease;
+    transition: .3s opacity ease;
 
     .is--open & {
-      height: auto;
       opacity: 1;
     }
   }

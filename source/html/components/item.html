@@ -23,7 +23,7 @@
                             <div class="item__content-block">
 
                                 <p class="item__text">
-                                {{ data.text }}
+                                {{ data.text|safe }}
                             </p>
 
                             </div>
@@ -149,6 +149,12 @@
                         </div>
 
                     {% endif %}
+
+                {% if data.form|length %}
+
+                    <iframe src="{{ data.form }}" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+                {% endif %}
 
             </div>
         </div>
