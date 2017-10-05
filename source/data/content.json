@@ -181,6 +181,17 @@
         "title": "Best, Good & Bad practices van andere manieren om content op te slaan",
         "text": "Om te onderzoeken hoe andere platformen omgaan met het opslaan van content heb ik een Comparison Chart gemaakt met 7 verschillende features.",
         "pdf": "/assets/pdf/week-4/comparison-chart-saving.pdf"
+      },
+      {
+        "date": "4 okt",
+        "title": "Wat missen frontend developers tijdens het opslaan / delen van vakinhoudelijke content",
+        "text": "Google Forms opgezet om te kijken hoe developers momenteel omgaan met het opslaan en delen van vakinhoudelijke content, of ze dit een fijne manier vinden en of ze denken dat dit beter kan. Helaas helaas is het niet mogelijk om de reponses te embedden op een externe website. Klik <a href=\"https://docs.google.com/forms/d/1vnM0mIAhs9yhQzqkb92ldcDYHt1JA51egwSfg6jKkX0/viewanalytics\" target=\"_blank\">hier voor de resultaten</a>",
+        "form": "https://docs.google.com/forms/d/e/1FAIpQLSciLL8zQJnsJ1aQfafU39Wuh3rRlHF02V8xSTSHX6ibzuj2bQ/viewform?embedded=true"
+      },
+      {
+        "date": "5 okt",
+        "title": "Wat voor framework is het beste om te gebruiken voor rapid prototyping",
+        "text": "Testjes gedaan met keystone.js en node.js. React is te ingewikkeld om in te duiken binnen deze korte tijd. Keystone.js is teveel gericht op een CMS. Node js was het lekkerst om mee te werken"
       }
     ]
   },
