@@ -4,7 +4,7 @@
 
 $container-padding-small-breakpoint   : $breakpoint-mobile-plus;
 $container-mobile-first               : true;
-$container-config                     : ( max-width: $breakpoint-laptop,
+$container-config                     : ( max-width: $breakpoint-tablet-landscape,
                                           gutter: 20px,
                                           gutter-small: 10px );
 

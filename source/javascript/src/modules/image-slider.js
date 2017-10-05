@@ -19,6 +19,10 @@ class ImageSlider {
 			prevArrow: this.$prevButton,
             nextArrow: this.$nextButton
         })
+		
+		this.$imageContainer.on('reInit', function(){
+            console.log('reinited');
+		})
 	}
 
 

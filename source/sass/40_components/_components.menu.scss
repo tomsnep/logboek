@@ -19,12 +19,8 @@
     }
 
     a {
-      color: $color-black;
+      color: $color-primary;
       text-decoration: none;
-
-      &:hover,&:active {
-        color: $color-primary;
-      }
     }
     
     &:before {

@@ -5,14 +5,30 @@
   }
 }
 
-  .week-container__header {
+  .week-container__title {
+    position: relative;
+    color: $color-grey-light;
+    transition: .3s margin ease;
+    cursor: pointer;
+    z-index: 1;
 
+    &:hover {
+      margin-left: -55px;
+    }
+
+    .is--open & {
+      margin-left: -55px;
+      margin-bottom: -28px;
+    }
   }
 
-  .week-container__title {
-    margin-bottom: -28px;
-    margin-left: -55px;
-    position: relative;
-    z-index: 1;
-    color: $color-grey-light;
+  .week-container__content {
+    height: 0;
+    opacity: 0;
+    transition: .3s height ease, .3s opacity ease;
+
+    .is--open & {
+      height: auto;
+      opacity: 1;
+    }
   }
