@@ -197,31 +197,34 @@
   },
   {
     "week": "5",
-    "month": "september",
+    "month": "oktober",
     "items": [
       {
-        "date": "",
-        "title": "",
-        "text": "",
+        "date": "10 okt",
+        "title": "Overview resultaten survey",
+        "text": "Om de resultaten van de frontend developers goed in kaart te krijgen heb ik een overview gemaakt van de resultaten van specifiek de frontend developers. ",
+        "pdf": "/assets/pdf/week-5/overview-fe.pdf"
+      },
+      {
+        "date": "11 okt",
+        "title": "Gesprek Lucas Nutbey (Strateeg @ TamTam / Conceptueel begeleider)",
+        "text": "Lucas heb ik benaderd voor mijn afstudeertraject als vraagbaken / begeleider op het conceptueel gebied. Omdat ik deze week volgens mijn roadmap in de concept fase beland heb ik een gesprek met hem ingepland. Lucas was wederom erg enthousiast over het idee en bevestigde dat ze ook bij de projectmanagers en strategen zoeken naar een oplossing voor dit probleem. Hoe kunnen we beter infromatie met elkaar opslaan en delen? Hij raadde me dan ook aan om me niet teveel vast te bijtelen op alleen de frontenders. In principe zou dit voor iedereen toegankelijk moeten zijn. Ook liet ik hem vragen zien zoals 'Hoe kan de oplossing integreren binnen de workflow van TamTam', hij vond dat ik me daar niet teveel mee bezig moest houden en me niet daardoor moest laten limiteren omdat dit een concept is wat bij elke digital agency of uberhaupt branche kan worden toegepast.",
         "lists": [
           {
-            "items": []
+            "items": [
+              "Kijk naar de 4 D's, Discover / Define / Design / Deliver",
+              "Momenteel in Define fase",
+              "Weet wat mensen willen, weet waarom ze dat willen",
+              "Vul customer value proposition & businessmodel canvas in",
+              "Stap dan pas over naar concepting en design"
+            ]
           }
-        ],
-        "images": [
-          {
-            "src": "",
-            "caption": ""
-          }
-        ],
-        "pdf": "",
-        "audio": [
-          {
-            "title": "",
-            "src": ""
-          }
-        ],
-        "articles": []
+        ]
+      },
+      {
+        "date": "12 okt",
+        "title": "Gesprek Jeroen Reumkens (Senior frontend developer @ TamTam / Technisch begeleider)",
+        "text": "Jeroen is 3 weken op vakantie geweest, tijd voor een update! Na verteld te hebben wat ik de afgelopen weken heb gedaan hebben we het gehad over het uitwerken van het prototype. Ik had moeite met de deelvraag <strong>Wat voor framework is het beste geschikt om snel prototypes te maken</strong>. Ik zat te twijfelen of ik een nieuw framework moest kiezen, zoals React of Angular. Omdat ik maar kort de tijd heb zag ik dit als een risico, een nieuw framework leren in 6 weken tijd en vervolgens iets werkends krijgen is niet niks. We hebben het gehad over 'Frontend only' oplossingen. Dan zou meer echt een prototype worden en de boel gefaked zijn. Maar ik wil liever iets wat qua core functionaliteit echt werkt. Jeroen kwam aanzetten met <a href\"https://firebase.google.com\" target=\"_blank\">Firebase</a>. Firebase is een development platform wat, volgens Jeroen, op een erg fijne en makkelijke manier werkt.</br> Jeroen raadde aan om dit te gebruiken in combinatie met React. Hij heeft mij ervan overtuigd dat het juist nu tijdens het afstuderen een mooi moment is om een nieuw framework te leren. Een kans die je niet vaak meer zal krijgen. Daarom heb ik voor volgende week woensdag een mini bootcampje gepland met Jeroen. Hij gaat mij in 3 uur de basis van React uitleggen en helpen bij een eerste setup. Excitinggggggg!!!!"
       }
     ]
   }

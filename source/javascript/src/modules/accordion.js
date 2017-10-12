@@ -31,7 +31,7 @@ class Accordion {
             this.$el.removeClass('is--open');
 
             return;
-        };
+        }
 
         this.$allContainers.each((index, element) => {
             $(element).removeClass('is--open');
