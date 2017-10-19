@@ -250,7 +250,7 @@
       {
         "date": "16 okt",
         "title": "Ecosysteem",
-        "text": "Afgelopen vrijdag zijn we uiteten geweest met een aantal collega's. Waaronder m'n sparringspartner Lucas en favo collega Matt. We hebben het onderandere weer gehad over m'n afstudeerproject. Vanuit dit gesprek ben ik deze maandag begonnen met het uitdenken van het grotere plaatje. In principe staat de database met de content centraal in het midden. Deze moet worden kunnen aangevuld vanuit verschillende services zoals hipchat, slack en een browser extensie. Vervolgens moet alle content weer accesible zijn in een user interface op bijvoorbeeld een webapplicatie, native applicatie of in dezelfde browser extensie (nieuw tablad scherm). Zo kunnen de huidige services integreren binnen het ecosysteem en hoeven gebruikers zo min mogelijk extra applicaties te gebruiken",
+        "text": "Afgelopen vrijdag zijn we uiteten geweest met een aantal collega's. Waaronder m'n sparringspartner Lucas en favo collega Matt. We hebben het onderandere weer gehad over m'n afstudeerproject. Vanuit dit gesprek ben ik deze maandag begonnen met het uitdenken van het grotere plaatje. In principe staat de database met de content centraal in het midden. Deze moet worden kunnen aangevuld vanuit verschillende services zoals hipchat, slack en een browser extensie. Vervolgens moet alle content weer accesible zijn in een user interface op bijvoorbeeld een webapplicatie, native applicatie of in dezelfde browser extensie (nieuw tablad scherm). Zo kunnen de huidige services integreren binnen het ecosysteem en hoeven gebruikers zo min mogelijk extra applicaties te gebruiken. </br> </br> Dit Ecosysteem is bedoelt om ervoor te zorgen dat welke applicaties een bedrijf ook gebruikt, deze altijd kunnen integreren binnen het systeem. Dit zorgt ervoor dat werknemers zo min mogelijk tijd kwijt zijn aan ",
         "images": [
           {
             "src": "/assets/images/week-6/ecosysteem.jpg"
@@ -274,6 +274,47 @@
         "images": [
           {
             "src": "/assets/images/week-6/react-firebase-demo.png"
+          }
+        ]
+      },
+      {
+        "date": "18 okt",
+        "title": "Gesprek Micky",
+        "text": "Wekelijkse meeting met Micky",
+        "lists": [
+          {
+            "items": [
+              "<strong>Technieken</strong>",
+              "Brainstorm",
+              "Aantal opdrachten bedenken",
+              "Wat is motivatie en doel van de ideation sessie?",
+              "Waar heb ik input voor nodig?",
+              "Lucas vragen naar veelgebruikte methode's bij TamTam"
+            ]
+          },
+          {
+            "items": [
+              "Beter keuze’s bijhouden en opschrijven",
+              "De keuze voor een hipchat bot bijvoorbeeld < waarom? Bijhouden en opschrijven",
+              "waarom firebase? gaat snel, ontwerp keuze > moet zsm gaan"
+            ]
+          },
+          {
+            "items": [
+              "<strong>Interactie ontwerp</strong>",
+              "Denk na over de functionaliteiten",
+              "Interactie ontwerp en keuze's hebben invloed op de uiteindelijke data die nodig is, en dus op de database structuur",
+              "Beargumenteer welke functionaliteiten je wel en niet gaat bouwen",
+              "Dingen die te moeilijk zijn > bouw alleen html zonder werking om het idee te laten zien",
+              "Schets daarnaast dingen die te moeilijk zijn uit"
+            ]
+          },
+          {
+            "items": [
+              "<strong>Inspiratie</strong>",
+              "Haal inspiratie ook uit niet digitale dingen",
+              "Bijvoorbeeld uit de bieb: hoe wordt informatie daar gestructureerd?"
+            ]
           }
         ]
       }
