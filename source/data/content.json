@@ -191,7 +191,22 @@
       {
         "date": "5 okt",
         "title": "Wat voor framework is het beste om te gebruiken voor rapid prototyping",
-        "text": "Testjes gedaan met keystone.js en node.js. React is te ingewikkeld om in te duiken binnen deze korte tijd. Keystone.js is teveel gericht op een CMS. Node js was het lekkerst om mee te werken"
+        "text": "Testjes gedaan met keystone.js en node.js. React is te ingewikkeld om in te duiken binnen deze korte tijd. Keystone.js is teveel gericht op een CMS. Node js was het lekkerst om mee te werken. Test was om "
+      },
+      {
+        "date": "5 okt",
+        "title": "Logboek verbeteringen - Accordion functionaliteit",
+        "text": "Gekeken naar UX verbeteringen voor het logboek. De lijst werd te lang. Daarom accordion functionaliteit ingebouwd. De week kan worden uitgeklapt. Om ervoor te zorgen dat als je onderaan een lange week terecht komt en de volgende open klapt de boel niet verspringt wordt er automatisch naar de bovenkant van de week gescrolled.",
+        "lists": [
+          {
+            "items": [
+              "Accordion ingebouwd",
+              "Optimalisatie non retina resolutie",
+              "TODO: Automatisch naar volgende item of week via knop",
+              "TODO: Labels/categoriën voor verschillende soorten items"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -202,7 +217,7 @@
       {
         "date": "10 okt",
         "title": "Overview resultaten survey",
-        "text": "Om de resultaten van de frontend developers goed in kaart te krijgen heb ik een overview gemaakt van de resultaten van specifiek de frontend developers. ",
+        "text": "Om de resultaten van de frontend developers goed in kaart te krijgen heb ik een overview gemaakt van de resultaten van specifiek de frontend developers.",
         "pdf": "/assets/pdf/week-5/overview-fe.pdf"
       },
       {
@@ -224,8 +239,45 @@
       {
         "date": "12 okt",
         "title": "Gesprek Jeroen Reumkens (Senior frontend developer @ TamTam / Technisch begeleider)",
-        "text": "Jeroen is 3 weken op vakantie geweest, tijd voor een update! Na verteld te hebben wat ik de afgelopen weken heb gedaan hebben we het gehad over het uitwerken van het prototype. Ik had moeite met de deelvraag <strong>Wat voor framework is het beste geschikt om snel prototypes te maken</strong>. Ik zat te twijfelen of ik een nieuw framework moest kiezen, zoals React of Angular. Omdat ik maar kort de tijd heb zag ik dit als een risico, een nieuw framework leren in 6 weken tijd en vervolgens iets werkends krijgen is niet niks. We hebben het gehad over 'Frontend only' oplossingen. Dan zou meer echt een prototype worden en de boel gefaked zijn. Maar ik wil liever iets wat qua core functionaliteit echt werkt. Jeroen kwam aanzetten met <a href\"https://firebase.google.com\" target=\"_blank\">Firebase</a>. Firebase is een development platform wat, volgens Jeroen, op een erg fijne en makkelijke manier werkt.</br> Jeroen raadde aan om dit te gebruiken in combinatie met React. Hij heeft mij ervan overtuigd dat het juist nu tijdens het afstuderen een mooi moment is om een nieuw framework te leren. Een kans die je niet vaak meer zal krijgen. Daarom heb ik voor volgende week woensdag een mini bootcampje gepland met Jeroen. Hij gaat mij in 3 uur de basis van React uitleggen en helpen bij een eerste setup. Excitinggggggg!!!!"
-      }
+        "text": "Jeroen is 3 weken op vakantie geweest, tijd voor een update! Na verteld te hebben wat ik de afgelopen weken heb gedaan hebben we het gehad over het uitwerken van het prototype. Ik had moeite met de deelvraag <strong>Wat voor framework is het beste geschikt om snel prototypes te maken</strong>. Ik zat te twijfelen of ik een nieuw framework moest kiezen, zoals React of Angular. Omdat ik maar kort de tijd heb zag ik dit als een risico, een nieuw framework leren in 6 weken tijd en vervolgens iets werkends krijgen is niet niks. We hebben het gehad over 'Frontend only' oplossingen. Dan zou meer echt een prototype worden en de boel gefaked zijn. Maar ik wil liever iets wat qua core functionaliteit echt werkt. Jeroen kwam aanzetten met <a href\"https://firebase.google.com\" target=\"_blank\">Firebase</a>. Firebase is een development platform wat, volgens Jeroen, op een erg fijne en makkelijke manier werkt.</br> Jeroen raadde aan om dit te gebruiken in combinatie met React. Er bestaan plugins en dergelijke die de samenwerking tussen React en Firebase erg simpel maakt. Daarnaast is React erg populair en een goede skill om te hebben. Hij heeft mij ervan overtuigd dat het juist nu tijdens het afstuderen een mooi moment is om een nieuw framework te leren. Een kans die je niet vaak meer zal krijgen. Daarom heb ik voor volgende week woensdag een mini bootcampje gepland met Jeroen. Hij gaat mij in 3 uur de basis van React uitleggen en helpen bij een eerste setup. Excitinggggggg!!!!"
+      },
+    ]
+  },
+  {
+    "week": "6",
+    "month": "oktober",
+    "items": [
+      {
+        "date": "16 okt",
+        "title": "Ecosysteem",
+        "text": "Afgelopen vrijdag zijn we uiteten geweest met een aantal collega's. Waaronder m'n sparringspartner Lucas en favo collega Matt. We hebben het onderandere weer gehad over m'n afstudeerproject. Vanuit dit gesprek ben ik deze maandag begonnen met het uitdenken van het grotere plaatje. In principe staat de database met de content centraal in het midden. Deze moet worden kunnen aangevuld vanuit verschillende services zoals hipchat, slack en een browser extensie. Vervolgens moet alle content weer accesible zijn in een user interface op bijvoorbeeld een webapplicatie, native applicatie of in dezelfde browser extensie (nieuw tablad scherm). Zo kunnen de huidige services integreren binnen het ecosysteem en hoeven gebruikers zo min mogelijk extra applicaties te gebruiken",
+        "images": [
+          {
+            "src": "/assets/images/week-6/ecoysteem.jpg"
+          }
+        ]
+      },
+      {
+        "date": "17 okt",
+        "title": "React course CodeCademy",
+        "text": "Aangezien Jeroen mij aankomende woensdag avond een bootcamp React + Firebase gaat geven leek het mij verstandig om al enige voorkennis van React te hebben. Ik heb de course van Wes Bos aangeschaft: <a href='https://reactforbeginners.com/' target='_blank'>React for beginners</a>, helaas kreeg ik niet meteen toegang tot deze cursus en moest ik wachten totdat de betaling via paypal was voltooid. Daarom ben ik maar begonnen met de gratis cursus van Codecademy, ook erg waardevol",
+      },
+      {
+        "date": "18 okt",
+        "title": "Browser extensie maken",
+        "text": "Ik wilde kijken hoe moeilijk het is om een browserextensie te maken. Daarom ben ik de <a href='https://developer.chrome.com/extensions/getstarted' target='_blank'>Getting Started: Building a Chrome Extension</a> gaan volgen. In principe is het niet moeilijk, het werkt hetzelfde als normale javascript, alleen dan met extra methods die bepaalde functies van chrome triggeren. Het is me gelukt om een custom 'nieuw tablad' pagina te maken. Ik liep eigenlijk vast omdat ik nog niets met de firebase database kon doen. Maar in ieder geval ontdekt dat het geen zware magie is :D"
+      },
+      {
+        "date": "18 okt",
+        "title": "React + Firebase Bootcamp",
+        "text": "Jeroen heeft mij een bootcamp React + Firebase gegeven zodat ik een begin setup had voor mijn project. Van 17:00 tot 21:00 heeft Jeroen mij de basics van React & Redux uitgelegd. Daarnaast hebben we een Firebase Database gekoppeld aan de applicatie. Het eindresultaat is een klein appje waarbij je items kan toevoegen. Het super toffe van React & Firebase is dat alles realtime gebeurd, zonder dat de pagina ook maar 1x geladen hoeft te worden",
+        "images": [
+          {
+            "src": "/assets/images/week-6/react-firebase-demo.png"
+          }
+        ]
+      },
+
     ]
   }
 ]
