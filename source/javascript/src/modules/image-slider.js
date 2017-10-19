@@ -10,21 +10,28 @@ class ImageSlider {
         this.$imageContainer = this.$sliderEl.find('.image-slider__slider-container');
         this.$prevButton 	= this.$sliderEl.find('.image-slider__control--prev');
         this.$nextButton 	= this.$sliderEl.find('.image-slider__control--next');
+        this.$slides		= this.$sliderEl.find('.image-slider__slide');
 
 		this.initSlider();
+		this.checkAmountOfImages();
 	}
 
 	initSlider() {
         this.$imageContainer.slick({
 			prevArrow: this.$prevButton,
             nextArrow: this.$nextButton
-        })
-		
-		this.$imageContainer.on('reInit', function(){
-            console.log('reinited');
-		})
+        });
 	}
 
+	checkAmountOfImages(){
+        var isSingle = this.$slides.length = 1;
+        
+		if(isSingle){
+            console.log(this);
+			this.$prevButton.addClass('is--hidden');
+            this.$nextButton.addClass('is--hidden');
+		}
+	}
 
 }
 
