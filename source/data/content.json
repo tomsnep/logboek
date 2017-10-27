@@ -319,5 +319,91 @@
         ]
       }
     ]
+  },
+  {
+    "week": "7",
+    "month": "oktober",
+    "items": [
+      {
+        "date": "23 okt",
+        "title": "React course",
+        "text": "Vandaag ben ik verder gegaan met de React course van WesBos. Ik wil deze afronden en vervolgens aan het begin van mn prototype werken. Er komen een aantal dingen aan bod die voor m'n prototype handig zijn, zoals authenticatie met Google / Facebook / Twitter en data opslaan in Firebase. Ik moet nog even kijken hoe ik ga beginnen met m'n prototype. Ik denk dat ik gewoon moet beginnen met het weergeven van items die opgehaald worden vanuit Firebase, dat is het begin."
+      },
+      {
+        "date": "23 okt",
+        "title": "Redux course",
+        "text": "Toen ik klaar was met de Redux course vroeg ik mij af of het wel verstandig was om te beginnen met het prototype in de setup die ik samen met Jeroen heb gemaakt. Hier zit ook Redux in, daar heb ik nog vrij weinig kennis van. Gelukkig heeft WesBos blijkbaar ook een cursus over Redux. Deze ben ik gaan volgen. Morgen kan ik dus beginnen met het begin maken van een prototype."
+      },
+      {
+        "date": "24 okt",
+        "title": "Begin Prototype (compleet vastlopen)",
+        "text": "Om te beginnen ben ik me er overigens van bewust dat ik eigenlijk alles door elkaar aan het doen ben. Concepting, onderzoek en prototyping. Ik begrijp dat ik nog meer moet uitdokteren hoe de UI van de applicatie eruit moet gaan zien. Desondanks leek het mij handig om zsm te beginnen met React omdat dit nieuw is voor mij. Later deze week wil ik wat meer gaan uitwerken hoe de boel moet gaan werken en waarom. </br> Omdat ik de React en Redux course heb afgerond begin ik vandaag met het eerste opzetje van m'n prototype. Ik wilde de setup die ik met Jeroen had neergezet uitbreiden met de dingen die ik in de courses heb geleerd. Uiteindelijk komt het er op neer dat ik dehele dag heb gestruggled om te begrijpen hoe React, redux en firebase met elkaar zouden moeten samenwerken. Daarnaast was het vervelend dat sommige code uit de courses op dit moment anders werken omdat de courses natuurlijk al veel eerder zijn opgenomen. Al met al heb ik deze dag voor mn gevoel compleet versplit. Aan het einde van de dag heb ik alles terug gezet naar hoe het was. Geen resultaat geboekt, erg frustrerend. </br></br> Conclusie die ik voor mezelf gemaakt hebt is: verdeel je dag in 50% onderzoek / concepting + 50% prototyping. De hele dag prototypen is niet handig, ik moet meer concreet gaan maken hoe het platform eruit gaat zien en waarom."
+      },
+      {
+        "date": "25 okt",
+        "title": "Brainstormen met Pierre",
+        "text": "Pierre is een fijne sparringspartner. Ik heb samen met hem op papier gezet wat het platform zou moeten doen en in wat voor vorm. De essentie van het idee is dat mensen elkaar helpen om te bepalen wat ze bekijken en lezen: user curated content. In het geval van mijn project gaat het om content over het vakgebied. Een plek waar content staat die relevant is voor jou als proffesional, aangedragen door collega's. De website van dumpert vind ik een mooi voorbeeld: Ik ga naar dumpert.nl omdat ik weet dat ik 80% van de filmpjes leuk vind om naar te kijken. Ik hoef zelf niet opzoek naar filmpjes zoals op youtube, ik krijg ze \"currated\" voorgeschotelt. Dat zelfde concept zit in het platform. We hebben een flow uitgetekend van het delen van een artikel. Ook ben ik me er van bewust dat er veel dingen zijn die ik niet zal kunnen uitwerken gezien de tijdsspanne. Het lijk mij wijs om het verhaal van \"data in het platform krijgen\" iets is wat ik niet ga uitwerken.</br></br>Ik ben nog van plan om deze schetsen uit te werken tot een digitaal overzichtelijker model",
+        "images": [
+          {
+            "src": "/assets/images/week-7/schets-1.jpg",
+            "caption": "Linkerkant: data sources. Rechterkant: Platform met functionaliteiten"
+          },
+          {
+            "src": "/assets/images/week-7/schets-2.jpg",
+            "caption": "Deel mechanisme"
+          }
+        ],
+        "lists": [
+          {
+            "items": [
+              "> User requirements list",
+              "> job stories",
+              "> paper prototype",
+              "> ontwerp"
+            ]
+          },
+          {
+           "items": [
+             "Items die het beste gerate worden in de tijdspan kunnen besproken worden tijdens developer meetup",
+             "Push notifications of best recommended items every evening, lunch",
+             "Categories filter",
+             "Dan binnen categorie filter de tags filter",
+             "Hipchat links weergeven",
+             "Kijken of je direct daarop al een like kan geven, of emoij",
+             "Sommige functionaliteiten die nog conceptueel zijn als todo beschrijven",
+             "Browserextensie met rating van artikelen < losstaande bron van informatie"
+           ]
+          }
+        ]
+      },
+      {
+        "date": "25 okt",
+        "title": "Volgende stappen",
+        "text": "Door de brainstorm sessie met Pierre gisteravond heb ik weer wat meer het idee welke stappen ik moet maken. Ik ben gaan kijken naar alles wat we voor PLECK hebben gedaan 3 jaar geleden. Het proces van PLECK is erg vegelijkbaar met het proces dat ik nu doorloop, iets vanaf de grond af aan opbouwen. Dat is leuk, maar zorgt wel voor veel werk en onzekerheid. Na door wat documenten van PLECK te hebben gebladerd kwam het proces van toen weer bij mij omhoog. De oude gevoelens van hoe cool en vet het was om zelf iets samen op te zetten kwamen weer naar boven. Ik besloot om op diezelfde manier dingen concreet te gaan maken. </br></br>> Stakeholdersmap </br>> Persona </br>> Onderzoek naar behoefte doelgroep (heb ik al gedaan: survey / interviews) </br>> Job stories </br>> Wireframes schetsen.</br></br> Als ik eenmaal wireframes heb kan ik gaan beginnen met het vormgeven van het prototype. Ik twijfel nog hoeveel ik daadwerkelijk met React ga kunnen maken, het maken van dingen in React kost me nog erg veel tijd omdat ik net begonnen ben met het leren van dit framework."
+      },
+      {
+        "date": "25 okt",
+        "title": "Stakeholdersmap",
+        "text" : "Ik heb gekeken naar alle mogelijke verschillende stakeholders en de relatie's tussen deze. Tijdens het maken hier van kwam ik er eigenlijk achter dat de gebruikers zowel behoeftes hebben als individu en als groep. Dit is best belangrijk want ik moet bepalen of ik me focus op allebei of maar op 1 van de 2. Na er over te hebben nagedacht lijkt mij de meest logische keuze om in het prototype en het testen / onderzoek te focussen op gebruikers als groep. Waarom? Simpel: doelgroep en opdracht gevers zijn in groepsverband. Daarnaast is het ontwerpen voor een groep uitdagender en leuker. Auteurs en Content platformen zijn een belangrijke stakeholder, deze kunnen het geld in het laadje brengen d.m.v. affiliate marketing.</br></br>Het voelt misschien een beetje vreemd dat ik in week 7 nog eens een stakeholdersmap aan het maken ben. Maar net zoals bij PLECk is het zo dat het vormgeven van het idee en het concreet maken van wat het moet gaan worden een iteratief proces is. Wat vooral als je in je eentje ermee bezig bent erg lastig is, grip krijgen op het concept is lastig als je vanuit het niets begint. Wel een leuke uitdaging </br></br>Note: In het midden van de stakeholders map staat nu <i>NAME</i>, hier stond eerst <i>PLATFORM</i>. Ik realiseerde me later pas dat niet het platform centraal staat maar de (nog te verzinnen) merk naam, het platform is daar onderdeel van. Met het kopje Applicatie wordt gerefereerd naar het platform",
+        "images": [
+          {
+            "src": "/assets/images/week-7/stakeholders-map.jpg",
+            "caption": "Stakeholders map"
+          }
+        ]
+      },
+      {
+        "date": "25 okt",
+        "title": "Persona",
+        "text" : "Om uiteindelijk te referren naar de doelgroep heb ik een Persona opgesteld. Verder geen tijd besteed aan het visuele uiterlijk hiervan, dat komt later wel :)",
+        "pdf": "/assets/pdf/week-7/persona.pdf"
+      },
+      {
+        "date": "25 okt",
+        "title": "Job Stories",
+        "text": "Vanuit de wensen van de doelgroep heb ik een voorlopig aantal job stories opgezet. Ik heb hierbij toch ook job stories voor het individu bijgevoegd. Dit kan naar mijn mening altijd waardevol zijn. De job stories kunnen op een later moment altijd uitgebreid worden",
+        "pdf": "/assets/pdf/week-7/job-stories.pdf"
+      }
+    ]
   }
 ]

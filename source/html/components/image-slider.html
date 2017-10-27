@@ -6,7 +6,13 @@
 
             {% for image in data %}
 
-                <img src="{{ image.src }}" alt="" class="image-slider__slide">
+                    <div class="image-slider__slide">
+
+                        <img src="{{ image.src }}" alt="" class="image-slider__image">
+
+                        {{ image.caption }}
+
+                    </div>
 
             {% endfor %}
 

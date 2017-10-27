@@ -24,10 +24,9 @@ class ImageSlider {
 	}
 
 	checkAmountOfImages(){
-        var isSingle = this.$slides.length = 1;
+        const isSingle = this.$slides.length === 1;
         
 		if(isSingle){
-            console.log(this);
 			this.$prevButton.addClass('is--hidden');
             this.$nextButton.addClass('is--hidden');
 		}
