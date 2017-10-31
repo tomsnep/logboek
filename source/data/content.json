@@ -405,5 +405,17 @@
         "pdf": "/assets/pdf/week-7/job-stories.pdf"
       }
     ]
+  },
+  {
+    "week": "8",
+    "month": "oktober / november",
+    "items": [
+      {
+        "date": "31 okt",
+        "title": "Design Pattern Research: Rating mechanism",
+        "text": "Om uiteindelijk wireframes te maken wilde ik toch eerst research doen naar verschillende mogelijkheden. Zomaar wireframes maken uit het niets voelde niet helemaal goed. Vandaar dat ik in ieder geval twee design pattern research stukken wil doen: rating & categorisatie UI. Vandaag ben ik begonnen met onderzoek doen naar verschillende vormen van rating",
+        "pdf": "/assets/pdf/week-8/design-pattern-rating-mechanism.pdf"
+      }
+    ]
   }
 ]
