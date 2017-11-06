@@ -191,7 +191,7 @@
       {
         "date": "5 okt",
         "title": "Wat voor framework is het beste om te gebruiken voor rapid prototyping",
-        "text": "Testjes gedaan met keystone.js en node.js. React is te ingewikkeld om in te duiken binnen deze korte tijd. Keystone.js is teveel gericht op een CMS. Node js was het lekkerst om mee te werken. Test was om "
+        "text": "Testjes gedaan met keystone.js en node.js. React lijkt te ingewikkeld om in te duiken binnen deze korte tijd. Keystone.js is teveel gericht op een CMS. Node js was het lekkerst om mee te werken. Klein testje gedaan om te kijken hoe de verschillende frameworks werken. Keystone js is teveel gericht op een CMS, daar moet ik teveel voor aanpassen om er een platform van te maken. Angular heeft simpelweg niet de voorkeur omdat steeds meer websites daar hier van af stappen + het is echt puur frontend. React lijkt in alle opzichte beter: zowel native als web + firebase integratie, firebase is ook voor web en native beschikbaar.React + firebase = schaalbaar = beste oplossing"
       },
       {
         "date": "5 okt",
@@ -377,12 +377,12 @@
         ]
       },
       {
-        "date": "25 okt",
+        "date": "26 okt",
         "title": "Volgende stappen",
         "text": "Door de brainstorm sessie met Pierre gisteravond heb ik weer wat meer het idee welke stappen ik moet maken. Ik ben gaan kijken naar alles wat we voor PLECK hebben gedaan 3 jaar geleden. Het proces van PLECK is erg vegelijkbaar met het proces dat ik nu doorloop, iets vanaf de grond af aan opbouwen. Dat is leuk, maar zorgt wel voor veel werk en onzekerheid. Na door wat documenten van PLECK te hebben gebladerd kwam het proces van toen weer bij mij omhoog. De oude gevoelens van hoe cool en vet het was om zelf iets samen op te zetten kwamen weer naar boven. Ik besloot om op diezelfde manier dingen concreet te gaan maken. </br></br>> Stakeholdersmap </br>> Persona </br>> Onderzoek naar behoefte doelgroep (heb ik al gedaan: survey / interviews) </br>> Job stories </br>> Wireframes schetsen.</br></br> Als ik eenmaal wireframes heb kan ik gaan beginnen met het vormgeven van het prototype. Ik twijfel nog hoeveel ik daadwerkelijk met React ga kunnen maken, het maken van dingen in React kost me nog erg veel tijd omdat ik net begonnen ben met het leren van dit framework."
       },
       {
-        "date": "25 okt",
+        "date": "26 okt",
         "title": "Stakeholdersmap",
         "text" : "Ik heb gekeken naar alle mogelijke verschillende stakeholders en de relatie's tussen deze. Tijdens het maken hier van kwam ik er eigenlijk achter dat de gebruikers zowel behoeftes hebben als individu en als groep. Dit is best belangrijk want ik moet bepalen of ik me focus op allebei of maar op 1 van de 2. Na er over te hebben nagedacht lijkt mij de meest logische keuze om in het prototype en het testen / onderzoek te focussen op gebruikers als groep. Waarom? Simpel: doelgroep en opdracht gevers zijn in groepsverband. Daarnaast is het ontwerpen voor een groep uitdagender en leuker. Auteurs en Content platformen zijn een belangrijke stakeholder, deze kunnen het geld in het laadje brengen d.m.v. affiliate marketing.</br></br>Het voelt misschien een beetje vreemd dat ik in week 7 nog eens een stakeholdersmap aan het maken ben. Maar net zoals bij PLECk is het zo dat het vormgeven van het idee en het concreet maken van wat het moet gaan worden een iteratief proces is. Wat vooral als je in je eentje ermee bezig bent erg lastig is, grip krijgen op het concept is lastig als je vanuit het niets begint. Wel een leuke uitdaging </br></br>Note: In het midden van de stakeholders map staat nu <i>NAME</i>, hier stond eerst <i>PLATFORM</i>. Ik realiseerde me later pas dat niet het platform centraal staat maar de (nog te verzinnen) merk naam, het platform is daar onderdeel van. Met het kopje Applicatie wordt gerefereerd naar het platform",
         "images": [
@@ -393,16 +393,27 @@
         ]
       },
       {
-        "date": "25 okt",
+        "date": "26 okt",
         "title": "Persona",
         "text" : "Om uiteindelijk te referren naar de doelgroep heb ik een Persona opgesteld. Verder geen tijd besteed aan het visuele uiterlijk hiervan, dat komt later wel :)",
         "pdf": "/assets/pdf/week-7/persona.pdf"
       },
       {
-        "date": "25 okt",
+        "date": "26 okt",
         "title": "Job Stories",
         "text": "Vanuit de wensen van de doelgroep heb ik een voorlopig aantal job stories opgezet. Ik heb hierbij toch ook job stories voor het individu bijgevoegd. Dit kan naar mijn mening altijd waardevol zijn. De job stories kunnen op een later moment altijd uitgebreid worden",
         "pdf": "/assets/pdf/week-7/job-stories.pdf"
+      },
+      {
+        "date": "27 okt",
+        "title": "Prototype: categorieen functionaliteit",
+        "text": "Ik ben vandaag begonnen met het toevoegen van een categorie van een item. Om uiteindelijk de categorieen ook op andere plekken te tonen moeten de categorieen een apart veld worden in de database. Daarnaast moet het id van een categorie toegevoegd worden aan het item zodat de link kan worden gelegd. De categorieen moeten in een aparte <i>three</i> worden gezet in de database zodat de structuur van de database <a href=\"https://firebase.google.com/docs/database/web/structure-data\" target=\"_blank\">flattened</a> blijft",
+        "images": [
+          {
+            "src": "",
+            "caption": ""
+          }
+        ]
       }
     ]
   },
@@ -415,6 +426,42 @@
         "title": "Design Pattern Research: Rating mechanism",
         "text": "Om uiteindelijk wireframes te maken wilde ik toch eerst research doen naar verschillende mogelijkheden. Zomaar wireframes maken uit het niets voelde niet helemaal goed. Vandaar dat ik in ieder geval twee design pattern research stukken wil doen: rating & categorisatie UI. Vandaag ben ik begonnen met onderzoek doen naar verschillende vormen van rating",
         "pdf": "/assets/pdf/week-8/design-pattern-rating-mechanism.pdf"
+      },
+      {
+        "date": "1 nov",
+        "title": "Design Pattern Research: Structuring content",
+        "text": "Design pattern research om de items gestructureerd weer te geven. Ik heb vooral naar voorbeelden gekeken en minder naar theorie omdat hier naar mijn mening al veel bestaande oplossingen voor zijn. En dit niet iets is waar ik heel erg veel tijd aan wil besteden.",
+        "pdf": "/assets/pdf/week-8/design-pattern-structure.pdf"
+      },
+      {
+        "date:": "3 nov",
+        "title": "Schetsen",
+        "text": "Voor de 2 hoofdingedrienten van het concept heb ik eerste schetsen gemaakt. De browser extensie + homepage van het platform. De browser extensie doet 2 dingen: artikelen toevoegen en artikelen die al toegevoegd zijn beoordelen. Als een gebruiker een item bezoekt wat ook in de database opgeslagen staat wordt de gebruiker gevraagd om dit item te beoordelen nadat de gebruiker een x aantal pixels heeft gescrolled (gebasseerd op de lengte en hoogte van de pagina en het artikel). De homepage bevat een featured item, dit is het item met de meeste &#x1F918; als beoordeling. Een vraag die heel veel door mijn hoofd speelde is: hoe zorg je er voor dat de boel alsnog overzichtelijk blijft als iedereen categorieen en tags kan toevoegen? Door het artikel van Hiltz ben ik van mening dat dat iets is wat de gebruikers zelf in de hand moeten houden. Samen als groep moeten zij er voor zorgen dat de categorieen logisch zijn ingedeeld, en het daar ook over hebben. Hiltz: \"Any method for filtering or reducing over- load should allow individuals or groups to select their own criteria for valuable communications.\". Ik als maker van dit platform kan niet garanderen dat er geen information overload plaats vind, het is immers een user generated content platform. De gebruikers zullen zelf als een groep proffessionals overleggen en bepalen hoe zij de filter systemen gebruiken. Daar ligt ook de kracht van het idee, de gebruiker kunnen zelf de filter criteria bepalen: \"An organization’s ulti- mate success with a system is likely to reflect the degree to which the system is tailored to the re-quirememts of experienced users.\".",
+        "images" : [
+          {
+            "src": "/assets/images/week-8/homepage.jpg",
+            "caption": "Homepage: Featured sectie + feed met categorieen & tag toggle's."
+          },
+          {
+            "src": "/assets/images/week-8/browser-extensie-new-article.jpg",
+            "caption": "Nieuw artikel toevoegen d.m.v. de browser extensie. Categorie + tags kunnen toegevoegd worden. Rating is optioneel."
+          },
+          {
+            "src": "/assets/images/week-8/browser-extensie-rate-article.jpg",
+            "caption": "Rate items in bestaande database. Venster wordt pas getoond na een x aantal pixels scrollen"
+          }
+        ]
+      },
+      {
+        "date": "4 nov",
+        "title": "Prototype uitbreiden",
+        "text": "Het prototypen met React vergt soms toch nog best wat tijd. Vandaag heb ik de functionaliteit afgemaakt waarbij tags aan categorieeën kunnen worden toegevoegd",
+        "images": [
+          {
+            "src": "/assets/images/week-8/prototype.jpg",
+            "caption": "Tags aan categorieën toevoegen"
+          }
+        ]
       }
     ]
   }
