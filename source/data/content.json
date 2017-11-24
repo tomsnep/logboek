@@ -604,5 +604,116 @@
         ]
       }
     ]
+  },
+  {
+    "week": "10",
+    "month": "november",
+    "items": [
+      {
+        "date": "13 nov",
+        "title": "Management samenvatting samenvatting",
+        "text": "Deze week hadden we afgesproken om alvast de management samenvatting te maken. Om hierbij een beeld te krijgen heb ik kort in een aantal bulletpoints opgeschreven wat ik tot nu toe allemaal heb gedaan",
+        "pdf": "/assets/pdf/week-10/samenvatting-management-samenvatting.pdf"
+      },
+      {
+        "date": "13 nov",
+        "title": "Updated Prototype",
+        "text": "Vandaag is de logica voor de filters van de categorieen en de tags toegevoegd",
+        "images": [
+          {
+            "src": "/assets/images/week-10/screenshot-prototype.jpg",
+            "caption": "De filters in de vorm van buttons in de Item list"
+          }
+        ]
+      },
+      {
+        "date": "14 nov",
+        "title": "Management samenvatting",
+        "text": "Eerste poging tot de management samenvatting. Ben er eigenlijk niet tevreden mee, het is meer een samenvatting van mn logboek dan een samenvatting van het concept. Er zit geen structuur in, moet opnieuw met structuur",
+        "pdf": "/assets/pdf/week-10/management-samenvatting.pdf"
+      },
+      {
+        "date": "14 nov",
+        "title": "Updated Prototype",
+        "text": "Api van het web geplukt die automatisch open graph data ophaalt vanuit een link. Hiermee haal ik de titel, afbeelding en beschrijving van een artikel op. Nadeel van de manier waarop ik het nu bouw is dat het artikel pas wordt toegevoegd nadat de API call is gedaan. Dit houdt in dat de gebruiker moet 'wachten' voordat het artikel daadwerkelijk wordt toegevoegd. Wellicht op een later moment met Jeroen dit op een betere manier oplossen. Voor nu prima zo, niet teveel tijd aan besteden.",
+        "images": [
+          {
+            "src": "/assets/images/week-10/screenshot-prototype-2.jpg",
+            "caption": "Items met opgehaalde image, title en description"
+          }
+        ]
+      },
+      {
+        "date": "16 nov",
+        "title": "Management samenvatting 'voor het echie'",
+        "text": "Micky heeft ons een structuur doorgestuurd voor de management samenvatting, precies hetgene wat ik vond missen in m'n eerste versie. Vond het best een lastige opgave om erg beknopt alles te becshrijven. Deze versie mag nog wel bijgeschaafd worden vind ik zelf. Volgende week inleveren bij Micky om er feedback op te krijgen na de Frenzy Feedback",
+        "pdf": "/assets/pdf/week-10/management-samenvatting-goed.pdf"
+      },
+      {
+        "date": "16 nov",
+        "title": "Gesprek Micky",
+        "text": "Onder andere gehad over het resultaat van het emoji onderzoekje. De redering luidt als volgt: <i>waarom geen vaste samenstelling emoji’s? iedereen interpreteer ze anders, zolang ze binnen de context van het platform maar de juiste associatie hebben met de emoji</i>. Het is wellicht misschien wel handig om nadruk op de bedoeling van de emoji te leggen in het design. Daarnaast hebben we nog even gebrainstormed over het recommendatie systeem. Voor m'n gevoel moet dit iets uitgebreider zijn dan alleen een featured item van de week. Daarnaast zou er ook een functie moeten komen artikelen op te slaan om later te terug te lezen. Een soort van persoonlijke functie.",
+        "lists": [
+          {
+            "items": [
+              "<strong> Recommendatie </strong>",
+              "Featured articles (2 pf 3 van x aantal leesminuten)",
+              "Featured article sectie > slider met artikelen die hierboven staan + laatst opgeslagen artikelen",
+              "save for later (personal function)",
+              "user curated content platform"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "week": "11",
+    "month": "november",
+    "items": [
+      {
+        "date": "20 / 21 nov",
+        "title": "Begonnen met visuele laag prototype",
+        "text": "Om tijdens de feedback frenzy iets te laten zien wat ook voor het oog een beetje fijn is om naar te kijken heb ik een eerste visuele laag over het prototype gegooid. Uiteraard moet er nog een hoop gebeuren. Om het upload formulier te maken heb ik de losse 'add category' 'add tag to category' en 'add course' items samen moeten voegen. Dit vereiste nog behoorelijk wat aanpassingen",
+        "images": [
+          {
+            "src": "/assets/images/week-11/screenshot-prototype.jpg",
+            "caption": "User interface van het platform"
+          },
+          {
+            "src": "/assets/images/week-11/screenshot-prototype-2.jpg",
+            "caption": "Upload item formulier"
+          }
+        ]
+      },
+      {
+        "date": "22 nov",
+        "title": "Presentatie Feedback Frenzy",
+        "text": "Presentatie gemaakt voor de feedback frenzy, eerst in notes gezet wat ik in de presentatie wilde hebben",
+        "images": [
+          {
+            "src": "/assets/images/week-11/feedback-notes.jpg"
+          }
+        ],
+        "pdf": "/assets/pdf/week-11/presentatie.pdf"
+      },
+      {
+        "date": "23 nov",
+        "title": "Feedback Frenzy",
+        "Text": "Hieronder een samenvatting van de opgeslagen feedback",
+        "lists": [
+          {
+            "items": [
+              "Pas op dat de information overload wordt verplaatst",
+              "Misschien comment sectie toe voegen bij een item? (vraag is past dit bij het concept en het doel van het concept)",
+              "Mogelijkheden om content aan te raden vergroten, featured item van de week uitbreiden",
+              "Push notificaties met bijv items met x leestijd tijdens bij lunch / eind vd middag",
+              "Lees later functie",
+              "Items per categorie rangschikken op rating"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
