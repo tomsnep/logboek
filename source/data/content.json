@@ -178,9 +178,21 @@
     "items": [
       {
         "date": "3 okt",
-        "title": "Best, Good & Bad practices van andere manieren om content op te slaan",
+        "title": "Best, Good & Bad practices: Benchmark Creation",
+        "text": " Omdat er eigenlijk meerdere soorten applicaties worden gebruikt voor twee verschillende doeleinden, delen en opslaan, heb ik een benchmark creation gemaakt om de verschillende applicaties te clusteren en zo overzicht te creeren in de mogelijkheden. Ik heb de benchmark vanuit de cmd methods bekeken en dit puur gedaan om de bestaande manieren van delen en opslaan te groeperen en clusteren",
+        "pdf": "/assets/pdf/week-4/benchmark-creation.pdf"
+      },
+      {
+        "date": "3 okt",
+        "title": "Best, Good & Bad practices: Comparison Chart",
         "text": "Om te onderzoeken hoe andere platformen omgaan met het opslaan van content heb ik een Comparison Chart gemaakt met 7 verschillende features.",
         "pdf": "/assets/pdf/week-4/comparison-chart-saving.pdf"
+      },
+      {
+        "date": "3 okt",
+        "title": "Best, Good & Bad practices: Case study",
+        "text": "Na het in kaart brengen van de verschillende features van de oplossingen ben ik dieper ingegaan op de 3 oplossingen die het meest voorkwamen uit het onderzoek. De bookmarks heb ik bewust geskipt omdat dit in de essentie zo simpel is dat ik het niet moeite waard vond om deze mee te nemen",
+        "pdf": "/assets/pdf/week-4/case-study.pdf"
       },
       {
         "date": "4 okt",
@@ -395,8 +407,9 @@
       {
         "date": "25 okt",
         "title": "Persona",
-        "text" : "Om uiteindelijk te referren naar de doelgroep heb ik een Persona opgesteld. Verder geen tijd besteed aan het visuele uiterlijk hiervan, dat komt later wel :)",
-        "pdf": "/assets/pdf/week-7/persona.pdf"
+        "text" : "Om uiteindelijk te referren naar de doelgroep heb ik een Persona opgesteld. Ik heb gekozen voor een behavioral persona omdat de doelgroep erg bekend en specifiek is. Een normaal persona leek mij nutteloos. Verder geen tijd besteed aan het visuele uiterlijk hiervan, dat komt later wel :)",
+        "pdf": "/assets/pdf/week-7/persona.pdf",
+        "articles": ["https://medium.com/@taaminsights/do-you-now-your-users-introducing-behavioral-personas-8668f56b97d8"]
       },
       {
         "date": "25 okt",
@@ -713,6 +726,85 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  {
+    "week": "12",
+    "month": "november",
+    "items": [
+      {
+        "date": "28 nov",
+        "title": "Improving prototype",
+        "text": "Het doel was om een prototype te maken wat echt gebruikt kan worden en getest kan worden zonder dat ik erbij hoef te staan. Het moet een levend product zijn, een eerste versie van het product, of in ieder geval een deel daarvan. Om dit te bewerkstelligen moet alles binnen het prototype goed werken en (voor zover mogelijk) bugloos zijn. Daarom ben ik deze week de finishing touch aan m'n prototype aan het geven zodat ik het volgende week kan laten testen door m'n collega's",
+        "lists": [
+          {
+            "items": [
+              "Rating met hoogste waarde wordt bovenaan item getoond",
+              "Updated Font",
+              "Op een item kan maar 1 rating actief zijn",
+              "Styling update add item formulier",
+              "Bug fixes: add category, add filter, show on category, show on filter",
+              "Prototype staat online"
+            ]
+          }
+        ],
+        "articles": [
+          "http://prototype.tomsnepvangers.com"
+        ],
+        "images": [
+          {
+            "src": "/assets/images/week-12/screenshot-prototype-1.jpg"
+          },
+          {
+            "src": "/assets/images/week-12/screenshot-prototype-2.jpg"
+          }
+        ]
+      },
+      {
+        "date": "30 nov",
+        "title": "Gesprek met Micky",
+        "text": "Tijdens het gesprek met Micky gehad over het testen van het prototype. Besloten om het prototype aankomende week te testen. Alle frontenders vragen een week lang het platform te gebruiken om links te delen. Einde vd week een vragenlijst door sturen om feedback te verzamelen. I like, I Wish, What if methode gebruiken. Wat wil ik weten? Overal: of de user interface werkt: haalt het de information overload weg? Werken de emoji rating zoals bedoelt?. Ik gebruik de methode i like, i wish, what if omdat met deze methode de vragen open liggen en er over alle aspecten wordt nagedacht. Positieve feedback, negatieve feedback en ideeen voor mogelijke verbeteringen",
+        "lists": [
+          {
+            "items": [
+              "<strong>Testen:</strong>",
+              "User tests: 3 - 5 collega’s voor het testen van de flow  (actief testen) artikel automatisch erin kopieren",
+              "Werken de categorieen?",
+              "Werken de emoji's?",
+              "Hoeveel featured items?",
+              "Suggesties",
+              "Vraag: wat verwacht je te zien?",
+              "Gesloten vragen kunnen ook ingezet worden"
+            ]
+          },
+          {
+            "items": [
+              "<strong>Plan de campagne:</strong>",
+              "Uitleg over het platform verwerken in het prototype",
+              "Mail opstellen om frontend developers uit te nodigen het platform te gebruiken voor 1 week",
+              "Feedback formulier opstellen in Google Forms, deze koppelen aan het platform",
+              "Complete flow van het ecosysteem uitwerken"
+            ]
+          }
+        ],
+        "articles": ["https://public-media.interaction-design.org/pdf/I-Like-I-Wish-What-If.pdf"]
+      },
+      {
+        "date": "1 dec",
+        "title": "Upgrading prototype: informatie scherm + feedback formulier",
+        "text": "Om ervoor te zorgen dat het prototype volgende week door de doelgroep getest moet kunnen worden is het platform uitgebreid met een info scherm. Deze zit nu verwerkt in het login scherm. De log out button is vervangen door het login scherm (waar je nu mee kan uitloggen als je ingelogd bent)",
+        "images": [
+          {
+            "src": "/assets/images/week-12/screenshot-prototype-4.jpg",
+            "caption": "Niet ingelogd: Inlog scherm met uitleg"
+          },
+          {
+            "src": "/assets/images/week-12/screenshot-prototype-3.jpg",
+            "caption": "Ingelogd: Informatie scherm met uitlog button"
+          }
+        ],
+        "articles": ["http://prototype.tomsnepvangers.com"]
       }
     ]
   }
