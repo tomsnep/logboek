@@ -2,7 +2,7 @@
   {
     "week": "1",
     "month": "september",
-    "items": [
+    "items":  [
       {
         "date": "14 sept",
         "title": "Gesprek met Micky",
@@ -171,7 +171,6 @@
       }
     ]
   },
-
   {
     "week": "4",
     "month": "oktober",
@@ -805,6 +804,117 @@
           }
         ],
         "articles": ["http://prototype.tomsnepvangers.com"]
+      }
+    ]
+  },
+  {
+    "week": "13",
+    "month": "december",
+    "items": [
+      {
+        "date": "4 dec",
+        "title": "Eind document schrijven",
+        "text": "Volgende week moet de eerste versie van het einddocument worden ingeleverd. De 80% versie. aankomende week zal ik bezig zijn met het schrijven van dit document. Daarnaast heb ik een afspraak gemaakt met Lucas om samen even het business model canvas in te vullen. Dit is een mooi middel om een soort van samenvatting van het product te maken."
+      }
+    ]
+  },
+  {
+    "week": "14",
+    "month": "december",
+    "items": [
+      {
+        "date": "13 dec",
+        "title": "Business Model Canvas",
+        "text": "We (Lucas en ik) hebben het business model canvas ingevuld. Door middel van het bmc wordt het concept als het ware samengevat in 1 canvas. Daarnaast hebben we gebrainstormd over een naam voor het concept: Plucked. Plucked is de engelse vertaling van 'geplukt'. Jij en je collega's plukken relevante interessante online content van het web. Mijn vriendelijke medestagair Ivo ging meteen aan de slag met een logo. Helemaal top!",
+        "images": [
+          {
+            "src": "/assets/images/week-14/bmc-1.jpg",
+            "caption": "Business Model canvas"
+          },
+          {
+            "src": "/assets/images/week-14/bmc-2.jpg",
+            "caption": "Business Model canvas"
+          },
+          {
+            "src": "/assets/images/week-14/bmc-3.jpg",
+            "caption": "Business Model canvas"
+          },
+          {
+            "src": "/assets/images/week-14/plucked-logo-showcase.svg",
+            "caption": "Plucked Logo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "week": "15",
+    "month": "december",
+    "items": [
+      {
+        "date": "13 dec",
+        "title": "Groenlicht presentatie",
+        "text": "Groenlicht presentatie, het (80%) meetmoment. Presentatie ging prima, bevatte wel een aantal overbodige slides die er tijdens de eind presentatie zeker uit gaan. Dat was dan ook de enige feedback die ik heb ontvangen. Inhoudelijk was alles prima: ga zo door!",
+        "images": [
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.002.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.003.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.004.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.005.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.006.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.007.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.008.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.009.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.010.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.011.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.012.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.013.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.014.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.015.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.016.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.017.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.018.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.019.jpeg"
+          },
+          {
+            "src": "/assets/images/week-15/presentatie-groen-licht.001.jpeg"
+          }
+        ],
+        "pdf": "/assets/pdf/week-15/eind-rapport-tom-snepvangers-0.8.pdf"
       }
     ]
   }
