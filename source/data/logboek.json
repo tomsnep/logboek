@@ -92,13 +92,13 @@
             "src": "/assets/audio/interview_jeroen.m4a"
           }
         ],
-        "pdf": "/assets/pdf/week-2/orienting-expert-review-matt.pdf"
+        "pdf": ["/assets/pdf/week-2/orienting-expert-review-matt.pdf"]
       },
       {
         "date": "20 sept",
         "title": "Design Brief worksheet",
         "text": "Designbrief worksheet nog een keer uitwerken, gewoon in pages dit keer. Merk dat ik na het gesprek met jeroen echt duidelijkheid heb gekregen op het probleem. Het ligt bijna op het puntje van mn tong.",
-        "pdf": "/assets/pdf/week-2/design-brief-worksheet.pdf"
+        "pdf": ["/assets/pdf/week-2/design-brief-worksheet.pdf"]
       },
       {
         "date": "21 sept",
@@ -161,13 +161,13 @@
         "date": "25 sept",
         "title": "Roadmap",
         "text": "Roadmap uitgewerkt in sketch",
-        "pdf": "/assets/pdf/week-3/roadmap.pdf"
+        "pdf": ["/assets/pdf/week-3/roadmap.pdf"]
       },
       {
         "date": "27 sept",
         "title": "Design Brief",
         "text": "Final design brief",
-        "pdf": "/assets/pdf/week-3/design-brief.pdf"
+        "pdf": ["/assets/pdf/week-3/design-brief.pdf"]
       }
     ]
   },
@@ -179,19 +179,19 @@
         "date": "3 okt",
         "title": "Best, Good & Bad practices: Benchmark Creation",
         "text": " Omdat er eigenlijk meerdere soorten applicaties worden gebruikt voor twee verschillende doeleinden, delen en opslaan, heb ik een benchmark creation gemaakt om de verschillende applicaties te clusteren en zo overzicht te creeren in de mogelijkheden. Ik heb de benchmark vanuit de cmd methods bekeken en dit puur gedaan om de bestaande manieren van delen en opslaan te groeperen en clusteren",
-        "pdf": "/assets/pdf/week-4/benchmark-creation.pdf"
+        "pdf": ["/assets/pdf/week-4/benchmark-creation.pdf"]
       },
       {
         "date": "3 okt",
         "title": "Best, Good & Bad practices: Comparison Chart",
         "text": "Om te onderzoeken hoe andere platformen omgaan met het opslaan van content heb ik een Comparison Chart gemaakt met 7 verschillende features.",
-        "pdf": "/assets/pdf/week-4/comparison-chart-saving.pdf"
+        "pdf": ["/assets/pdf/week-4/comparison-chart-saving.pdf"]
       },
       {
         "date": "3 okt",
         "title": "Best, Good & Bad practices: Case study",
         "text": "Na het in kaart brengen van de verschillende features van de oplossingen ben ik dieper ingegaan op de 3 oplossingen die het meest voorkwamen uit het onderzoek. De bookmarks heb ik bewust geskipt omdat dit in de essentie zo simpel is dat ik het niet moeite waard vond om deze mee te nemen",
-        "pdf": "/assets/pdf/week-4/case-study.pdf"
+        "pdf": ["/assets/pdf/week-4/case-study.pdf"]
       },
       {
         "date": "4 okt",
@@ -229,7 +229,7 @@
         "date": "10 okt",
         "title": "Overview resultaten survey",
         "text": "Om de resultaten van de frontend developers goed in kaart te krijgen heb ik een overview gemaakt van de resultaten van specifiek de frontend developers.",
-        "pdf": "/assets/pdf/week-5/overview-fe.pdf"
+        "pdf": ["/assets/pdf/week-5/overview-fe.pdf"]
       },
       {
         "date": "11 okt",
@@ -407,14 +407,14 @@
         "date": "25 okt",
         "title": "Persona",
         "text" : "Om uiteindelijk te referren naar de doelgroep heb ik een Persona opgesteld. Ik heb gekozen voor een behavioral persona omdat de doelgroep erg bekend en specifiek is. Een normaal persona leek mij nutteloos. Verder geen tijd besteed aan het visuele uiterlijk hiervan, dat komt later wel :)",
-        "pdf": "/assets/pdf/week-7/persona.pdf",
+        "pdf": ["/assets/pdf/week-7/persona.pdf"],
         "articles": ["https://medium.com/@taaminsights/do-you-now-your-users-introducing-behavioral-personas-8668f56b97d8"]
       },
       {
         "date": "25 okt",
         "title": "Job Stories",
         "text": "Vanuit de wensen van de doelgroep heb ik een voorlopig aantal job stories opgezet. Ik heb hierbij toch ook job stories voor het individu bijgevoegd. Dit kan naar mijn mening altijd waardevol zijn. De job stories kunnen op een later moment altijd uitgebreid worden",
-        "pdf": "/assets/pdf/week-7/job-stories.pdf"
+        "pdf": ["/assets/pdf/week-7/job-stories.pdf"]
       }
     ]
   },
@@ -426,13 +426,13 @@
         "date": "31 okt",
         "title": "Design Pattern Research: Rating mechanism",
         "text": "Om uiteindelijk wireframes te maken wilde ik toch eerst research doen naar verschillende mogelijkheden. Zomaar wireframes maken uit het niets voelde niet helemaal goed. Vandaar dat ik in ieder geval twee design pattern research stukken wil doen: rating & categorisatie UI. Vandaag ben ik begonnen met onderzoek doen naar verschillende vormen van rating",
-        "pdf": "/assets/pdf/week-8/design-pattern-rating-mechanism.pdf"
+        "pdf": ["/assets/pdf/week-8/design-pattern-rating-mechanism.pdf"]
       },
       {
         "date": "1 nov",
         "title": "Design Pattern Research Structuring content",
         "text": "Om uiteindelijk de content te structureren heb ik onderzoek gedaan naar patterns om content te structureren",
-        "pdf": "/assets/pdf/week-8/design-pattern-structure.pdf"
+        "pdf": ["/assets/pdf/week-8/design-pattern-structure.pdf"]
       },
       {
         "date": "3 nov",
@@ -495,7 +495,7 @@
         "date": "7 nov",
         "title": "Research: knowledge sharing through workspace networks",
         "text": "Ik ben opzoek gegaan naar artikelen over knowledge sharing om te ontdekken wat belangrijke factoren zijn. Ik heb dingen die ik interessant vond onderstreept. Een erg interessante vond ik: \"To support emergent processes, users must be able to easily set up workspaces for new activities or add additional activities to a workspace thus allowing processes to emerge.\" Ook in dit artikel wordt gerefereerd naar hoe belangrijk het is dat een systeem flexibel is en er \"additional services & new activities\" moeten kunnen worden toegevoegd. Dat bevestigd hoe belangrijk het is dat het gehele concept een ecosysteem is en allerlei services zich hier op zouden moeten kunnen aansluiten",
-        "pdf": "/assets/pdf/week-9/p79-hawryszkiewycz.pdf"
+        "pdf": ["/assets/pdf/week-9/p79-hawryszkiewycz.pdf"]
       },
       {
         "date": "8 nov",
@@ -525,7 +525,7 @@
         "date": "9 nov",
         "title": "Emoji onderzoek",
         "text": "Na het gesprek met Micky heb ik besloten om een klein onderzoekje te doen naar de interpretatie van Emoji's. Door middel van dit onderzoek ben ik er achter gekomen dat de interpretatie van emoji's afhankelijk is van de context waarin deze gelezen of gebruikt wordt. Bestwel waardevolle inzichten en vooral een heel grappig en leuk onderzoek om te doen",
-        "pdf": "/assets/pdf/week-9/emoji-onderzoek.pdf",
+        "pdf": ["/assets/pdf/week-9/emoji-onderzoek.pdf"],
         "images": [
           {
             "src": "/assets/images/week-9/emoji-onderzoek/matt-tekening.jpg",
@@ -625,7 +625,7 @@
         "date": "13 nov",
         "title": "Management samenvatting samenvatting",
         "text": "Deze week hadden we afgesproken om alvast de management samenvatting te maken. Om hierbij een beeld te krijgen heb ik kort in een aantal bulletpoints opgeschreven wat ik tot nu toe allemaal heb gedaan",
-        "pdf": "/assets/pdf/week-10/samenvatting-management-samenvatting.pdf"
+        "pdf": ["/assets/pdf/week-10/samenvatting-management-samenvatting.pdf"]
       },
       {
         "date": "13 nov",
@@ -642,7 +642,7 @@
         "date": "14 nov",
         "title": "Management samenvatting",
         "text": "Eerste poging tot de management samenvatting. Ben er eigenlijk niet tevreden mee, het is meer een samenvatting van mn logboek dan een samenvatting van het concept. Er zit geen structuur in, moet opnieuw met structuur",
-        "pdf": "/assets/pdf/week-10/management-samenvatting.pdf"
+        "pdf": ["/assets/pdf/week-10/management-samenvatting.pdf"]
       },
       {
         "date": "14 nov",
@@ -659,7 +659,7 @@
         "date": "16 nov",
         "title": "Management samenvatting 'voor het echie'",
         "text": "Micky heeft ons een structuur doorgestuurd voor de management samenvatting, precies hetgene wat ik vond missen in m'n eerste versie. Vond het best een lastige opgave om erg beknopt alles te becshrijven. Deze versie mag nog wel bijgeschaafd worden vind ik zelf. Volgende week inleveren bij Micky om er feedback op te krijgen na de Frenzy Feedback",
-        "pdf": "/assets/pdf/week-10/management-samenvatting-goed.pdf"
+        "pdf": ["/assets/pdf/week-10/management-samenvatting-goed.pdf"]
       },
       {
         "date": "16 nov",
@@ -707,7 +707,7 @@
             "src": "/assets/images/week-11/feedback-notes.jpg"
           }
         ],
-        "pdf": "/assets/pdf/week-11/presentatie.pdf"
+        "pdf": ["/assets/pdf/week-11/presentatie.pdf"]
       },
       {
         "date": "23 nov",
@@ -852,7 +852,7 @@
     "month": "december",
     "items": [
       {
-        "date": "13 dec",
+        "date": "23 dec",
         "title": "Groenlicht presentatie",
         "text": "Groenlicht presentatie, het (80%) meetmoment. Presentatie ging prima, bevatte wel een aantal overbodige slides die er tijdens de eind presentatie zeker uit gaan. Dat was dan ook de enige feedback die ik heb ontvangen. Inhoudelijk was alles prima: ga zo door!",
         "images": [
@@ -914,7 +914,78 @@
             "src": "/assets/images/week-15/presentatie-groen-licht.001.jpeg"
           }
         ],
-        "pdf": "/assets/pdf/week-15/eind-rapport-tom-snepvangers-0.8.pdf"
+        "pdf": ["/assets/pdf/week-15/eind-rapport-tom-snepvangers-0.8.pdf"]
+      }
+    ]
+  },
+  {
+    "week": "17",
+    "month": "januari",
+    "items": [
+      {
+        "title": "Prototype testen",
+        "date": "3 jan",
+        "text": "Tijdens de afgelopen weken dat het prototype gebruikt wordt zijn veel verbeter punten omhoog gekomen. De gebruikers hebben het 'quick feedback' formulier gebruikt om feedback punten in te schieten. Het uigebreide feedback formulier werd nauwelijks ingevuld (1x). Dit had ik al enigszins verwacht. Ik ben deze week met een aantal collega's gaan zitten om met hen het gesprek aan te gaan over het prototype, met het feedback formulier als handvat. Op deze manier heb ik waardevolle feedback verzameld voor de 2de versie van het prototype. Over elk belangrijk onderdeel van het prototype zijn de 'I Like, I Might, I Wish' vragen gesteld. Omdat Google het helaas onmogelijk heeft gemaakt om de form results te embedden op een externe pagina heb ik een pdf gemaakt van de gegeven antwoorden",
+        "pdf": ["/assets/pdf/week-17/quick-feedback-prototype-v1.pdf", "/assets/pdf/week-17/orienting-expert-reviews-prototype-v1.pdf"]
+      },
+      {
+        "title": "Prototype V2",
+        "date": "5 jan",
+        "text": "Afgelopen dagen heb ik een aantal feedback punten verwerkt in de tweede versie van het prototype. Ik heb niet alle feedback punten op kunnen pakken, dit komt doordat sommige punten technisch gezien teveel werk zijn om om te bouwen en naar mijn mening niet belangrijk genoeg zijn om het concept te testen. Hieronder staat een lijst van de punten die zijn veranderd / toegevoegd in V2 van het prototype",
+        "lists": [
+          {
+            "items": [
+              "<b>Feature:</b> Rated by: gebruikers kunnen zien wie een beoordeling hebben gegeven",
+              "<b>Feature:</b> List view van items",
+              "<b>Feature:</b> Discussie: Items worden nu geopend in een modal waarbij een live discussie chat aanwezig is",
+              "<b>Feature:</b> 2 featured items: Rocking item &#x1F918; & Food for thought &#x1F914;",
+              "<b>Feature:</b> Feed order: Items met de meeste beoordelingen staan bovenaan",
+              "<b>Change:</b> Overal design: alles is minder groot",
+              "<b>Change:</b> Header is sticky top",
+              "<b>Change:</b> Plucked logo in header",
+              "<b>Bug:</b> Wanneer tags en categorieen worden toegevoegd in de add item modal worden de input fields automatisch gereset",
+              "<b>Bug:</b> All filter heeft nu een active state by default"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/images/week-17/featured-item-before.png",
+            "caption": "V1: Featured Item"
+          },
+          {
+            "src": "/assets/images/week-17/featured-item-after.png",
+            "caption": "V2: Featured Item"
+          },
+          {
+            "src": "/assets/images/week-17/feed-before.png",
+            "caption": "V1: Item Feed"
+          },
+          {
+            "src": "/assets/images/week-17/feed-after.png",
+            "caption": "V2: Item Feed"
+          },
+          {
+            "src": "/assets/images/week-17/add-item-before.png",
+            "caption": "V1: Add Item"
+          },
+          {
+            "src": "/assets/images/week-17/add-item-after.png",
+            "caption": "V2: Add Item"
+          },
+          {
+            "src": "/assets/images/week-17/feed-list.png",
+            "caption": "V2: Item Feed List View"
+          },
+          {
+            "src": "/assets/images/week-17/item-discussion.png",
+            "caption": "V2: Item Discussion"
+          },
+          {
+            "src": "/assets/images/week-17/item-show-rating.png",
+            "caption": "V2: Item Show User Rating"
+          }
+        ]
       }
     ]
   }

@@ -1,0 +1,23 @@
+{% extends 'layouts/default.html' %}
+{% set headerType = "is--hidden" %}
+
+{% block content %}
+
+    <div class="o-container">
+
+        <div class="c-fullpage" data-js-hook="fullpage">
+
+            {% from 'components/chapter-slide.html' import chapterSlide %}
+
+            {% for chapter in scriptie %}
+
+                {{ chapterSlide(chapter) }}
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+
+{% endblock %}

@@ -108,6 +108,8 @@
 
                     {% if data.pdf|length %}
 
+                        {% for pdf in data.pdf%}
+
                         <div class="u-col-12">
 
                             <div class="item__content-block">
@@ -116,11 +118,13 @@
                                     PDF.
                                 </div>
 
-                                <div class="item__pdf" data-js-hook="pdf-viewer" data-pdf-src="{{ data.pdf }}"></div>
+                                <div class="item__pdf" data-js-hook="pdf-viewer" data-pdf-src="{{ pdf }}"></div>
 
                             </div>
 
                         </div>
+
+                        {% endfor  %}
 
                     {% endif %}
 

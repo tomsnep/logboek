@@ -7,6 +7,10 @@
   background: $color-white;
   box-shadow: 0 0 10px 0 rgba(212,212,212,0.50);
   z-index: 10;
+
+  &.is--hidden {
+    display: none;
+  }
 }
 
   .header__container {

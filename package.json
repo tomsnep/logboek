@@ -6,27 +6,10 @@
   "author": "Tam Tam",
   "contributors": [
     {
-      "name": "Adrian Klingen",
-      "email": "adrian@tamtam.nl"
-    },
-    {
-      "name": "Jeroen Reumkens",
-      "email": "jeroen.reumkens@tamtam.nl"
-    },
-    {
-      "name": "Kees van Lierop",
-      "email": "keesli@tamtam.nl"
-    },
-    {
-      "name": "Daphne Smit",
-      "email": "daphne@tamtam.nl"
+      "name": "Tom Snepvangers",
+      "email": "tomsnepvangers@gmail.com"
     }
   ],
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://bitbucket.org/tamtam-nl/tamtam-frontend-setup"
-  },
   "engines": {
     "node": "7.10",
     "npm": "4.2.0"
@@ -102,5 +85,10 @@
     "webpack": "^3.4.1",
     "slick-carousel": "^1.7.1",
     "pdfobject": "^2.0.2"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.7.1",
+    "pdfobject": "^2.0.2",
+    "fullpage.js": "2.9.5"
   }
 }
