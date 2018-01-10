@@ -1,4 +1,5 @@
 import $ from 'jquery';
+// import 'fullpage.js/vendors/scrolloverflow';
 import 'fullpage.js';
 
 class Fullpage {
@@ -11,8 +12,14 @@ class Fullpage {
     }
 
     initFullpage() {
-        this.$element.fullpage({
 
+        this.$element.fullpage({
+            //Scrolling
+            // scrollOverflow: true,
+
+            //Custom selectors
+            sectionSelector: '.chapter-section',
+            slideSelector: '.chapter-slide'
         })
     }
 

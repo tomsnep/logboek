@@ -1,0 +1,28 @@
+{#{% from 'components/item.html' import item %}#}
+
+{% macro chapterSection(data) %}
+
+    <section class="c-chapter-section" data-anchor="{{ data.chapter }}">
+
+        <h2 class="chapter-section__title">
+            {{ data.chapter }}
+        </h2>
+
+        <div class="chapter-section__text">
+            {{ data.text | safe}}
+        </div>
+
+        {#<div class="chapter-section__slide-container">#}
+
+            {#{% for contentItem in data.items %}#}
+
+                {#{{ item(contentItem) }}#}
+
+            {#{% endfor %}#}
+
+        {#</div>#}
+
+
+    </section>
+
+{% endmacro %}

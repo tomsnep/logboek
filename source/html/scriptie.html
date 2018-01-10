@@ -7,11 +7,11 @@
 
         <div class="c-fullpage" data-js-hook="fullpage">
 
-            {% from 'components/chapter-slide.html' import chapterSlide %}
+            {% from 'components/chapter-section.html' import chapterSection %}
 
             {% for chapter in scriptie %}
 
-                {{ chapterSlide(chapter) }}
+                {{ chapterSection(chapter) }}
 
             {% endfor %}
 

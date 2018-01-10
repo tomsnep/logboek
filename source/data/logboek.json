@@ -986,6 +986,17 @@
             "caption": "V2: Item Show User Rating"
           }
         ]
+      },
+      {
+        "title": "Prototype V2: nog een toevoeging",
+        "date": "6 jan",
+        "text": "Het viel me op dat een aantal mensen aangaven dat zij het tof vinden dat je ook kan disliken. Daaruit blijkt dat de emoji toch niet helemaal tot z'n recht komt. Omdat de emoji alleen niet genoeg is om uit te stralen wat de rating inhoud wordt de emoji ondersteund door text. Hierdoor wordt het duidelijker wat de rating precies inhoud.",
+        "images": [
+          {
+            "src": "/assets/images/week-17/card-show-rating.png",
+            "caption": "V2: Rating button"
+          }
+        ]
       }
     ]
   }
