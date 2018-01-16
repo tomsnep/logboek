@@ -87,8 +87,9 @@
     "pdfobject": "^2.0.2"
   },
   "dependencies": {
-    "slick-carousel": "^1.7.1",
+    "fullpage.js": "2.9.5",
+    "jquery": "^3.2.1",
     "pdfobject": "^2.0.2",
-    "fullpage.js": "2.9.5"
+    "slick-carousel": "^1.7.1"
   }
 }

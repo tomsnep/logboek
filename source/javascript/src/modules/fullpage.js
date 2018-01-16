@@ -1,9 +1,10 @@
 import $ from 'jquery';
-// import 'fullpage.js/vendors/scrolloverflow';
-import 'fullpage.js';
+
+import '../../vendor/scrolloverflow.min.js';
+import 'fullpage.js/dist/jquery.fullpage.extensions.min';
+
 
 class Fullpage {
-
 
     constructor(element) {
         this.$element 		= $( element );
@@ -12,17 +13,24 @@ class Fullpage {
     }
 
     initFullpage() {
-
         this.$element.fullpage({
+
+
             //Scrolling
-            // scrollOverflow: true,
+            scrollOverflow: true,
+            scrollOverflowReset: true,
 
             //Custom selectors
-            sectionSelector: '.chapter-section',
-            slideSelector: '.chapter-slide'
-        })
-    }
+            sectionSelector: '.c-chapter-section',
+            slideSelector: '.chapter-slide',
 
+            // Centering
+            verticalCentered: false
+        });
+
+        // disable mousescrolling
+        $.fn.fullpage.setAllowScrolling(false);
+    }
 }
 
 

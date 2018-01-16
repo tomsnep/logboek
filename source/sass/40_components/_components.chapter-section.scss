@@ -1,0 +1,27 @@
+.c-chapter-section {
+  position: relative;
+  padding: 25px 0;
+
+  &:first-of-type {
+    .chapter-section__content {
+      padding-top: 55px;
+    }
+  }
+}
+
+  .chapter-section__title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: red;
+    z-index: 10000;
+  }
+
+  .chapter-section__content {
+    padding-top: 75px;
+    padding-bottom: 25px;
+  }
+
+  .chapter-section__text {
+    max-width: 50%;
+  }

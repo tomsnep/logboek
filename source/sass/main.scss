@@ -63,7 +63,6 @@
 
 //  Vendor libs
 //      - styles from other sources (bower)
-//[INSERT VENDOR LIBS]
 
 @import '10_generic/generic.normalize';
 @import '10_generic/generic.html';
@@ -81,7 +80,9 @@
 @import '40_components/components.audio';
 @import '40_components/components.header';
 @import '40_components/components.menu';
+@import '40_components/components.chapter-section';
 
 @import '50_scopes/scopes.rich-text';
+@import '50_scopes/scopes.fullpage';
 
 @import '70_utilities/all';

@@ -8,19 +8,31 @@
             {{ data.chapter }}
         </h2>
 
-        <div class="chapter-section__text">
-            {{ data.text | safe}}
+        <div class="chapter-section__content-container">
+
+            <div class="chapter-section__content">
+
+                <div class="chapter-section__text">
+                    {{ data.text | safe}}
+                </div>
+
+            </div>
+
         </div>
 
-        {#<div class="chapter-section__slide-container">#}
+        {#{% if data.subchapters %}#}
 
-            {#{% for contentItem in data.items %}#}
-
-                {#{{ item(contentItem) }}#}
-
-            {#{% endfor %}#}
-
-        {#</div>#}
+            {#<div class="chapter-section__slide-container">#}
+    {##}
+                {#{% for subchapter in data.items %}#}
+    {##}
+                    {#{{ item(contentItem) }}#}
+    {##}
+                {#{% endfor %}#}
+    {##}
+            {#</div>#}
+                {##}
+        {#{% endif %}#}
 
 
     </section>

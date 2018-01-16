@@ -14,7 +14,8 @@
         "sourceType": "module"
     },
     "globals": {
-        "dataLayer": true
+        "dataLayer": true,
+        "jquery": true
     },
     "rules": {
         "no-console": 0

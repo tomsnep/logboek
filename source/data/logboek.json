@@ -925,8 +925,34 @@
       {
         "title": "Prototype testen",
         "date": "3 jan",
-        "text": "Tijdens de afgelopen weken dat het prototype gebruikt wordt zijn veel verbeter punten omhoog gekomen. De gebruikers hebben het 'quick feedback' formulier gebruikt om feedback punten in te schieten. Het uigebreide feedback formulier werd nauwelijks ingevuld (1x). Dit had ik al enigszins verwacht. Ik ben deze week met een aantal collega's gaan zitten om met hen het gesprek aan te gaan over het prototype, met het feedback formulier als handvat. Op deze manier heb ik waardevolle feedback verzameld voor de 2de versie van het prototype. Over elk belangrijk onderdeel van het prototype zijn de 'I Like, I Might, I Wish' vragen gesteld. Omdat Google het helaas onmogelijk heeft gemaakt om de form results te embedden op een externe pagina heb ik een pdf gemaakt van de gegeven antwoorden",
-        "pdf": ["/assets/pdf/week-17/quick-feedback-prototype-v1.pdf", "/assets/pdf/week-17/orienting-expert-reviews-prototype-v1.pdf"]
+        "text": "Tijdens de afgelopen weken dat het prototype gebruikt wordt zijn veel verbeter punten omhoog gekomen. De gebruikers hebben het 'quick feedback' formulier gebruikt om feedback punten in te schieten. Het uigebreide feedback formulier werd nauwelijks ingevuld (1x). Dit had ik al enigszins verwacht. Ik ben deze week met een aantal collega's gaan zitten om met hen het gesprek aan te gaan over het prototype, met het feedback formulier als handvat. Op deze manier heb ik waardevolle feedback verzameld voor de 2de versie van het prototype. Over elk belangrijk onderdeel van het prototype zijn de 'I Like, I Might, I Wish' vragen gesteld. Omdat Google het helaas onmogelijk heeft gemaakt om de form results te embedden op een externe pagina heb ik een pdf gemaakt van de gegeven antwoorden. Op 1 na zijn alle interviews opgenomen, helaas is het interview met Jeroen per ongeluk gestopt na 1.5 minuten :(.",
+        "pdf": ["/assets/pdf/week-17/quick-feedback-prototype-v1.pdf", "/assets/pdf/week-17/orienting-expert-reviews-prototype-v1.pdf"],
+        "audio": [
+          {
+            "title": "Matt",
+            "src": "/assets/audio/week-17/matt.m4a"
+          },
+          {
+            "title": "Arnout",
+            "src": "/assets/audio/week-17/arnout.m4a"
+          },
+          {
+            "title": "Jeroen",
+            "src": "/assets/audio/week-17/jeroen.m4a"
+          },
+          {
+            "title": "Dylan",
+            "src": "/assets/audio/week-17/dylan.m4a"
+          },
+          {
+            "title": "Adrian",
+            "src": "/assets/audio/week-17/adrian.m4a"
+          },
+          {
+            "title": "Daphne",
+            "src": "/assets/audio/week-17/daphne.m4a"
+          }
+        ]
       },
       {
         "title": "Prototype V2",
