@@ -60,8 +60,12 @@
   {
     "anchor": "user-research",
     "chapter": "3. User Research",
-    "text": "<p>Om een product te ontwikkelen wat aansluit op de behoeften van de gebruiker is het essentieel om doelgroep onderzoek te doen in het begin van het traject. Het is belangrijk om de kansen en struikelpunten inzichtelijk te maken. Inspelen op deze inzichten maakt een product waarde- en succesvol.</p>",
     "subchapters": [
+      {
+        "anchor": "intro",
+        "chapter": "Intro",
+        "text": "<p>Om een product te ontwikkelen wat aansluit op de behoeften van de gebruiker is het essentieel om doelgroep onderzoek te doen in het begin van het traject. Het is belangrijk om de kansen en struikelpunten inzichtelijk te maken. Inspelen op deze inzichten maakt een product waarde- en succesvol.</p>"
+      },
       {
         "anchor": "doelgroep",
         "chapter": "3.1 Doelgroep",
@@ -71,6 +75,30 @@
         "anchor": "orienting-expert-reviews",
         "chapter": "3.2 Orienting Expert Reviews",
         "text": "<p>Het begin van het onderzoek is gestart met Orienting Expert Reviews. Door middel van het gesprek aan te gaan met developers is de hypothese dat zij het gevoel van information overload ervaren bevestigd. Vanuit de bevindingen van deze gesprekken zijn de vragen voor een survey uitgezet om meer concrete informatie over het gedrag van de doelgroep te bemachtigen.</p></br></br>De survey en samenvatting van de bevindingen zijn te bekijken in <a href='https://logboek.tomsnepvangers.com' target='_blank'>week 2 van het logboek.</a>"
+      },
+      {
+        "anchor": "survey",
+        "chapter": "3.3 Survey",
+        "text": "<p>Om inzichten te krijgen in de huidige situatie is een survey afgenomen onder de developers. De online enquete is bewust verstuurd naar alle developers (frontend, backend, devops) van TamTam met de gedachte in het achterhoofd dat het product niet per se te specifiek op maat gemaakt moet worden voor &eacute;&eacute;n doelgroep. Daarnaast kunnen inzichten vanuit andere hoeken waardevol zijn.</p><p>De hoofdvraag van de survey luid: </p><p><strong><em>Wat missen developers tijdens het opslaan / delen van vakinhoudelijke content ?</em></strong></p></br><p>In de survey wordt gevraagd naar een aantal factoren gerelateerd aan het delen en opslaan van online content over het vakgebied. Hoe zij dit doen en of zij tevreden zijn met de manier waarop zij dit doen. Daarnaast zijn een aantal vragen voorgeschoteld die inzicht geven in de frequentie, plaats en tijd gerelateerd aan het consumeren van de online content. Deze inzichten zijn waardevol voor de concept fase. </p><p>De survey en samenvatting van de bevindingen zijn te bekijken in <a href='http://logboek.tomsnepvangers.com' target='_blank'>week 4 &amp; 5 van het logboek</a></p>"
+      },
+      {
+        "anchor": "bevindingen",
+        "chapter": "3.4 Bevindingen",
+        "twoColumns": true,
+        "columnOne": "<p>De belangrijkste bevinden vanuit het doelgroep onderzoek zijn hieronder per kopje beschreven.</p><p>&nbsp;</p><p><strong>Information overload</strong></p><p>Het gevoel van information overload wordt ervaren door de doelgroep. Het vakgebied ontwikkeld zich snel, daarnaast is het vakgebied uitgebreid en kan je erg diep in gaan op veel topics. In feite helpen collega&rsquo;s elkaar al bij dit probleem, zij delen relevante online content met elkaar. Hierdoor wordt het voor developers enigszins makkelijker om een keuze te maken in wat zij willen bekijken.</p><p><strong>Content opslaan</strong></p><p>91,7% van de respondenten geeft aan content op te slaan om op een later tijdstip te bekijken. De meest voorkomende manier om deze content op te slaan zijn browser bookmarks. Daarnaast worden notitie diensten zoals Evernote, Google Keep veel gebruikt en Pocket.</p><p>De meningen over de meest gebruikte manier van content opslaan, bookmarks, vat het probleem in notendop samen: Het is fijn dat alles op een centrale plek staat, maar het wordt ontzettend snel onoverzichtelijk.</p><p>Een ander opvallende reactie die meerdere keren terugkomt is het feit dat de huidige manier van opslaan als &lsquo;ok&eacute;&rsquo; wordt ervaren omdat er geen alternatief is. Hieruit valt te concluderen dat er op dit gebied kansen liggen om de gebruikerservaring te verbeteren.</p><p><strong>Content delen</strong></p><p>Hipchat is onder de frontend developers veruit de meest gebruikte tool om content te delen.</p><p>Op de vraag wat zij vinden van deze manier van delen reageren velen met de opmerking dat de content snel verdwijnt in de chat feed.</p><p>Het is opvallend dat Hipchat veel minder (80% vs 36%) wordt genoemd onder de andere developers (backend / devops). De &ldquo;andere&rdquo; developers benoemen voornamelijk Whatsapp, email en face to face gesprekken.</p><p>Onder zowel backend als frontend worden dezelfde problemen ondervonden bij de digitale manieren om content te delen:</p>",
+        "columnTwo": "<p>Methode: <strong>Mail</strong></p><p>Rol: <strong>Backend developer</strong></p><p>&ldquo;<em>its okay i guess, would be nice to have an archive of some sorts with filters&rdquo;</em></p><p>&nbsp;</p><p>Methode: <strong>Hipchat </strong></p><p>Rol: <strong>Frontend developer</strong></p><p><em>&ldquo;It does not work because it is hard to find back articles if you need them again&ldquo;</em></p><p>&nbsp;</p><p>Methode: <strong>Mail&nbsp; / Workspace (Facebook for work)</strong></p><p>Rol: <strong>Backend developer</strong></p><p>&ldquo;<em>Not the best approach as eventually you'll forget about them and won't be able to find them when you need the articles/examples&rdquo;</em></p><p>&nbsp;</p><p>Methode: <strong>Hipchat </strong></p><p>Rol: <strong>Frontend developer</strong></p><p><em>&ldquo;I can't reach everyone. Especially when I share via chat, it disappears in all the other discussions going on in the chat.&rdquo;</em></p><p>&nbsp;</p><p><strong>Frequentie, plaats en tijd</strong></p><p>50% van de frontend developers bekijkt dagelijks online content over het vakgebied. De andere 50% doet dit minstens wekelijks. De plaats en tijdstippen waarop online content wordt genuttigd is voornamelijk willekeurig. Deze willekeurigheid komt voornamelijk voort uit het feit dat veel developers moeten wachten op bepaalde processen tijdens het ontwikkelen van websites.</p>"
+      },
+      {
+        "anchor": "persona",
+        "chapter": "3.5 Persona",
+        "twoColumns": true,
+        "columnOne": "<p>Vanuit de bevindingen van het gedane onderzoek is een persona samengesteld. Er is gekozen voor een persona met de focus op het gedrag: <em>a Behavioral Persona</em> (Bartel, 2016). Deze vorm van een persona is bedoelt voor situaties waarin de doelgroep specifiek en bekend is. In het geval van dit onderzoek is de doelgroep bekend en erg specifiek, Frontend Developer collega&rsquo;s. </p><p>&nbsp;</p><p>Binnen het persona is gekeken naar de twee belangrijkste aspecten van het gedrag in het kader van dit onderzoek: het delen en opslaan van de online content.</p>",
+        "persona": true
+      },
+      {
+        "anchor": "conclusie",
+        "chapter": "3.6 Conclusie",
+        "text": "<p>De doelgroep helpt elkaar een keuze te maken in de beschikbare online content over het vakgebied door stukken te delen met elkaar. Dit gaat het gevoel van information overload tegen doordat er relevante content wordt aangeboden door collega&rsquo;s.</p><p>De tools die hier momenteel voor gebruikt worden voldoen niet geheel aan de behoeftes van de doelgroep. Enerzijds is Hipchat een makkelijke tool om mee te delen. Elke Frontend Developer zit in de Frontend groep chat. Dit is een levendige chatgroep waarin veel wordt gecommuniceerd. Anderzijds is dit een applicatie welke bedoelt is als chat applicatie, niet voor het delen van online content. De links die hierin gedeeld worden verdwijnen snel in de chat feed. Hierdoor missen veel developers de content die gedeeld wordt in de chat groep.</p><p>De manieren waarop de developers (zowel backend als frontend) dit probleem momenteel proberen te tackelen werkt niet effici&euml;nt. Hipchat, e-mails en Whatsapp, overal komt hetzelfde probleem naar boven:</p><p><strong>Het terug vinden van gedeelde content op een later tijdstip is niet tot nauwelijks mogelijk.</strong></p><p>Sommige developers gebruiken bepaalde tools om de gedeelde online content op te slaan. Bij de twee meest voorkomende manieren (bookmarks en notitie apps) wordt het overzicht snel verloren, daarnaast vergt dit elke keer tijd om bij te houden. </p><p>Het is belangrijk om in het achterhoofd te houden dat de doelgroep al veel tools gebruiken. De drempel ligt hoog om nog meer extra tools te moeten gebruiken.</p>"
       }
     ]
   }

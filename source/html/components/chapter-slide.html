@@ -1,4 +1,5 @@
 {% from 'components/image-slider.html' import imageSlider %}
+{% from 'components/persona.html' import persona %}
 
 {% macro chapterSlide(data) %}
 
@@ -41,6 +42,12 @@
                                 <div class="u-col-6">
 
                                     {{ data.columnTwo | safe }}
+
+                                    {% if data.persona %}
+
+                                        {{ persona() }}
+
+                                    {% endif %}
 
                                 </div>
 

@@ -17,6 +17,7 @@ class Fullpage {
 
         this.initFullpage();
         this.bindEvents();
+        this.onKeyDown();
     }
 
     initFullpage() {
@@ -55,9 +56,6 @@ class Fullpage {
                     const next = $loadedSlide.next();
                     const prevText = (prev.length) ? prev.attr('data-chapter') : '';
                     const nextText = (next.length) ? next.attr('data-chapter') : '';
-
-                    console.log(prev);
-                    console.log(next);
 
                     if(prevText){
                         $prevButton.find('span').html(prevText);
@@ -103,9 +101,6 @@ class Fullpage {
                     const prevText = (prev.length) ? prev.attr('data-chapter') : '';
                     const nextText = (next.length) ? next.attr('data-chapter') : '';
 
-                    console.log(prev);
-                    console.log(next);
-
                     if(prevText){
                         $prevButton.find('span').html(prevText);
                         $prevButton.removeClass('is--hidden');
@@ -128,7 +123,6 @@ class Fullpage {
                 const loadedSlide = $(this);
                 const prev = loadedSlide.prev();
                 const next = loadedSlide.next();
-                console.log(loadedSlide);
                 const prevText = (prev.length) ? prev.attr('data-chapter') : '';
                 const nextText = (next.length) ? next.attr('data-chapter') : '';
                 const $prevButton = $('.fullpage__slides-indicator .prev');
@@ -163,6 +157,30 @@ class Fullpage {
         this.$arrowDown.on('click', () =>  $.fn.fullpage.moveSectionDown());
         this.$arrowRight.on('click', () =>  $.fn.fullpage.moveSlideRight());
     }
+    
+    onKeyDown() {
+        const keyCodes = {
+            '37': 'left',
+            '38': 'up',
+            '39': 'right',
+            '40': 'down'
+        }
+
+        $(document).on('keydown', (e) => {
+            const event = window.event ? window.event : e;
+            const keyCodeNr = event.keyCode;
+
+            $(`.fullpage__nav-${keyCodes[keyCodeNr]}`).addClass('is--pressed');
+        })
+
+        $(document).on('keyup', (e) => {
+            const event = window.event ? window.event : e;
+            const keyCodeNr = event.keyCode;
+
+            $(`.fullpage__nav-${keyCodes[keyCodeNr]}`).removeClass('is--pressed');
+        })
+    }
+    
 
     afterRender() {
 
