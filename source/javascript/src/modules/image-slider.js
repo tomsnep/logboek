@@ -18,7 +18,6 @@ class ImageSlider {
 
 	initSlider() {
 
-        console.log('bla');
         this.$imageContainer.slick({
 			prevArrow: this.$prevButton,
             nextArrow: this.$nextButton,

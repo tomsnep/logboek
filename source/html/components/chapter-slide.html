@@ -1,0 +1,71 @@
+{% from 'components/image-slider.html' import imageSlider %}
+
+{% macro chapterSlide(data) %}
+
+    <div class="c-chapter-slide
+            {% if data.background %}{{ data.background }}{% endif %}
+            {% if data.fullwidth %} is--fullwidth {% endif %}
+            {% if data.type %}is--{{ data.type }}{% endif %}"
+            data-anchor="{{ data.anchor }}"
+            data-chapter="{{ data.chapter }}"
+    >
+
+        <div class="chapter-slide__content-container">
+
+            <div class="o-container">
+
+                <div class="o-grid-12">
+
+                    <div class="{% if data.fullwidth or data.twoColumns %} u-col-12 {% else %}u-col-6{% endif %}">
+
+                        <h3 class="chapter-slide__title">
+                            {{ data.chapter }}
+                        </h3>
+
+                        {% if data.text %}
+                            <div class="chapter-slide__text">
+                                {{ data.text | safe }}
+                            </div>
+                        {% endif %}
+
+                        {% if data.twoColumns %}
+
+                            <div class="o-grid-12">
+
+                                <div class="u-col-6">
+
+                                    {{ data.columnOne | safe }}
+
+                                </div>
+
+                                <div class="u-col-6">
+
+                                    {{ data.columnTwo | safe }}
+
+                                </div>
+
+                            </div>
+
+                        {% endif %}
+
+                    </div>
+
+                    {% if data.images %}
+
+                        <div class="u-col-6">
+
+                            {{ imageSlider(data.images) }}
+
+                        </div>
+
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+{% endmacro %}

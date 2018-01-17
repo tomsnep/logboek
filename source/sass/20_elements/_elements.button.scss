@@ -16,3 +16,21 @@ button {
   transition: $button-transition-time $button-transition-ease;
   transition-property: color, background-color;
 }
+
+.button--arrow {
+  padding: 0 !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: $color-grey-light !important;
+  transition: .3s box-shadow ease;
+
+  img {
+    width: 10px;
+    height: 10px;
+  }
+
+  &:hover {
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
+  }
+}

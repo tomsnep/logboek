@@ -4,17 +4,17 @@ ol {
 
 ol, ul {
   list-style: none;
-  margin-bottom: 80px;
+  margin-bottom: 25px;
 }
 
 li {
   position: relative;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 
   &:before {
     content: '';
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     background-color: $color-black;
     border-radius: 100%;
     position: absolute;

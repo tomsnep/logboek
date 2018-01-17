@@ -3,21 +3,69 @@
 
 {% block content %}
 
-    <div class="o-container">
+    <div class="c-fullpage" data-js-hook="fullpage">
 
-        <div class="c-fullpage" data-js-hook="fullpage">
+        <div class="fullpage__header">
 
-            {% from 'components/chapter-section.html' import chapterSection %}
+            <h2 class="fullpage__title">
+            </h2>
 
-            {% for chapter in scriptie %}
-
-                {{ chapterSection(chapter) }}
-
-            {% endfor %}
-
+            <button class="fullpage__header-button" data-js-hook="fp-nav-up">
+                <span></span>
+                <img src="../assets/svg/icons/up-arrow--light.svg" alt="button up">
+            </button>
 
         </div>
 
+        {% from 'components/chapter-section.html' import chapterSection %}
+
+        {% for chapter in scriptie %}
+
+            {{ chapterSection(chapter) }}
+
+        {% endfor %}
+
+    </div>
+
+    <div class="fullpage__navigation-arrows">
+
+        <button class="c-button button--arrow fullpage__nav-slides fullpage__nav-left" data-js-hook="fp-nav-left">
+
+            <img src="../assets/svg/icons/left-arrow.svg" alt="button left">
+
+        </button>
+
+        <button class="c-button button--arrow fullpage__nav-sections fullpage__nav-up" data-js-hook="fp-nav-up">
+
+            <img src="../assets/svg/icons/up-arrow.svg" alt="button up">
+
+        </button>
+
+        <button class="c-button button--arrow fullpage__nav-sections fullpage__nav-down" data-js-hook="fp-nav-down">
+
+            <img src="../assets/svg/icons/down-arrow.svg" alt="button down">
+
+        </button>
+
+        <button class="c-button button--arrow fullpage__nav-slides fullpage__nav-right" data-js-hook="fp-nav-right">
+
+            <img src="../assets/svg/icons/right-arrow.svg" alt="button right">
+
+        </button>
+
+    </div>
+
+    <div class="fullpage__slides-indicator">
+
+        <button class="prev is--hidden" data-js-hook="fp-nav-left">
+            <img src="../assets/svg/icons/left-arrow--light.svg" alt="button left">
+            <span></span>
+        </button>
+
+        <button class="next is--hidden" data-js-hook="fp-nav-right">
+            <span></span>
+            <img src="../assets/svg/icons/right-arrow--light.svg" alt="button left">
+        </button>
     </div>
 
 {% endblock %}

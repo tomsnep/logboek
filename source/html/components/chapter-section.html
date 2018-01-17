@@ -1,38 +1,71 @@
-{#{% from 'components/item.html' import item %}#}
+{% from 'components/chapter-slide.html' import chapterSlide %}
 
 {% macro chapterSection(data) %}
 
-    <section class="c-chapter-section" data-anchor="{{ data.chapter }}">
+    <section class="c-chapter-section
+            {% if data.background %}{{ data.background }}{% endif %}
+            {% if data.fullwidth %} is--fullwidth {% endif %}
+            {% if data.type %}is--{{ data.type }}{% endif %}"
+            data-anchor="{{ data.anchor }}"
+            data-chapter="{{ data.chapter }}">
 
-        <h2 class="chapter-section__title">
-            {{ data.chapter }}
-        </h2>
+        {% if data.text or data.twoColumns %}
 
-        <div class="chapter-section__content-container">
+            <div class="chapter-section__content-container">
 
-            <div class="chapter-section__content">
+                <div class="o-container">
 
-                <div class="chapter-section__text">
-                    {{ data.text | safe}}
+                    <div class="o-grid-12">
+
+                        <div class="{% if data.fullwidth or data.twoColumns %} u-col-12 {% else %}u-col-6{% endif %}">
+
+                            {% if data.text %}
+
+                                <div class="chapter-section__text">
+                                    {{ data.text | safe }}
+                                </div>
+
+                            {% endif %}
+
+                            {% if data.twoColumns %}
+
+                                <div class="o-grid-12">
+
+                                    <div class="u-col-6">
+
+                                        {{ data.columnOne | safe }}
+
+                                    </div>
+
+                                    <div class="u-col-6">
+
+                                        {{ data.columnTwo | safe }}
+
+                                    </div>
+
+                                </div>
+
+                            {% endif %}
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
 
-        </div>
+        {% endif %}
 
-        {#{% if data.subchapters %}#}
+        {% if data.subchapters %}
 
-            {#<div class="chapter-section__slide-container">#}
-    {##}
-                {#{% for subchapter in data.items %}#}
-    {##}
-                    {#{{ item(contentItem) }}#}
-    {##}
-                {#{% endfor %}#}
-    {##}
-            {#</div>#}
-                {##}
-        {#{% endif %}#}
+            {% for subchapter in data.subchapters %}
+
+                {{ chapterSlide(subchapter) }}
+
+            {% endfor %}
+
+        {% endif %}
 
 
     </section>

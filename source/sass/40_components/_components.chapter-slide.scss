@@ -1,0 +1,38 @@
+.c-chapter-slide {
+
+  &.is--color-primary {
+    background: $color-primary;
+  }
+}
+
+  .chapter-slide__content-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .chapter-slide__title {
+    margin-bottom: 25px;
+
+    .is--color-primary & {
+      color: $color-white;
+    }
+  }
+
+  .chapter-slide__text {
+    padding-bottom: 25px;
+
+    .is--color-primary & {
+      color: $color-white;
+    }
+
+    .is--designchallenge &{
+      margin-top: 50px;
+
+      p {
+        text-align: center;
+        font-size: $font-size-h2;
+        font-family: $font-stack-secondary;
+        font-weight: $font-weight-bold;
+      }
+    }
+  }

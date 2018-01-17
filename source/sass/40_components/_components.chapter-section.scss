@@ -1,27 +1,16 @@
 .c-chapter-section {
   position: relative;
-  padding: 25px 0;
 
-  &:first-of-type {
-    .chapter-section__content {
-      padding-top: 55px;
-    }
+  &.is--fullwidth {
+    padding-bottom: 0;
   }
 }
 
-  .chapter-section__title {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: red;
-    z-index: 10000;
-  }
-
-  .chapter-section__content {
-    padding-top: 75px;
+  .chapter-section__content-container {
+    padding-top: 25px;
     padding-bottom: 25px;
   }
 
   .chapter-section__text {
-    max-width: 50%;
+    padding-bottom: 25px;
   }

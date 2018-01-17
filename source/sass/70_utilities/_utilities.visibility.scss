@@ -47,3 +47,7 @@
 .u-sr-only {
   @include sr-only;
 }
+
+.is--hidden {
+  opacity: 0;
+}

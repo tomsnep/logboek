@@ -49,3 +49,17 @@
     max-width: 720px;
     word-break: break-word;
   }
+
+  .item__list {
+    margin-bottom: 80px;
+  }
+
+  .item__list-item {
+    margin-bottom: 35px;
+
+
+    &:before {
+      width: 14px;
+      height: 14px;
+    }
+  }

@@ -1,5 +1,5 @@
 @mixin h1 {
-
+    font-family: $font-stack-secondary;
     color: $color-black;
     line-height: $font-line-height-h1;
     font-weight: $font-weight-black;
@@ -8,31 +8,32 @@
 }
 
 @mixin h2 {
-
+    font-family: $font-stack-secondary;
     color: $color-black;
     line-height: $font-line-height-h2;
     font-weight: $font-weight-bold;
     @include fluid-type($font-size-h2, $font-size-h2/1.5);
-
 }
 
 @mixin h3 {
-
-    color: $color-black;
+    margin-bottom: 10px;
+    font-family: $font-stack-secondary;
+    color: $color-grey;
     line-height: $font-line-height-h3;
     @include fluid-type($font-size-h3, $font-size-h3/1.2);
 
 }
 
 @mixin h4 {
-
+    margin-bottom: 10px;
+    font-family: $font-stack-secondary;
     font-size: $font-size-h4;
     line-height: $font-line-height-h4;
 
 }
 
 @mixin h5 {
-
+    font-family: $font-stack-secondary;
     color: $color-primary;
     font-size: $font-size-h5;
     line-height: $font-line-height-h5;
@@ -40,7 +41,7 @@
 }
 
 @mixin h6 {
-
+    font-family: $font-stack-secondary;
     color: $color-primary;
     font-size: $font-size-h6;
     line-height: $font-line-height-h6;
