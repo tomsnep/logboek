@@ -409,7 +409,7 @@
       {
         "anchor": "realtime",
         "chapter": "7.5 Realtime",
-        "text": "<p>Alle interactie binnen het platform gebeurt realtime. Dit houdt in dat gebruikers elkaars acties live op het beeldscherm zien. Wanneer gebruiker A een item beoordeelt, ziet gebruiker B dit live gebeuren. De combinatie tussen React, Redux en Firebase maakt dit mogelijk. </p>2<p>Deze feature biedt mogelijkheden voor in de toekomst. Features die live communicatie vereisen kunnen in een later stadium gemakkelijk worden toegevoegd.</p>",
+        "text": "<p>Alle interactie binnen het platform gebeurt realtime. Dit houdt in dat gebruikers elkaars acties live op het beeldscherm zien. Wanneer gebruiker A een item beoordeelt, ziet gebruiker B dit live gebeuren. De combinatie tussen React, Redux en Firebase maakt dit mogelijk. </p><p>Deze feature biedt mogelijkheden voor in de toekomst. Features die live communicatie vereisen kunnen in een later stadium gemakkelijk worden toegevoegd.</p>",
         "images": [
           {
             "src": "../assets/images/scriptie/react-firebase.png"
