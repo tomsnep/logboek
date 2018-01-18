@@ -5,6 +5,7 @@ ol {
 ol, ul {
   list-style: none;
   margin-bottom: 15px;
+  margin-left: 25px;
 }
 
 li {
@@ -19,7 +20,6 @@ li {
     border-radius: 100%;
     position: absolute;
     left: -25px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 8px;
   }
 }

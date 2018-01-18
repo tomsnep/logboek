@@ -23,6 +23,9 @@ gulp.task( 'watch', [ 'js-watch' ], function ( callback ) {
     watch( config.source.getFileGlobs( 'images' ),
         function ( events, done ) { gulp.start( 'images' ); } );
 
+    watch( config.source.getFileGlobs( 'video' ),
+        function ( events, done ) { gulp.start( 'copy' ); } );
+
     watch( config.source.getFileGlobs( 'svg' ),
         function ( events, done ) { gulp.start( 'svg' ); } );
 

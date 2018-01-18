@@ -64,5 +64,7 @@
       height: 14px;
       left: -35px;
       background-color: $color-black;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }

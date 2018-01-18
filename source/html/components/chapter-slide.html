@@ -1,6 +1,7 @@
 {% from 'components/image-slider.html' import imageSlider %}
 {% from 'components/persona.html' import persona %}
 {% from 'components/comparison-chart.html' import comparisonChart %}
+{% from 'components/comparison-image.html' import comparisonImages %}
 
 {% macro chapterSlide(data) %}
 
@@ -59,6 +60,25 @@
                                             {{ imageSlider(data.images) }}
 
                                         {% endif %}
+
+                                        {% if data.comparisonImages and not data.comparisonImagesFullWidth %}
+
+                                            {% for comparisonImage in data.comparisonImages %}
+
+                                                {{ comparisonImages(comparisonImage) }}
+
+                                            {% endfor %}
+
+                                        {% endif %}
+
+                                        {% if data.video and not data.videoFullWidth %}
+
+                                            <video src="{{ data.video.src }}" loop data-autoplay muted>
+                                            </video>
+
+                                            <p class="video-caption">{{ data.video.caption }}</p>
+
+                                        {% endif %}
                                     </div>
 
                                 </div>
@@ -69,11 +89,38 @@
 
                     </div>
 
-                    {% if data.images and not data.columnOne and not data.imagesFullWidth %}
+                    {% if data.video and not data.columnOne and not data.videoFullWidth %}
+
+                        <div class="u-col-6">
+
+                            <video src="{{ data.video.src }}" loop data-autoplay muted>
+                            </video>
+
+                            <p class="video-caption">{{ data.video.caption }}</p>
+
+                        </div>
+
+                    {% endif %}
+
+                    {% if data.images and not data.columnOne and not data.videoFullWidth %}
 
                         <div class="u-col-6">
 
                             {{ imageSlider(data.images) }}
+
+                        </div>
+
+                    {% endif %}
+
+                    {% if data.comparisonImages and not data.columnOne and not data.comparisonImagesFullWidth %}
+
+                        <div class="u-col-6">
+
+                            {% for comparisonImage in data.comparisonImages %}
+
+                                {{ comparisonImages(comparisonImage) }}
+
+                            {% endfor %}
 
                         </div>
 
@@ -89,6 +136,35 @@
 
                             </div>
 
+                        </div>
+
+                    {% endif %}
+
+                    {% if data.video and data.videoFullWidth %}
+
+                        <div class="u-col-12">
+
+                            <div class="chapter-slide__text">
+
+                                <video src="{{ data.video.src }}" loop data-autoplay muted>
+                                </video>
+
+                                <p class="video-caption">{{ data.video.caption }}</p>
+
+                            </div>
+
+                        </div>
+
+                    {% endif %}
+
+                    {% if data.comparisonImages and data.comparisonImagesFullWidth %}
+
+                        <div class="u-col-12">
+                            {% for comparisonImage in data.comparisonImages %}
+
+                                {{ comparisonImages(comparisonImage) }}
+
+                            {% endfor %}
                         </div>
 
                     {% endif %}

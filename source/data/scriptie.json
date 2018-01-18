@@ -342,7 +342,177 @@
             "caption": "Figuur 16. Browser extensie beoordeel popup in context"
           }
         ]
+      },
+      {
+        "anchor": "business-model-canvas",
+        "chapter": "6.5 Business Model Canvas",
+        "columnOne": "<p>Het Business Model Canvas is een tool om visueel in kaart te brengen wat de belangrijkste element zijn en hun relatie tot elkaar. Het ingevulde canvas geeft een duidelijke samenvatting van het concept vanuit een business perspectief.</p><p>Het business model canvas bestaat uit negen verschillende gebieden:</p>",
+        "columnTwo": "<ul><li><strong>Key Partners:</strong> De partijen waar je een relatie mee aangaat om het product draaiende te houden.</li><li><strong>Key Activities: </strong>De belangrijkste activiteiten die ondernomen moeten worden om de Value Propositions waar te maken en de Customer Relationships staande te houden.</li><li><strong>Key Resources: </strong>De benodigde middelen om waarde te cre&euml;ren voor de gebruikers.</li><li><strong>Value Propositions: </strong>De services die het product heeft te bieden. De unieke waarde die het product cre&euml;ert voor de gebruiker. Het gene wat het product anders maakt dan andere producten.</li><li><strong>Customer Segments: </strong>Groepen gebruikers die het product zullen gebruiken.</li><li><strong>Channels: </strong>De middelen waarmee de gebruikers worden bereikt om het product te leveren.</li><li><strong>Cost Structure: </strong>De belangrijkste kosten voor de business.</li><li><strong>Revenue streams: </strong>de belangrijkste inkomsten bronnen. Zoals normaal wel het geval is kunnen in dit geval hier lastig cijfers aan gehangen worden.</li></ul>",
+        "imagesFullWidth": true,
+        "images": [
+          {
+            "src": "../assets/images/scriptie/business-model-canvas.jpg",
+            "caption": "Figuur 17. Business Model Canvas"
+          }
+        ]
       }
     ]
+  },
+  {
+    "anchor": "prototype-v1",
+    "chapter": "7. Prototype V1",
+    "subchapters": [
+      {
+        "anchor": "introduction",
+        "chapter": "Introduction",
+        "columnOne": "<p>Van het ecosysteem is de user interface in de vorm van een webapplicatie uitgewerkt. Vanaf het begin van het traject was een van de belangrijkste doelen om een werkbaar prototype neer te zetten wat volledig zonder enige vorm supervisie door de gebruikers getest kan worden. </p><p>In dit hoofdstuk worden de onderdelen van de eerste versie van het prototype beschreven.</p><p>In de eerste versie van het prototype is alleen de interface voor de artikelen die binnen de groep gedeeld zijn uitgewerkt. De sectie met de persoonlijk opgeslagen artikelen zal in een later stadium uitgewerkt worden.</p>",
+        "columnTwo": "<p>Doordat de focus binnen het project op het concept en de techniek ligt is er minder onderzoek gedaan naar de vormgeving. Deze is zo simpel mogelijk gehouden. Vanwege de uitdaging in de techniek is het design alleen geoptimaliseerd voor laptop / desktop scherm formaten.</p><p>De eerste versie van het prototype is te bekijken op:</p><p><a href='http://prototype-v1.tomsnepvangers.com' target='_blank'>http://prototype-v1.tomsnepvangers.com</a></p>"
+      },
+      {
+        "anchor": "featured-item",
+        "chapter": "7.1 Featured Item",
+        "text": "<p>Het item dat de meeste positieve beoordeling heeft ontvangen wordt het featured item van de week. De gebruiker ziet dit item als eerste wanneer de webapplicatie wordt geopend. De gebruiker krijgt hierdoor meteen een suggestie voorgeschoteld. Dit verminderd de keuze stress en het gevoel van information overload.</p>",
+        "images": [
+          {
+            "src": "../assets/images/scriptie/featured-item-v1-2.png",
+            "caption": "Figuur 18. Prototype V1: Featured item"
+          }
+        ]
+      },
+      {
+        "anchor": "add-item-formulier",
+        "chapter": "7.2 Add Item formulier",
+        "text": "<p>Het is binnen de tijdsperiode van het project niet haalbaar om de automatisering van het toevoegen van artikelen te realiseren. Gebruikers kunnen via het &ldquo;Add item&rdquo; formulier een item toevoegen. Hierbij kan de gebruiker categorie&euml;n en tags kiezen of toevoegen. Daarnaast is het vereist om een beoordeling te geven. Wanneer de gebruiker het item toevoegt wordt op de achtergrond de metadata van de url opgehaald. Dit zijn de afbeelding, de titel en de beschrijving van de desbetreffende pagina.</p>",
+        "video": {
+          "src": "../assets/video/add-item-form.mov",
+          "caption": "Figuur 19. Prototype V1: Add item formulier"
+        }
+      },
+      {
+        "anchor": "categorieen-en-tags",
+        "chapter": "7.3 Categorieën en tags",
+        "text": "<p>De getoonde items zijn filterbaar door middel van categorie&euml;n en tags binnen de categorie&euml;n. Na het selecteren van een categorie worden de tags binnen de categorie zichtbaar onder de buttons van de categorie&euml;n.</p>",
+        "video": {
+          "src": "../assets/video/category-and-tags.mov",
+          "caption": "Figuur 20. Prototype V1: Categorieën en tags"
+        }
+      },
+      {
+        "anchor": "item",
+        "chapter": "7.4 Item",
+        "text": "<p>Een item wordt weergegeven door middel van een card. Een item bevat geautomatiseerde meta data (titel, afbeelding, beschrijving, toegevoegd door) en user input data (categorie&euml;n, tags, beoordeling). De beoordeling met het hoogste aantal wordt rechtsboven de card getoond. Hierdoor valt deze op en is het voor de gebruiker makkelijker hierop te filteren.</p>",
+        "video": {
+          "src": "../assets/video/item-card.mov",
+          "caption": "Figuur 21. Prototype V1: Item card"
+        }
+      },
+      {
+        "anchor": "realtime",
+        "chapter": "7.5 Realtime",
+        "text": "<p>Alle interactie binnen het platform gebeurt realtime. Dit houdt in dat gebruikers elkaars acties live op het beeldscherm zien. Wanneer gebruiker A een item beoordeelt, ziet gebruiker B dit live gebeuren. De combinatie tussen React, Redux en Firebase maakt dit mogelijk. </p>2<p>Deze feature biedt mogelijkheden voor in de toekomst. Features die live communicatie vereisen kunnen in een later stadium gemakkelijk worden toegevoegd.</p>",
+        "images": [
+          {
+            "src": "../assets/images/scriptie/react-firebase.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anchor": "prototype-v2",
+    "chapter": "Prototype V2",
+    "subchapters": [
+      {
+        "anchor": "introductie",
+        "chapter": "Introductie",
+        "columnOne": "<p> Gedurende twee weken is de eerste versie van het prototype getest. Om de gebruikers de mogelijkheid te geven snel feedback achter te laten zijn er twee knoppen in het prototype verwerkt. Een voor snelle feedback en een voor uitgebreidere feedback. </p><p>Via de &ldquo;Quick feedback&rdquo; optie kunnen gebruikers snelle losse opmerkingen plaatsen over bijvoorbeeld de User Experience.</p><p>De normale feedback button leidt naar een uitgebreider feedback formulier welke is opgezet met de &ldquo;I Like, I Wish, What If&rdquo;. Deze methode geeft testpersonen de mogelijkheid op een positieve manier constructieve feedback achter te laten. De vraagstelling zorgt ervoor dat de feedback op een positieve manier gebracht wordt en de drempel om negatieve feedback te geven wordt verlaagt. </p><p>De drie vragen worden voor het featured item, de item feed en categorie&euml;n &amp; tagging functionaliteit en beoordelingssysteem gesteld om per onderdeel feedback te vergaren.</p>",
+        "columnTwo": "<p><strong>I Like</strong></p><p>Deze vraag moedigt de gebruiker aan om aspecten die hij of zij leuk vindt aan het prototype te benoemen. Dit zorgt voor positieve feedback.</p><p><strong>I Wish</strong></p><p>Gebruikers worden gevraagd idee&euml;n te delen over hoe het prototype gewijzigd of verbeterd kan worden. Dit is een manier om negatieve feedback en opbouwende kritiek te verzamelen.</p><p><strong>What if</strong></p><p>Door middel van deze vraag kunnen gebruikers nieuwe suggesties opperen die nog niet aanwezig zijn of een directe link hebben met het prototype. Dit opent mogelijkheden voor nieuwe idee&euml;n welke kunnen worden onderzoek voor mogelijke iteraties. </p>"
+      },
+      {
+        "anchors": "resultaten-en-iteraties",
+        "chapter": "8.1 Resultaten & iteraties",
+        "columnOne": "<p>Met een aantal frontend developers zijn Expert Reviews gehouden. Omdat de developers niet uit zichzelf het uitgebreide feedback formulier invulden is in de vorm van een gesprek het formulier besproken en ingevuld.</p><p>De doelgroep zijn experts op het gebied van websites en webapplicaties. De expert reviews hebben waardevolle inzichten gebracht over positieve kanten en verbeterpunten. Daarnaast zijn via het Quick Feedback formulier bugs en user experience gerelateerde verbeterpunten verzameld. </p><p>Vanuit deze resultaten is het prototype aangepast en verbeterd. Per onderdeel wordt een samenvatting van de bevindingen beschreven met afbeeldingen van de tweede versie van het prototype.</p>",
+        "columnTwo": "<p>Er moet hierbij vermeld worden dat er meer waardevolle feedback is gegeven dan hieronder wordt vermeld. Echter moest er een keuze worden gemaakt in wat technisch realiseerbaar was in de resterende tijd. De haalbare punten zijn verwerkt en hieronder beschreven. De over gebleven feedback punten worden meegenomen in de aanbevelingen.</p><p>Een volledige uittreksel van de feedback punten is te bekijken in <a href='http://logboek.tomsnepvangers.com' target='_blank'>week 17 van het logboek</a>. </p><p>De tweede versie van het prototype is te bekijken op <a href='http://prototype.tomsnepvangers.com' target='_blank'>http://prototype.tomsnepvangers.com</a></p>"
+      },
+      {
+        "anchor": "featured-item",
+        "chapter": "8.1.1 Featured Item",
+        "text": "<p>Het Featured Item wordt beschouwd als een waardevolle toevoeging binnen de webapplicatie. In een oogopslag kunnen zien wat de meest beoordeelde items zijn zorgt ervoor dat er direct een waardevolle suggestie wordt gedaan.</p><p>Vanuit de feedback blijkt dat er behoefte is aan discussie. Meerdere respondenten geven aan hun mening te willen geven op items door middel van een comment systeem. Daarnaast wordt geopperd om ook voor de andere beoordelingscategorie (Food For Thought) een featured item te tonen. </p><p>Deze bovengenoemde punten zijn verwerkt in de tweede versie van het prototype.</p><p>De featured Item sectie bevat nu de hoogst beoordeelde items van beide beoordelingscategorie&euml;n. Daarnaast kan de gebruiker (live) discussi&euml;ren over een item door op het item te klikken en de modal (popup) te openen met de discussie chat.</p>",
+        "images": [
+          {
+            "src": "../assets/images/scriptie/item-discussion.png",
+            "caption": "Figuur 22. Prototype V2: Item Popup met discussie chat"
+          }
+        ],
+        "comparisonImagesFullWidth": true,
+        "comparisonImages": [
+          {
+            "width": "1031",
+            "height": "525",
+            "imageOne": "../assets/images/scriptie/comparison-featured-item-old.png",
+            "imageTwo": "../assets/images/scriptie/comparison-featured-item-new.png",
+            "caption": "Figuur 23. Prototype Vergelijking V1/V2: Featured Items"
+          }
+        ]
+      },
+      {
+        "anchor": "item-list-category-tagging",
+        "chapter": "8.1.2 Item List, categorieën, tagging",
+        "text": "<p>De item cards worden als fijn ervaren doordat de combinatie van een afbeelding, categorie&euml;n &amp; tags, titel, beschrijving en beoordeling een duidelijke indrukt geeft wat de inhoud van een item is. De respondenten geven aan dat zij door middel van de tags en categorie&euml;n (zowel filter mogelijkheden als visuele weergave op een item card) kunnen zien welke items content bevat die hen interesseert.</p><p>Een opmerking die veel voorkam in zowel de interviews als de Quick Feedback lijst is de vraag naar een lijst weergave van de Item List. Om snel door alle items heen te scannen is een lijst weergave geschikter dan een grid weergave. Daarnaast werd aangegeven dat de user interface in het algemeen wat groot is.</p><p>De tweede versie van het prototype bevat de mogelijkheid om te wisselen tussen een lijst en grid weergave. De item cards en categorie en tag filters zijn kleiner gemaakt. Daarnaast is de volgorde van de items gesorteerd op de meest aantal beoordelingen (onafhankelijk van welke soort beoordeling). Dit was oorspronkelijk al de bedoeling maar nog niet technisch uitgewerkt. Nadat dit punt zowel in de Quick Feedback als Expert Reviews is terug gekomen is besloten hier toch meer aandacht aan te besteden om dit te realiseren.</p>",
+        "images": [
+          {
+            "src": "../assets/images/scriptie/feed-list.png",
+            "caption": "Figuur 24. Prototype V2: Lijst weergave"
+          }
+        ],
+        "comparisonImagesFullWidth": true,
+        "comparisonImages": [
+          {
+            "width": "1031",
+            "height": "525",
+            "imageOne": "../assets/images/scriptie/item-list-comparison-1.png",
+            "imageTwo": "../assets/images/scriptie/item-list-comparison-2.png",
+            "caption": "Figuur 25. Prototype Vergelijking V1/V2: Grid weergave"
+          }
+        ]
+      },
+      {
+        "anchor": "emoji-rating-systeem",
+        "chapter": "8.1.3 Emoji rating systeem",
+        "text": "<p>Het rating systeem is simpel en doeltreffend. De doelgroep ervaart het gebruik ervan als laagdrempelig en effectief. Door de ratings wordt het kiezen van een item als gemakkelijker ervaren. Het feit dat er niet meer dan twee opties zijn zorgt ervoor dat het overzichtelijk blijft. </p><p>Gebruikers geven aan dat zij willen zien wie de beoordelingen hebben achter gelaten. Hierdoor is het mogelijk om te zien wie het artikel heeft gelezen en kan de discussie over het item aangegaan worden. Ook hier kwam de behoefte aan discussie naar boven. Ook viel op dat de discutabele beoordeling (Food For Thought) wordt geassocieerd met een negatieve rating. De emoji op zich zelf brengt de boodschap van de beoordeling niet bij iedereen goed over.</p><p>In de tweede versie van het prototype is het mogelijk voor gebruikers om te zien welke gebruikers de beoordelingen hebben gegeven. Om de bedoeling van de beoordelingen duidelijker te maken is de text van de beoordeling zichtbaar wanneer deze beoordeling geselecteerd is.</p>",
+        "video": {
+         "src": "../assets/video/item-card-v2.mov",
+          "caption": "Figuur 26. Prototype V2: Zie beoordeling"
+        },
+        "comparisonImagesFullWidth": true,
+        "comparisonImages": [
+          {
+            "width": "800",
+            "height": "737",
+            "imageOne": "../assets/images/scriptie/item-card-comparison-1.png",
+            "imageTwo": "../assets/images/scriptie/item-card-comparison-2.png",
+            "caption": "Figuur 27. Prototype Vergelijking V1/V2: Item Card"
+          }
+        ]
+      },
+      {
+        "anchor": "conclusie",
+        "chapter": "8.2 Conclusie",
+        "columnOne": "<p>Het laten testen van het prototype en interviewen van de doelgroep heeft waardevolle inzichten opgeleverd. De doelgroep is erg kritisch, dit is immers hun vak.</p><p>Aangezien het prototype een werkend product is moest er een keuze worden gemaakt op de haalbaarheid van de technische realisatie tussen de feedback punten in de resterende tijd. Dit is een nadeel van een technisch werkend prototype, de drempel om features toe te voegen en zaken aan te passen ligt hoger dan bij bijvoorbeeld een paper prototype. Echter zorgt deze manier ervoor dat er iteratief kan worden ontwikkeld. Dit is de gebruikelijke manier van werken binnen TamTam. Daarnaast kan door middel van een technisch werkend prototype de echte interactie en het gebruik van het product worden getest.</p>",
+        "columnTwo": "<p>De tweede versie van het prototype bevat de twee meest voorkomende features die genoemd werden in zowel de Quick Feedback als de Expert Reviews: de lijstweergave en discussie chat.</p><p>De lijstweergave biedt de mogelijkheid om sneller door de items heen te scannen. Daarnaast zorgt de discussie chat ervoor dat er meer interactie op het platform plaats kan vinden en het samen leren aspect wordt verhoogd.</p><p>Gedurende het gebruik van het platform in de toekomst is het de bedoeling dat het iteratieve proces continueert en de overige feedback punten worden verwerkt.</p>"
+      }
+    ]
+  },
+  {
+    "anchor": "conclusie",
+    "chapter": "9. Conclusie",
+    "columnOne": "<p>In de conclusie wordt antwoord gegeven op de design challenge die aan het begin van het project is vastgesteld:</p><p>&ldquo;Hoe kan een centraal platform ervoor zorgen dat de frontend developers van TamTam elkaar up to date houden en vakinhoudelijke content met elkaar kunnen delen zodat zij niet verdrinken in de overload aan beschikbare online content over het vakgebied&rdquo;</p><p>De oorspronkelijk bedachte oplossing, een platform, is uiteindelijk een onderdeel geworden van het concept: het online ecosysteem gevuld met user curated content.</p><p>In het online ecosysteem staat de API en de database centraal. Op de API zijn &lsquo;Suppliers&rsquo; en &lsquo;Distributers&rsquo; aangesloten. Suppliers (Slack, Hipchat) zijn services die content aan de database toevoegen, Distiributors zijn de kanalen (webapp, nativeapp, browserextensie) waarop de opgeslagen content wordt weergegeven. </p><p>Flexibiliteit is de hoeksteun van het concept. Vanaf het begin van het traject is rekening gehouden met het feit dat het concept een uitkomst kan bieden voor meerdere doelgroepen. Een groep professionals kan de gewenste services aansluiten op het ecosysteem en vervolgens de gewenste kanalen in gebruik nemen.</p><p>Het uitgewerkte onderdeel van het concept, de webapplicatie, is gemaakt met React, Redux en Firebase. Beide technieken ondersteunen zowel native als web applicaties. Dit gegeven maakt het een uitstekende combinatie om te gebruiken voor cross platform development (schaalbaarheid). Daarnaast zorgt de combinatie tussen deze twee technieken ervoor dat alle data op het platform realtime wordt ge&uuml;pdatet in de user interface.</p><p>Het prototype van de webapplicatie bevat een verzameling van alle gedeelde content.</p><p>Om de gebruiker direct twee suggesties te geven worden de twee hoogst beoordeelde items van de week per beoordelingscategorie, &ldquo;This Item Rocks&rdquo; &amp; &ldquo;Food For Thought&rdquo; bovenaan de applicatie getoond, de &ldquo;Featured Items&rdquo; . Onder de featured items staat de feed met alle gedeelde artikelen. Binnen deze lijst kunnen gebruikers filteren op categorie&euml;n en tags.</p>",
+    "columnTwo": "<p>Een stuk gedeelde online content (een item) bevat een aantal stukken informatie, zowel automatisch gegenereerd als ingevoerd door de gebruiker. De gebruiker voegt zelf een categorie, tags en een beoordeling toe. De afbeelding, titel, beschrijving en uploader van het item worden automatisch opgehaald door middel van een aparte API. Daarnaast kunnen gebruikers een (live) discussie voeren en een beoordeling achterlaten op alle gedeelde items. </p><p>Het beoordelingssysteem zorgt voor een extra dimensie binnen het platform. Gebruikers kunnen het gevoel wat zij bij een artikel hebben uiten door middel van twee simpele opties: &ldquo;This Item Rocks&rdquo; &amp; &ldquo;Food For Thought&rdquo;. Beide categorie&euml;n hebben hun eigen emoji. Deze vorm van beoordelen wordt door de gebruikers ervaren al simpel en doeltreffend. Het biedt een extra manier om relevantie binnen de opgeslagen content te filteren. </p><p>De gebruikers worden gestimuleerd om content op het platform te delen en beoordelen. Volgens het Fogg Behaviour Model zijn er drie benodigde factoren: motivatie, triggers en ability. De verhoudingen tussen deze drie factoren moeten in balans zijn om de gebruiker een bepaalde handeling te laten verrichten. De combinatie van de flexibiliteit van het ecosysteem, de triggers via de browser extensie &amp; chat applicatie bots, plus de al aanwezige motivatie van de gebruikers om online content te delen en collega&rsquo;s te helpen zorgen ervoor dat online content gedeeld en beoordeeld wordt. </p><p>Antwoord gevend op de hoofdvraag: de Frontend Developers van TamTam houden elkaar up to date door online content over het vakgebied te delen en te beoordelen. Het information overload gevoel wordt enigszins getackeld door de featured items en het beoordelingssysteem. De user interface is echter nog niet volledig bestand tegen grote hoeveelheden content. In de toekomst zal de user interface van de webapplicatie moeten worden blijven getest en door ontwikkeld. Desondanks voldoet het product aan de oplossing van het probleem waar het mee begon: een digitale centrale plek faciliteren voor alle gedeelde online content over het vakgebied.</p>"
+  },
+  {
+    "anchor": "aanbevelingen",
+    "chapter": "10. Aanbevelingen",
+    "columnOne": "<p>Gedurende het project was al vrij snel duidelijk dat maar een klein deel van het concept kon worden uitgewerkt. Tijdens het traject zijn er allerlei idee&euml;n naar boven gekomen om het concept nog beter te maken. In dit hoofdstuk worden de toevoegingen die niet tot nauwelijks aan bod zijn gekomen in het document of naar zijn gerefereerd.</p>",
+    "columnTwo": "<p><strong>Artificial intellegence </strong></p><p>De automatisering van het ecosysteem kan door middel van AI naar een hoger niveau worden gebracht. Categorie&euml;n en tags kunnen direct als suggesties worden ingevuld wanneer de gebruiker een item toevoegt. Daarnaast kan aan de hand van gebruikers data personalisatie van het platform worden toegepast. Denk hierbij aan push notificaties van voorgestelde items op bepaalde tijdstippen en plaatsen waarop een gebruiker frequent items bekijkt.</p><p><strong>Andere vormen van Suppliers</strong></p><p>Binnen de context van dit project is gekeken naar een tweetal soort Suppliers: chat app bots en de browserextensie. Tijdens het traject zijn er tal van andere soorten Suppliers omhoog gekomen die kunnen worden gebruikt om content toe te voegen. Denk hierbij aan integratie met nieuwsbrieven, blogposts etc.</p><p><strong>Layout</strong></p><p>Vanuit de quick feedback kwam naar voren dat sommige gebruikers hun layout willen aanpassen. De mogelijkheid om te kiezen tussen een aantal layouts zou een waardevolle toevoeging zijn voor de user interface.</p><p><strong>Leestijd van items</strong></p><p>De mogelijkheid om leestijd van artikelen te tonen zou een goede toevoeging zijn op het concept. De leestijd zou een extra relevantie indicator kunnen zijn. Hierdoor kan het aanbod nog specifieker worden afgestemd op de behoeften van de gebruiker. Technisch gezien was dit binnen het tijdsbestek niet makkelijk uitvoerbaar. Hier zal nader onderzoek naar gedaan moeten worden.</p><p><strong>Automatisch archiveren van items</strong></p><p>Om de information overload binnen het platform tegen te gaan zou het automatisch archiveren van items een waardevolle toevoeging kunnen zijn. Gebruikers zouden bijvoorbeeld zelf kunnen instellen na hoeveel dagen bepaalde items naar het archief overgezet moeten worden.</p><p><strong>Zoekbalk</strong></p><p>Een van de suggesties die naar boven kwam in het testen van het prototype was het vervangen van de categorie en tags filter lijst voor een zoekbalk waarin gezocht kan worden naar de tags en categorie&euml;n. Hierdoor zou het ruimte probleem wat ontstaat bij teveel tags en categorie&euml;n worden opgelost. De functie van de tags en categorie&euml;n veranderd echter wel, dit zou goed moeten worden getest alvorens de wijziging wordt doorgevoerd.</p>"
   }
 ]

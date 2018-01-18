@@ -38,6 +38,7 @@ class Fullpage {
             //navigation
             slidesNavigation: false,
 
+            lazyLoading: true,
 
             // Design
             verticalCentered: false,

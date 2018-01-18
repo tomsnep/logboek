@@ -71,6 +71,7 @@ source.javascript                   = { path: '<%= root %>/javascript',     file
 source.npm                          = { path: './node_modules' };
 source.svg                          = { path: '<%= assets %>/svg',          files: [ '*.svg', '**/*.svg' ] };
 source.webp                         = { path: '<%= assets %>/images',       files: [ '*.{jpg,jpeg,png,gif}', '**/*.{jpg,jpeg,png,gif}' ] };
+source.video                         = { path: '<%= assets %>/video',       files: [ '*.{mov}', '**/*.{mov}' ] };
 
 
 dest.root                           = { path: './build' };
@@ -84,6 +85,7 @@ dest.javascript                     = { path: '<%= assets %>/js' };
 dest.svg                            = { path: '<%= assets %>/svg' };
 dest.audio                          = { path: '<%= assets %>/audio' };
 dest.pdf                            = { path: '<%= assets %>/pdf' };
+dest.video                            = { path: '<%= assets %>/video' };
 dest.webp                           = dest.images;
 
 

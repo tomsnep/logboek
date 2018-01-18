@@ -13,6 +13,7 @@ import ImageSlider from './src/modules/image-slider';
 import PdfViewer from './src/modules/pdf-viewer';
 import Accordion from './src/modules/accordion';
 import Fullpage from './src/modules/fullpage';
+import ComparisonImage from './src/modules/comparison-image';
 
 
 // Initialize modules.
@@ -20,3 +21,4 @@ moduleInit( '[data-js-hook="image-slider"]', ImageSlider );
 moduleInit( '[data-js-hook="pdf-viewer"]', PdfViewer );
 moduleInit( '[data-js-hook="accordion"]', Accordion );
 moduleInit( '[data-js-hook="fullpage"]', Fullpage );
+moduleInit( '[data-js-hook="comparison-image"]', ComparisonImage );

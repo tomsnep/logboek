@@ -1,0 +1,22 @@
+{% macro comparisonImages(data) %}
+
+    <div class="c-comparison-image" data-js-hook="comparison-image" style="width: {{ data.width }}px;height:{{ data.height }}px;">
+
+        <div class="comparison-image__after">
+
+            <img src="{{ data.imageTwo }}" alt="" width="{{ data.width }}" height="{{ data.height }}">
+
+        </div>
+
+        <div class="comparison-image__before">
+
+            <img src="{{ data.imageOne }}" alt="" width="{{ data.width }}" height="{{ data.height }}">
+
+        </div>
+
+        <span class="comparison-image__instruction">Beweeg muis over afbeelding</span>
+        <span class="comparison-image__caption">{{ data.caption }}</span>
+
+    </div>
+
+{% endmacro %}
