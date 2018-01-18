@@ -30,11 +30,13 @@
   .fullpage__slides-indicator {
     width: 100%;
     position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
-    bottom: 15px;
-    color: lighten($color-grey, 40%);
+    padding: 5px 15px 15px 15px;
+    z-index: 10;
+    background: linear-gradient(to bottom, rgba(255,255,255, .4) 0%, rgba(255,255,255,1) 85%);
+    color: lighten($color-grey, 30%);
 
     img {
       width: 10px;
@@ -48,6 +50,7 @@
     position: fixed;
     right: 15px;
     bottom: 50px;
+    z-index: 11;
 
     .prev + .next {
       display: none;

@@ -4,7 +4,7 @@ ol {
 
 ol, ul {
   list-style: none;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 li {
@@ -15,10 +15,10 @@ li {
     content: '';
     width: 10px;
     height: 10px;
-    background-color: $color-black;
+    background-color: $color-primary;
     border-radius: 100%;
     position: absolute;
-    left: -35px;
+    left: -25px;
     top: 50%;
     transform: translateY(-50%);
   }

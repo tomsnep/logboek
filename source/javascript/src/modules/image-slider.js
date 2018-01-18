@@ -12,6 +12,8 @@ class ImageSlider {
         this.$nextButton 	= this.$sliderEl.find('.image-slider__control--next');
         this.$slides		= this.$sliderEl.find('.image-slider__slide');
 
+        this.isFullpage = $('body').hasClass('fullpage') ? true : false;
+
 		this.initSlider();
 		this.checkAmountOfImages();
 	}
@@ -21,7 +23,9 @@ class ImageSlider {
         this.$imageContainer.slick({
 			prevArrow: this.$prevButton,
             nextArrow: this.$nextButton,
-			infinite: false
+			infinite: this.isFullpage,
+			autoplay: this.isFullpage,
+            autoplaySpeed:  6000
         });
 	}
 

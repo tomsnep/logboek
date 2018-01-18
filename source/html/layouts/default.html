@@ -39,7 +39,7 @@
 </head>
 
 
-<body>
+<body class="{% if bodyClass %}{{ bodyClass }} {% endif %}">
 
     {% if site.gtm and site.gtm != 'GTM-XXXX' %}
 

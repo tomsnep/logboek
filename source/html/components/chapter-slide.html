@@ -1,11 +1,13 @@
 {% from 'components/image-slider.html' import imageSlider %}
 {% from 'components/persona.html' import persona %}
+{% from 'components/comparison-chart.html' import comparisonChart %}
 
 {% macro chapterSlide(data) %}
 
     <div class="c-chapter-slide
             {% if data.background %}{{ data.background }}{% endif %}
             {% if data.fullwidth %} is--fullwidth {% endif %}
+            {% if data.verticalCentered %} is--vertical-centered {% endif %}
             {% if data.type %}is--{{ data.type }}{% endif %}"
             data-anchor="{{ data.anchor }}"
             data-chapter="{{ data.chapter }}"
@@ -17,7 +19,7 @@
 
                 <div class="o-grid-12">
 
-                    <div class="{% if data.fullwidth or data.twoColumns %} u-col-12 {% else %}u-col-6{% endif %}">
+                    <div class="{% if data.fullwidth or data.columnOne %} u-col-12 {% else %}u-col-6{% endif %}">
 
                         <h3 class="chapter-slide__title">
                             {{ data.chapter }}
@@ -29,25 +31,35 @@
                             </div>
                         {% endif %}
 
-                        {% if data.twoColumns %}
+                        {% if data.columnOne %}
 
                             <div class="o-grid-12">
 
                                 <div class="u-col-6">
 
-                                    {{ data.columnOne | safe }}
+                                    <div class="chapter-slide__text">
+                                        {{ data.columnOne | safe }}
+                                    </div>
 
                                 </div>
 
                                 <div class="u-col-6">
 
-                                    {{ data.columnTwo | safe }}
+                                    <div class="chapter-slide__text">
+                                        {{ data.columnTwo | safe }}
 
-                                    {% if data.persona %}
+                                        {% if data.persona %}
 
-                                        {{ persona() }}
+                                            {{ persona() }}
 
-                                    {% endif %}
+                                        {% endif %}
+
+                                        {% if data.images and not data.imagesFullWidth %}
+
+                                            {{ imageSlider(data.images) }}
+
+                                        {% endif %}
+                                    </div>
 
                                 </div>
 
@@ -57,11 +69,25 @@
 
                     </div>
 
-                    {% if data.images %}
+                    {% if data.images and not data.columnOne and not data.imagesFullWidth %}
 
                         <div class="u-col-6">
 
                             {{ imageSlider(data.images) }}
+
+                        </div>
+
+                    {% endif %}
+
+                    {% if data.images and data.imagesFullWidth %}
+
+                        <div class="u-col-12">
+
+                            <div class="chapter-slide__text">
+
+                                {{ imageSlider(data.images) }}
+
+                            </div>
 
                         </div>
 

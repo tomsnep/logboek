@@ -187,9 +187,7 @@ class Fullpage {
         //append header again to be outside fp-scrollable div
         $(document).ready(() => {
             this.$chapterSection.map((i, section) => {
-
                 const hasSlides = $(section).find('.fp-slides').length >= 1;
-
                 if(hasSlides){
                     $(section).find('.chapter-section__header').insertBefore($(section).find('.fp-slides'));
                 } else {

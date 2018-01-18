@@ -5,11 +5,12 @@
     <section class="c-chapter-section
             {% if data.background %}{{ data.background }}{% endif %}
             {% if data.fullwidth %} is--fullwidth {% endif %}
+            {% if data.verticalCentered %} is--vertical-centered {% endif %}
             {% if data.type %}is--{{ data.type }}{% endif %}"
             data-anchor="{{ data.anchor }}"
             data-chapter="{{ data.chapter }}">
 
-        {% if data.text or data.twoColumns %}
+        {% if data.text or data.columnOne %}
 
             <div class="chapter-section__content-container">
 
@@ -17,7 +18,7 @@
 
                     <div class="o-grid-12">
 
-                        <div class="{% if data.fullwidth or data.twoColumns %} u-col-12 {% else %}u-col-6{% endif %}">
+                        <div class="{% if data.fullwidth or data.columnOne %} u-col-12 {% else %}u-col-6{% endif %}">
 
                             {% if data.text %}
 
@@ -27,19 +28,23 @@
 
                             {% endif %}
 
-                            {% if data.twoColumns %}
+                            {% if data.columnOne %}
 
                                 <div class="o-grid-12">
 
                                     <div class="u-col-6">
 
-                                        {{ data.columnOne | safe }}
+                                        <div class="chapter-section__text">
+                                            {{ data.columnOne | safe }}
+                                        </div>
 
                                     </div>
 
                                     <div class="u-col-6">
 
-                                        {{ data.columnTwo | safe }}
+                                        <div class="chapter-section__text">
+                                            {{ data.columnTwo | safe }}
+                                        </div>
 
                                     </div>
 
@@ -66,7 +71,6 @@
             {% endfor %}
 
         {% endif %}
-
 
     </section>
 

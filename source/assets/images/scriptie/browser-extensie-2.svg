@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="318px" viewBox="0 0 314 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="294" height="298" rx="10"></rect>
+        <filter x="-5.1%" y="-5.0%" width="110.2%" height="110.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.745349702   0 0 0 0 0.745349702   0 0 0 0 0.745349702  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Second-Img-Copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1116.000000, -569.000000)">
+        <g id="Group-8" transform="translate(1126.000000, 579.000000)">
+            <g id="Rectangle">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="Group-3" transform="translate(15.000000, 47.000000)">
+                <g id="Group-2" transform="translate(7.000000, 0.000000)" font-family="Montserrat-Regular, Montserrat" font-weight="normal">
+                    <text id="Your-colleagues-are" font-size="14" fill="#4A4A4A">
+                        <tspan x="0" y="47">Your colleagues are curious about </tspan>
+                        <tspan x="0" y="65">your opininion.</tspan>
+                        <tspan x="0" y="83"></tspan>
+                        <tspan x="0" y="101">Rated by</tspan>
+                        <tspan x="61.922" y="101" font-family="Montserrat-Bold, Montserrat" font-weight="bold"> 7 </tspan>
+                        <tspan x="76.384" y="101">other colleagues</tspan>
+                        <tspan x="0" y="119" font-family="Montserrat-Bold, Montserrat" font-weight="bold"></tspan>
+                        <tspan x="0" y="137" font-family="Montserrat-Bold, Montserrat" font-weight="bold">What is your opinion?</tspan>
+                    </text>
+                    <text id="RATE-THIS-ARTICLE" font-size="8" letter-spacing="0.5" fill="#9B9B9B">
+                        <tspan x="0" y="8">RATE THIS ARTICL</tspan>
+                        <tspan x="79.464" y="8">E</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" transform="translate(0.000000, 207.000000)">
+                    <g id="Group-6" transform="translate(2.000000, 0.000000)">
+                        <path d="M0,3 L251,3" id="Path-2" stroke="#E3E3E3"></path>
+                        <circle id="Oval" fill="#4A4A4A" cx="250.5" cy="2.5" r="2.5"></circle>
+                    </g>
+                    <g id="Group" fill="#4A4A4A">
+                        <circle id="Oval" cx="2.5" cy="2.5" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(13.000000, 273.000000)">
+                <rect id="Rectangle-6" fill="#05D7C2" x="0" y="0" width="31" height="16"></rect>
+                <text id="JS" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" letter-spacing="0.625" fill="#FFFFFF">
+                    <tspan x="10" y="11">JS</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(22.000000, 211.000000)">
+                <rect id="Rectangle-6" stroke="#E2E0E0" x="0.5" y="0.5" width="114" height="23" rx="5"></rect>
+                <text id="This-rocks-🤘" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" letter-spacing="0.625" fill="#636161">
+                    <tspan x="23" y="13">This rocks </tspan>
+                    <tspan x="80.215" y="13" font-family="AppleColorEmoji, Apple Color Emoji">🤘</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(147.000000, 211.000000)">
+                <rect id="Rectangle-6" stroke="#E2E0E0" x="0.5" y="0.5" width="124" height="23" rx="5"></rect>
+                <text id="Food-for-thought-🤔" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" letter-spacing="0.625" fill="#636161">
+                    <tspan x="10" y="13">Food for thought </tspan>
+                    <tspan x="107.055" y="13" font-family="AppleColorEmoji, Apple Color Emoji">🤔</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(59.000000, 273.000000)">
+                <rect id="Rectangle-6" fill="#726DFF" x="0" y="0" width="39" height="16" rx="5"></rect>
+                <text id="ES6" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" letter-spacing="0.625" fill="#FFFFFF">
+                    <tspan x="10" y="11">ES6</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(269.000000, 11.000000)" stroke="#515151">
+                <path d="M0.628883027,0.615680706 L12.3081568,12.2949545" id="Path-3"></path>
+                <path d="M0.628883027,0.615680706 L12.3081568,12.2949545" id="Path-3" transform="translate(6.468520, 6.455318) scale(-1, 1) translate(-6.468520, -6.455318) "></path>
+            </g>
+            <image id="Screen-Shot-2017-11-02-at-11.32.29" x="23" y="21" width="69" height="14" xlink:href="data:image/png;base64,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"></image>
+        </g>
+    </g>
+</svg>

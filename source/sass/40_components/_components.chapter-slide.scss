@@ -1,4 +1,5 @@
 .c-chapter-slide {
+  position: relative;
 
   &.is--color-primary {
     background: $color-primary;
@@ -8,22 +9,21 @@
   .chapter-slide__content-container {
     padding-top: 25px;
     padding-bottom: 25px;
+
+    .is--vertical-centered &{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
   }
 
   .chapter-slide__title {
-    margin-bottom: 15px;
-
-    .is--color-primary & {
-      color: $color-white;
-    }
+    margin-bottom: 1em;
   }
 
   .chapter-slide__text {
     padding-bottom: 25px;
-
-    .is--color-primary & {
-      color: $color-white;
-    }
 
     .is--designchallenge &{
       margin-top: 50px;
@@ -33,6 +33,7 @@
         font-size: $font-size-h2;
         font-family: $font-stack-secondary;
         font-weight: $font-weight-bold;
+        color: $color-primary;
       }
     }
   }
