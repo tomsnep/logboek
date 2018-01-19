@@ -99,7 +99,7 @@ function registerMainTasks( gulp ){
         config.sourcemaps       = false;
         config.prettyHTML       = true;
 
-        config.dest.root.path   = '../dist';
+        config.dest.root.path   = './dist';
 
         runSequence(
             'build',

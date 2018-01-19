@@ -9,6 +9,7 @@ class Fullpage {
     constructor(element) {
         this.$element 		    = $( element );
         this.$chapterSection    = this.$element.find('.c-chapter-section');
+        this.$chapterSlide    = this.$element.find('.c-chapter-slide');
 
         this.$arrowLeft             = $('[data-js-hook="fp-nav-left"]');
         this.$arrowUp               = $('[data-js-hook="fp-nav-up"]');
@@ -22,6 +23,10 @@ class Fullpage {
 
     initFullpage() {
         this.$element.fullpage({
+
+            //menu
+            menu: '.menu__list',
+            navigation: false,
 
 
             //Scrolling
@@ -76,7 +81,6 @@ class Fullpage {
                     $nextButton.addClass('is--hidden');
                 }
             },
-            afterRender: this.afterRender(),
             afterLoad: function(){
                 const loadedSection = $(this);
                 const currentChapterTitel = loadedSection.attr('data-chapter');
@@ -92,8 +96,10 @@ class Fullpage {
 
 
                 // check if section has Slides
-                const $prevButton = $('.fullpage__slides-indicator .prev');
-                const $nextButton = $('.fullpage__slides-indicator .next');
+                const $prevButton   = $('.fullpage__slides-indicator .prev');
+                const $nextButton   = $('.fullpage__slides-indicator .next');
+                const $prevArrow    = $('.fullpage__nav-left');
+                const $nextArrow    = $('.fullpage__nav-right');
 
                 if(loadedSection.find('.c-chapter-slide').length >= 1){
                     const $loadedSlide = loadedSection.find('.c-chapter-slide.active');
@@ -101,23 +107,29 @@ class Fullpage {
                     const next = $loadedSlide.next();
                     const prevText = (prev.length) ? prev.attr('data-chapter') : '';
                     const nextText = (next.length) ? next.attr('data-chapter') : '';
-
+                    console.log(nextText);
                     if(prevText){
                         $prevButton.find('span').html(prevText);
                         $prevButton.removeClass('is--hidden');
+                        $prevArrow.removeClass('is--hidden');
                     } else {
+                        $prevArrow.addClass('is--hidden');
                         $prevButton.addClass('is--hidden');
                     }
 
                     if(nextText){
                         $nextButton.find('span').html(nextText);
                         $nextButton.removeClass('is--hidden');
+                        $nextArrow.removeClass('is--hidden');
                     } else {
+                        $nextArrow.addClass('is--hidden');
                         $nextButton.addClass('is--hidden');
                     }
                 } else {
                     $prevButton.addClass('is--hidden');
                     $nextButton.addClass('is--hidden');
+                    $prevArrow.addClass('is--hidden');
+                    $nextArrow.addClass('is--hidden');
                 }
             },
             afterSlideLoad: function(){
@@ -128,23 +140,32 @@ class Fullpage {
                 const nextText = (next.length) ? next.attr('data-chapter') : '';
                 const $prevButton = $('.fullpage__slides-indicator .prev');
                 const $nextButton = $('.fullpage__slides-indicator .next');
+                const $prevArrow    = $('.fullpage__nav-left');
+                const $nextArrow    = $('.fullpage__nav-right');
 
                 if(prevText){
                     $prevButton.find('span').html(prevText);
                     $prevButton.removeClass('is--hidden');
+                    $prevArrow.removeClass('is--hidden');
                 } else {
                     $prevButton.addClass('is--hidden');
+                    $prevArrow.addClass('is--hidden');
                 }
 
                 if(nextText){
                     $nextButton.find('span').html(nextText);
                     $nextButton.removeClass('is--hidden');
+                    $nextArrow.removeClass('is--hidden');
                 } else {
+                    $nextButton.addClass('is--hidden');
                     $nextButton.addClass('is--hidden');
                 }
             },
             afterResize: function(){
                 $.fn.fullpage.reBuild();
+            },
+            afterRender: function(){
+                $('.c-loader').addClass('is--hidden');
             }
         });
 
@@ -158,7 +179,7 @@ class Fullpage {
         this.$arrowDown.on('click', () =>  $.fn.fullpage.moveSectionDown());
         this.$arrowRight.on('click', () =>  $.fn.fullpage.moveSlideRight());
     }
-    
+
     onKeyDown() {
         const keyCodes = {
             '37': 'left',
@@ -181,22 +202,8 @@ class Fullpage {
             $(`.fullpage__nav-${keyCodes[keyCodeNr]}`).removeClass('is--pressed');
         })
     }
-    
 
-    afterRender() {
 
-        //append header again to be outside fp-scrollable div
-        $(document).ready(() => {
-            this.$chapterSection.map((i, section) => {
-                const hasSlides = $(section).find('.fp-slides').length >= 1;
-                if(hasSlides){
-                    $(section).find('.chapter-section__header').insertBefore($(section).find('.fp-slides'));
-                } else {
-                    $(section).find('.chapter-section__header').insertBefore($(section).find('.fp-scrollable'));
-                }
-            })
-        })
-    }
 }
 
 

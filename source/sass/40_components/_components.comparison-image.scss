@@ -26,3 +26,43 @@
     font-weight: $font-weight-bold;
     font-family: $font-stack-secondary;
   }
+
+  .comparison-image__divider {
+    height: 100%;
+    width: 4px;
+    background: lightgrey;
+    pointer-events: none;
+    box-shadow: 0 0 10px 1px rgba(212, 212, 212, .6);
+    z-index: 1;
+
+    &:after,
+    &:before {
+      width: 50px;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 5px 15px;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+      font-size: 12px;
+      font-family: $font-stack-secondary;
+      color: $color-primary;
+      background-color: $color-white;
+      border: 2px solid $color-primary;
+      border-radius: 5px;
+      box-shadow:3px 2px 4px 0px rgba(212, 212, 212, 0.6);
+    }
+
+    &:before {
+      content: 'voor';
+      position: absolute;
+      right: 20px;
+      z-index:10;
+    }
+
+    &:after {
+      content: 'na';
+      position: absolute;
+      right: -69px;
+    }
+  }

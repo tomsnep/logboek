@@ -420,7 +420,7 @@
   },
   {
     "anchor": "prototype-v2",
-    "chapter": "Prototype V2",
+    "chapter": "8. Prototype V2",
     "subchapters": [
       {
         "anchor": "introductie",
@@ -468,8 +468,8 @@
         "comparisonImagesFullWidth": true,
         "comparisonImages": [
           {
-            "width": "1031",
-            "height": "525",
+            "width": "982",
+            "height": "500",
             "imageOne": "../assets/images/scriptie/item-list-comparison-1.png",
             "imageTwo": "../assets/images/scriptie/item-list-comparison-2.png",
             "caption": "Figuur 25. Prototype Vergelijking V1/V2: Grid weergave"
@@ -487,8 +487,8 @@
         "comparisonImagesFullWidth": true,
         "comparisonImages": [
           {
-            "width": "800",
-            "height": "737",
+            "width": "534",
+            "height": "500",
             "imageOne": "../assets/images/scriptie/item-card-comparison-1.png",
             "imageTwo": "../assets/images/scriptie/item-card-comparison-2.png",
             "caption": "Figuur 27. Prototype Vergelijking V1/V2: Item Card"

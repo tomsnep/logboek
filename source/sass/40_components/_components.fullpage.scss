@@ -1,7 +1,13 @@
 .c-fullpage {
-
+  position: relative;
 }
 
+  .fullpage__title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
 
   .fullpage__header {
     height: 60px;
@@ -83,4 +89,3 @@
   .fp-scrollable {
     border-bottom: 25px solid white;
   }
-

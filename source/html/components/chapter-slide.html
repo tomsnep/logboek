@@ -11,8 +11,7 @@
             {% if data.verticalCentered %} is--vertical-centered {% endif %}
             {% if data.type %}is--{{ data.type }}{% endif %}"
             data-anchor="{{ data.anchor }}"
-            data-chapter="{{ data.chapter }}"
-    >
+            data-chapter="{{ data.chapter }}">
 
         <div class="chapter-slide__content-container">
 
@@ -73,7 +72,7 @@
 
                                         {% if data.video and not data.videoFullWidth %}
 
-                                            <video src="{{ data.video.src }}" loop data-autoplay muted>
+                                            <video data-src="{{ data.video.src }}" loop data-autoplay muted>
                                             </video>
 
                                             <p class="video-caption">{{ data.video.caption }}</p>
@@ -93,7 +92,7 @@
 
                         <div class="u-col-6">
 
-                            <video src="{{ data.video.src }}" loop data-autoplay muted>
+                            <video data-src="{{ data.video.src }}" loop data-autoplay muted>
                             </video>
 
                             <p class="video-caption">{{ data.video.caption }}</p>
@@ -146,7 +145,7 @@
 
                             <div class="chapter-slide__text">
 
-                                <video src="{{ data.video.src }}" loop data-autoplay muted>
+                                <video data-src="{{ data.video.src }}" loop data-autoplay muted>
                                 </video>
 
                                 <p class="video-caption">{{ data.video.caption }}</p>
@@ -169,6 +168,10 @@
 
                     {% endif %}
 
+                </div>
+
+                <div class="chapter-slide__scroll-indicator">
+                    <img src="../assets/svg/icons/scroll.svg" alt="">
                 </div>
 
             </div>

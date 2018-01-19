@@ -4,19 +4,67 @@
 
 {% block content %}
 
-    <div class="c-fullpage" data-js-hook="fullpage">
+    <div class="fullpage__header">
 
-        <div class="fullpage__header">
+        <div class="c-menu" data-js-hook="menu">
 
-            <h2 class="fullpage__title">
-            </h2>
-
-            <button class="fullpage__header-button" data-js-hook="fp-nav-up">
+            <div class="menu__trigger">
                 <span></span>
-                <img src="../assets/svg/icons/up-arrow--light.svg" alt="button up">
-            </button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu__nav">
+
+                <ul class="menu__list">
+                    {% for chapter in scriptie %}
+
+                        <li class="menu__list-item">
+                            <a data-menuanchor="{{ chapter.anchor }}" href="#{{ chapter.anchor }}">{{ chapter.chapter }}</a>
+
+                            {% if chapter.subchapters %}
+
+                                <ul class="menu__list">
+                                    {% for subchapter in chapter.subchapters %}
+
+                                        <li class="menu__list-item menu__list-item--secondary">
+
+                                            <a data-menuanchor="{{ subchapter.anchor }}" href="#{{ chapter.anchor }}/{{ subchapter.anchor }}">{{ subchapter.chapter }}</a>
+
+                                        </li>
+
+                                    {% endfor %}
+                                </ul>
+
+                            {% endif %}
+                        </li>
+
+                    {% endfor %}
+
+                    <li class="menu__list-item menu__list-item--green">
+                        <a href="http://logboek.tomsnepvangers.com" target="_blank">Logboek</a>
+                    </li>
+                </ul>
+
+            </div>
 
         </div>
+
+
+        <h2 class="fullpage__title">
+        </h2>
+
+        <button class="fullpage__header-button" data-js-hook="fp-nav-up">
+            <span></span>
+            <img src="../assets/svg/icons/up-arrow--light.svg" alt="button up">
+        </button>
+
+    </div>
+
+    <div class="c-fullpage" data-js-hook="fullpage">
 
         {% from 'components/chapter-section.html' import chapterSection %}
 
@@ -28,9 +76,13 @@
 
     </div>
 
+    <div class="c-loader">
+        <p>Loading<span>.</span><span>.</span><span>.</span></p>
+    </div>
+
     <div class="fullpage__navigation-arrows">
 
-        <button class="c-button button--arrow fullpage__nav-slides fullpage__nav-left" data-js-hook="fp-nav-left">
+        <button class="c-button button--arrow fullpage__nav-slides fullpage__nav-left is--hidden" data-js-hook="fp-nav-left">
 
             <img src="../assets/svg/icons/left-arrow.svg" alt="button left">
 
@@ -48,7 +100,7 @@
 
         </button>
 
-        <button class="c-button button--arrow fullpage__nav-slides fullpage__nav-right" data-js-hook="fp-nav-right">
+        <button class="c-button button--arrow fullpage__nav-slides fullpage__nav-right is--hidden" data-js-hook="fp-nav-right">
 
             <img src="../assets/svg/icons/right-arrow.svg" alt="button right">
 
