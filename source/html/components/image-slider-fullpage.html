@@ -1,6 +1,6 @@
 {% macro imageSlider(data) %}
 
-    <div class="c-image-slider" data-js-hook="image-slider">
+    <div class="c-image-slider c-image-slider--fullpage" data-js-hook="image-slider">
 
         <div class="image-slider__slider-container">
 
@@ -8,7 +8,9 @@
 
                     <div class="image-slider__slide">
 
-                        <img data-src="{{ image.src }}" alt="" class="image-slider__image">
+                        <a href="{{ image.src }}" target="_blank">
+                            <img data-src="{{ image.src }}" alt="" class="image-slider__image">
+                        </a>
 
                         <span class="image-slider__caption">{{ image.caption }}</span>
 

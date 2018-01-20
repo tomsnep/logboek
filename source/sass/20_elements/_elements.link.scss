@@ -3,11 +3,30 @@ $link-transition-ease: $ease-in-out-quad;
 
 // most basic link style
 @mixin link--base {
+  position: relative;
   color: $color-primary;
   cursor: pointer;
   text-overflow: ellipsis;
+  text-decoration: none;
   transition: color $link-transition-time $link-transition-ease,
               border $link-transition-time $link-transition-ease;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: $color-primary;
+    transition: width .3s $ease-in-circ;
+  }
+
+  &:hover {
+    &:before {
+      width:100%;
+    }
+  }
 }
 
 a {

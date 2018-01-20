@@ -85,10 +85,8 @@ class Fullpage {
                 const loadedSection = $(this);
                 const currentChapterTitel = loadedSection.attr('data-chapter');
                 const prev = loadedSection.prev();
-                const next = loadedSection.next();
 
                 const prevText = (prev.length) ? prev.attr('data-chapter') : '';
-                const nextText = (next.length) ? next.attr('data-chapter') : '';
 
                 // set title
                 $('.fullpage__title').html(currentChapterTitel);
@@ -135,7 +133,7 @@ class Fullpage {
                 // activate slide in menu
                 $('.menu__nav').find('.menu__list-item--secondary.active a').removeClass('active');
             },
-            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+            afterSlideLoad: function(anchorLink, index, slideAnchor){
                 const loadedSlide = $(this);
                 const prev = loadedSlide.prev();
                 const next = loadedSlide.next();
