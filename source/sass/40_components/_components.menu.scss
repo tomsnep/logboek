@@ -20,6 +20,7 @@
       opacity: 1;
       transform: rotate(0deg);
       transition: .25s ease-in-out;
+      pointer-events: none;
     }
 
     span:nth-child(even) {
@@ -100,6 +101,7 @@
     transition: left .5s ease, opacity .5s ease;
     box-shadow: 0 0 20px 10px rgba(212, 212, 212, 0.5);
     overflow-y: auto;
+    z-index:1;
 
     .is--open & {
       left: 0;
@@ -116,8 +118,28 @@
     margin-bottom: 15px;
     transform: color .3s ease;
 
+    .is--green & {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-left: 15px;
+
+      &:nth-of-type(2){
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        a{
+          color: $color-grey;
+        }
+      }
+
+      a {
+        color: $color-primary;
+      }
+    }
+
     &--secondary {
-      margin-left: 25px;
       font-size: 1.6rem;
       margin-bottom: 5px;
 
@@ -126,7 +148,13 @@
       }
     }
 
+    &--first {
+      border-top: 2px solid $color-grey;
+      padding-top: 10px;
+    }
+
     &--green {
+
       a {
         color: $color-primary !important;
       }

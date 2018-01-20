@@ -8,13 +8,18 @@ class Menu {
         this.$trigger       = this.$element.find('.menu__trigger');
         this.$menuItems      = this.$element.find('a');
 
-        this.bindEvents();
 
-        console.log(this.$element);
-        console.log(this.$trigger);
+        this.bindEvents();
     }
 
     bindEvents() {
+        $(document).on('click', (e) => {
+            if(this.$element.hasClass('is--open')){
+                if (e.target !== this.$element[0] && e.target !== this.$trigger[0]){
+                    this.toggleMenu();
+                }
+            }
+        })
         this.$trigger.on('click', () => this.toggleMenu());
 
         $(document).on('keydown', (event) =>{

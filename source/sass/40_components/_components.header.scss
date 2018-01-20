@@ -29,7 +29,8 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    font-weight: $font-weight-black;
-    font-family: $font-stack-secondary;
-    font-size: 40px;
+
+    img {
+      width: 100px;
+    }
   }

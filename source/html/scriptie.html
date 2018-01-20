@@ -4,6 +4,8 @@
 
 {% block content %}
 
+    {% include './components/mobile-check.html' %}
+
     <div class="fullpage__header">
 
         <div class="c-menu" data-js-hook="menu">
@@ -44,8 +46,20 @@
 
                     {% endfor %}
 
-                    <li class="menu__list-item menu__list-item--green">
+                    <li class="menu__list-item menu__list-item--green menu__list-item--first">
                         <a href="http://logboek.tomsnepvangers.com" target="_blank">Logboek</a>
+                    </li>
+
+                    <li class="menu__list-item menu__list-item--green">
+                        <a href="http://logboek.tomsnepvangers.com" target="_blank">PDF</a>
+                    </li>
+
+                    <li class="menu__list-item menu__list-item--green">
+                        <a href="http://prototype-v1.tomsnepvangers.com" target="_blank">Prototype V1</a>
+                    </li>
+
+                    <li class="menu__list-item menu__list-item--green">
+                        <a href="http://prototype.tomsnepvangers.com" target="_blank">Prototype V2</a>
                     </li>
                 </ul>
 
@@ -65,6 +79,8 @@
     </div>
 
     <div class="c-fullpage" data-js-hook="fullpage">
+
+        {% include './components/first-section.html' %}
 
         {% from 'components/chapter-section.html' import chapterSection %}
 

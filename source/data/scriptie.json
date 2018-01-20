@@ -22,7 +22,7 @@
     "chapter": "2. Probleemstelling",
     "subchapters": [
       {
-        "anchor": "probleemschets",
+        "anchor": "probleemstelling",
         "chapter": "2.1 Probleemschets",
         "text": "<p>Het vakgebied, web-development, ontwikkelt zich snel. Maandelijks komen nieuwe technieken uit, nieuwe frameworks op de markt en daarnaast wordt vooral ontzettend veel geschreven en besproken over alle ontwikkelingen.</p><p>Dit kan overweldigend zijn. Je wilt up to date blijven als developer, maar hoe doe je dit naast je fulltime job? The fear of missing out. Binnen het vakgebied ook wel &ldquo;Frontend Fatigue&rdquo; genoemd.</p><p>Hoe bepaal je als frontend developer wat relevant is voor jou en hoe bepalen frontend developers van TamTam wat relevant is voor hen om te lezen / bekijken en / of leren? Dat kan erg lastig zijn. Gelukkig heb je collega&rsquo;s, zij weten dit vaak wel.</p><p>De groep frontend developers van TamTam deelt veel met elkaar over hun expertise. Vaak is dit informatie die relevant is voor alle frontend developers van TamTam. De manier waarop dit opgeslagen en gedeeld wordt is echter niet effici&euml;nt. Links verdwijnen in de chat en Facebook groepen met het gevolg dat niet iedereen het ziet. Structuur is niet aanwezig in de chaos van alle informatie die wordt gedeeld.</p><p>Door de overload aan informatie die developers toekomt verliezen zij focus op wat zij willen of zouden moeten leren, lezen of bekijken. Dit is gebleken uit interviews met frontend developers van TamTam.</p><p>Het begrip information overload werd voor het eerst beschreven in 1964:</p><p><em>&ldquo;Information overload occurs when the amount of input to a system exceeds its processing capacity. Decision makers have fairly limited cognitive processing capacity. Consequently, when information overload occurs, it is likely that a reduction in decision quality will occur.&rdquo; -(Gross, 1964)</em></p><p>In de afbeelding naast staat de correlatie tussen de verschillende problemen.&nbsp;</p><p>Binnen de context van de situatie van de opdrachtgever zal de focus liggen tussen de eerste twee problemen. In feite helpen de frontend developers van TamTam elkaar al door relevante vakinhoudelijke inspiratie / kennis met elkaar te delen. Het probleem zit hem in de manier waarop. Omdat dit niet effici&euml;nt is, blijft het overkoepelende probleem bestaan: de overload aan informatie met als gevolg het Frontend Fatigue gevoel.</p>",
         "images": [
@@ -59,7 +59,7 @@
     "chapter": "3. User Research",
     "subchapters": [
       {
-        "anchor": "intro",
+        "anchor": "user-research",
         "chapter": "Introductie",
         "text": "<p>Om een product te ontwikkelen wat aansluit op de behoeften van de gebruiker is het essentieel om doelgroep onderzoek te doen in het begin van het traject. Het is belangrijk om de kansen en struikelpunten inzichtelijk te maken. Inspelen op deze inzichten maakt een product waarde- en succesvol.</p>"
       },
@@ -97,7 +97,7 @@
         "persona": true
       },
       {
-        "anchor": "conclusie",
+        "anchor": "user-research-conclusie",
         "chapter": "3.6 Conclusie",
         "text": "<p>De doelgroep helpt elkaar een keuze te maken in de beschikbare online content over het vakgebied door stukken te delen met elkaar. Dit gaat het gevoel van information overload tegen doordat er relevante content wordt aangeboden door collega&rsquo;s.</p><p>De tools die hier momenteel voor gebruikt worden voldoen niet geheel aan de behoeftes van de doelgroep. Enerzijds is Hipchat een makkelijke tool om mee te delen. Elke Frontend Developer zit in de Frontend groep chat. Dit is een levendige chatgroep waarin veel wordt gecommuniceerd. Anderzijds is dit een applicatie welke bedoelt is als chat applicatie, niet voor het delen van online content. De links die hierin gedeeld worden verdwijnen snel in de chat feed. Hierdoor missen veel developers de content die gedeeld wordt in de chat groep.</p><p>De manieren waarop de developers (zowel backend als frontend) dit probleem momenteel proberen te tackelen werkt niet effici&euml;nt. Hipchat, e-mails en Whatsapp, overal komt hetzelfde probleem naar boven:</p><p><strong>Het terug vinden van gedeelde content op een later tijdstip is niet tot nauwelijks mogelijk.</strong></p><p>Sommige developers gebruiken bepaalde tools om de gedeelde online content op te slaan. Bij de twee meest voorkomende manieren (bookmarks en notitie apps) wordt het overzicht snel verloren, daarnaast vergt dit elke keer tijd om bij te houden. </p><p>Het is belangrijk om in het achterhoofd te houden dat de doelgroep al veel tools gebruiken. De drempel ligt hoog om nog meer extra tools te moeten gebruiken.</p>"
       }
@@ -108,7 +108,7 @@
     "chapter": "4. Good and Bad Practices",
     "subchapters": [
       {
-        "anchor": "intro",
+        "anchor": "good-and-bad-practices",
         "chapter": "Introductie",
         "text": "<p>De doelgroep gebruikt momenteel allerlei tools om content op te slaan en te delen. Dit is niets nieuws. Het is van belang om te onderzoeken wat voor tools er bestaan. Hierdoor wordt de kans op het opnieuw uitvinden van het wiel vermeden. Vanuit de inzichten over de huidige tools kunnen de do’s en don’ts in kaart worden gebracht. </p>"
       },
@@ -173,7 +173,7 @@
         ]
       },
       {
-        "anchor": "conclusie",
+        "anchor": "good-and-bad-practices-conclusie",
         "chapter": "4.4 Conclusie",
         "text": "<p>Er zijn veel applicaties die gebruikt worden om online content op te slaan en te delen. De meest gebruikte soort applicatie is de notitie app. Het nadeel van notitie apps is dat deze niet specifiek bedoelt zijn voor het opslaan van links. Hierdoor ontstaat snel dezelfde situatie als bij de bookmarks: &eacute;&eacute;n of meerdere notities met een lijst van links. Het overzicht is hierdoor ver te zoeken.</p><p>&nbsp;</p><p>Het toevoegen van items via een browser extensie is een zeer waardevolle toevoeging aan alle onderzochte applicaties. Het gebruik van een browser extensie verlaagd de drempel om items toe te voegen. Het zo laag mogelijk maken van deze drempel is erg belangrijk voor de doelgroep omdat zij zo min mogelijk tijd willen besteden aan de handeling om items toe te voegen. </p><p>&nbsp;</p><p>De integratie met andere systemen zorgt ook voor een drempelverlagend effect. De manier waarop Slack integreert met Dropmark is hier een goed voorbeeld van. Helaas ondersteunen zij geen Hipchat. Wanneer Dropmark dit mogelijk in de toekomst toevoegt als optie is het wellicht interessant om te kijken naar de mogelijkheden om Dropmark te gebruiken.</p>"
       }
@@ -184,7 +184,7 @@
     "chapter": "5. Job Stories",
     "subchapters": [
       {
-        "anchor": "intro",
+        "anchor": "job-stories",
         "chapter": "Introductie",
         "text": "<p>Vanuit de inzichten in de behoeftes en wensen van de gebruiker zijn een aantal Job Stories opgezet. Door middel van een Job Story wordt een design probleem of challenge in een Job, oftewel taak, gekaderd. De reden om Job Stories in plaats van User Stories te gebruiken is het feit dat Job Stories minder ruimte laten voor aannames (Klement, 2013).</p><p>&nbsp;</p><p>Job Stories bestaan uit een situatie, motivatie en verwachte uitkomst:</p><p>&nbsp;</p><p>When _____ , I want to _____ , so I can _____ .</p><p>&nbsp;</p><p>Omdat de gebruiker zowel persoonlijke als teamverband hebbende belangen heeft zijn er Job Stories als individu en groepsverband gemaakt.</p>"
       },
@@ -363,7 +363,7 @@
     "chapter": "7. Prototype V1",
     "subchapters": [
       {
-        "anchor": "introduction",
+        "anchor": "prototype-v1",
         "chapter": "Introduction",
         "columnOne": "<p>Van het ecosysteem is de user interface in de vorm van een webapplicatie uitgewerkt. Vanaf het begin van het traject was een van de belangrijkste doelen om een werkbaar prototype neer te zetten wat volledig zonder enige vorm supervisie door de gebruikers getest kan worden. </p><p>In dit hoofdstuk worden de onderdelen van de eerste versie van het prototype beschreven.</p><p>In de eerste versie van het prototype is alleen de interface voor de artikelen die binnen de groep gedeeld zijn uitgewerkt. De sectie met de persoonlijk opgeslagen artikelen zal in een later stadium uitgewerkt worden.</p>",
         "columnTwo": "<p>Doordat de focus binnen het project op het concept en de techniek ligt is er minder onderzoek gedaan naar de vormgeving. Deze is zo simpel mogelijk gehouden. Vanwege de uitdaging in de techniek is het design alleen geoptimaliseerd voor laptop / desktop scherm formaten.</p><p>De eerste versie van het prototype is te bekijken op:</p><p><a href='http://prototype-v1.tomsnepvangers.com' target='_blank'>http://prototype-v1.tomsnepvangers.com</a></p>"
@@ -423,7 +423,7 @@
     "chapter": "8. Prototype V2",
     "subchapters": [
       {
-        "anchor": "introductie",
+        "anchor": "prototype-v2",
         "chapter": "Introductie",
         "columnOne": "<p> Gedurende twee weken is de eerste versie van het prototype getest. Om de gebruikers de mogelijkheid te geven snel feedback achter te laten zijn er twee knoppen in het prototype verwerkt. Een voor snelle feedback en een voor uitgebreidere feedback. </p><p>Via de &ldquo;Quick feedback&rdquo; optie kunnen gebruikers snelle losse opmerkingen plaatsen over bijvoorbeeld de User Experience.</p><p>De normale feedback button leidt naar een uitgebreider feedback formulier welke is opgezet met de &ldquo;I Like, I Wish, What If&rdquo;. Deze methode geeft testpersonen de mogelijkheid op een positieve manier constructieve feedback achter te laten. De vraagstelling zorgt ervoor dat de feedback op een positieve manier gebracht wordt en de drempel om negatieve feedback te geven wordt verlaagt. </p><p>De drie vragen worden voor het featured item, de item feed en categorie&euml;n &amp; tagging functionaliteit en beoordelingssysteem gesteld om per onderdeel feedback te vergaren.</p>",
         "columnTwo": "<p><strong>I Like</strong></p><p>Deze vraag moedigt de gebruiker aan om aspecten die hij of zij leuk vindt aan het prototype te benoemen. Dit zorgt voor positieve feedback.</p><p><strong>I Wish</strong></p><p>Gebruikers worden gevraagd idee&euml;n te delen over hoe het prototype gewijzigd of verbeterd kan worden. Dit is een manier om negatieve feedback en opbouwende kritiek te verzamelen.</p><p><strong>What if</strong></p><p>Door middel van deze vraag kunnen gebruikers nieuwe suggesties opperen die nog niet aanwezig zijn of een directe link hebben met het prototype. Dit opent mogelijkheden voor nieuwe idee&euml;n welke kunnen worden onderzoek voor mogelijke iteraties. </p>"
@@ -496,7 +496,7 @@
         ]
       },
       {
-        "anchor": "conclusie",
+        "anchor": "prototype-v2-conclusie",
         "chapter": "8.2 Conclusie",
         "columnOne": "<p>Het laten testen van het prototype en interviewen van de doelgroep heeft waardevolle inzichten opgeleverd. De doelgroep is erg kritisch, dit is immers hun vak.</p><p>Aangezien het prototype een werkend product is moest er een keuze worden gemaakt op de haalbaarheid van de technische realisatie tussen de feedback punten in de resterende tijd. Dit is een nadeel van een technisch werkend prototype, de drempel om features toe te voegen en zaken aan te passen ligt hoger dan bij bijvoorbeeld een paper prototype. Echter zorgt deze manier ervoor dat er iteratief kan worden ontwikkeld. Dit is de gebruikelijke manier van werken binnen TamTam. Daarnaast kan door middel van een technisch werkend prototype de echte interactie en het gebruik van het product worden getest.</p>",
         "columnTwo": "<p>De tweede versie van het prototype bevat de twee meest voorkomende features die genoemd werden in zowel de Quick Feedback als de Expert Reviews: de lijstweergave en discussie chat.</p><p>De lijstweergave biedt de mogelijkheid om sneller door de items heen te scannen. Daarnaast zorgt de discussie chat ervoor dat er meer interactie op het platform plaats kan vinden en het samen leren aspect wordt verhoogd.</p><p>Gedurende het gebruik van het platform in de toekomst is het de bedoeling dat het iteratieve proces continueert en de overige feedback punten worden verwerkt.</p>"

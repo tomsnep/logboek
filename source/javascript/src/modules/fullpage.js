@@ -107,7 +107,7 @@ class Fullpage {
                     const next = $loadedSlide.next();
                     const prevText = (prev.length) ? prev.attr('data-chapter') : '';
                     const nextText = (next.length) ? next.attr('data-chapter') : '';
-                    console.log(nextText);
+
                     if(prevText){
                         $prevButton.find('span').html(prevText);
                         $prevButton.removeClass('is--hidden');
@@ -131,8 +131,11 @@ class Fullpage {
                     $prevArrow.addClass('is--hidden');
                     $nextArrow.addClass('is--hidden');
                 }
+
+                // activate slide in menu
+                $('.menu__nav').find('.menu__list-item--secondary.active a').removeClass('active');
             },
-            afterSlideLoad: function(){
+            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
                 const loadedSlide = $(this);
                 const prev = loadedSlide.prev();
                 const next = loadedSlide.next();
@@ -160,6 +163,12 @@ class Fullpage {
                     $nextButton.addClass('is--hidden');
                     $nextButton.addClass('is--hidden');
                 }
+
+
+
+                // activate slide in menu
+                $('.menu__nav').find('.menu__list-item--secondary a.active').removeClass('active');
+                $(`[data-menuanchor="${slideAnchor}"]`).addClass('active');
             },
             afterResize: function(){
                 $.fn.fullpage.reBuild();

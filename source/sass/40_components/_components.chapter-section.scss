@@ -4,6 +4,10 @@
   &.is--fullwidth {
     padding-bottom: 0;
   }
+
+  &--first {
+    padding-top: 0 !important;
+  }
 }
 
   .chapter-section__content-container {
@@ -39,3 +43,38 @@
       height: 100%;
     }
 }
+
+  .chapter-section__logo {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+  }
+
+  .chapter-section__side-content {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+
+    p {
+      color: $color-grey;
+      font-family: $font-stack-secondary;
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .chapter-section__tamtam-logo {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 250px;
+  }
+
+  .chapter-section__intro-title {
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+    font-size: 20px;
+  }

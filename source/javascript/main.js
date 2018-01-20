@@ -15,6 +15,7 @@ import Accordion from './src/modules/accordion';
 import Fullpage from './src/modules/fullpage';
 import ComparisonImage from './src/modules/comparison-image';
 import Menu from './src/modules/menu';
+import MobileCheck from './src/modules/mobile-check';
 
 
 // Initialize modules.
@@ -24,3 +25,4 @@ moduleInit( '[data-js-hook="accordion"]', Accordion );
 moduleInit( '[data-js-hook="fullpage"]', Fullpage );
 moduleInit( '[data-js-hook="comparison-image"]', ComparisonImage );
 moduleInit( '[data-js-hook="menu"]', Menu );
+moduleInit( '[data-js-hook="mobile-check"]', MobileCheck );
