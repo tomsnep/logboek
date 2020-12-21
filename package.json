@@ -75,7 +75,7 @@
     "lodash": "^4.0.1",
     "merge-stream": "^1.0.0",
     "mkdirp": "^0.5.1",
-    "node-notifier": "^4.2.3",
+    "node-notifier": "^8.0.1",
     "node-sass": "4.1.1",
     "pretty-hrtime": "~1.0.0",
     "run-sequence": "^1.1.2",
